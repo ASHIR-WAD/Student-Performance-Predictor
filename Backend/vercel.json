@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "chatapi.py", "use": "@vercel/python" }
+  ],
+  "routes": [
+    { "src": "/ask", "dest": "chatapi.py" },
+    { "src": "/", "dest": "chatapi.py" }
+  ]
+}
