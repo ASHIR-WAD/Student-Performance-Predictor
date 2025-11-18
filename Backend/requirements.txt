@@ -1,3 +1,7 @@
-Flask==2.3.3
-flask-cors==4.0.0
+flask
+flask_sqlalchemy
+flask_cors
+numpy
+scikit-learn
+PyJWT==2.8.0
 python-dotenv==1.0.1
