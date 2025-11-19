@@ -55,9 +55,9 @@ export default function SignupPage() {
         alert(response.data.message || "Signup Successful");
 
         if (userType === "student") {
-          navigate("/student-dashboard", { state: { userType: "student" } });
+          navigate("/student/dashboard", { state: { userType: "student" } });
         } else if (userType === "faculty") {
-          navigate("/faculty-dashboard", { state: { userType: "faculty" } });
+          navigate("/faculty/dashboard", { state: { userType: "faculty" } });
         }
       } else {
         alert(response.data.message || "Signup failed");

@@ -20,7 +20,45 @@ export default function LoginPage() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    navigate("/dashboard");
+    setError("");
+    setLoading(true);
+    const payload = {
+          username: form.email,
+          password: form.password,
+          role: userType,
+        };
+
+
+    try {
+      console.log(payload);
+      // NOTE: backend expects "username", we are sending email as username
+      const res = await axios.post(`${BACKEND_URL}`/login,   // if needed: "https://your-backend-url/login"
+        payload,
+        {
+          headers: {
+            "Content-Type": "application/json",
+          },
+        }
+      );
+
+      const data = res.data;
+
+      // Navigate to the redirect path returned by backend
+      navigate(data.redirect || "/login", {
+        state: { user: data }, // you can read this in your dashboard pages
+      });
+    } catch (err) {
+      console.error("Login Error:", err);
+
+      // Handle backend error messages if any
+      if (err.response?.data?.error) {
+        setError(err.response.data.error);
+      } else {
+        setError("Something went wrong. Please try again.");
+      }
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
