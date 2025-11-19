@@ -17,9 +17,31 @@ export default function LoginPage() {
   };
 
   const handleSubmit = (e) => {
-    e.preventDefault();
-    navigate("/dashboard");
-  };
+  e.preventDefault();
+
+  // get all users saved in localStorage
+  const users = JSON.parse(localStorage.getItem("users")) || [];
+
+  // find matching user
+  const user = users.find(
+    (u) => u.email === form.email && u.password === form.password
+  );
+
+  if (!user) {
+    alert("Invalid email or password");
+    return;
+  }
+
+  // store current user in session
+  localStorage.setItem("currentUser", JSON.stringify(user));
+
+  // redirect based on role
+  if (user.userType === "faculty") {
+    navigate("/faculty-dashboard");
+  } else {
+    navigate("/student-dashboard");
+  }
+};
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 flex flex-col items-center px-4 py-12">
