@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import axios from "axios";   // <-- Added
 import {
   Mail,
   Lock,
@@ -11,23 +12,23 @@ import {
   BookOpen,
   FileText,
 } from "lucide-react";
-import { useNavigate, useLocation } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+
 
 export default function SignupPage() {
   const navigate = useNavigate();
-  const location = useLocation();
 
-  const defaultUserType = location.state?.userType || "student";
+  const BACKEND_URL = import.meta.env.VITE_BACKEND_URL;  // <-- Backend ENV URL
 
   const [userType, setUserType] = useState(defaultUserType);
   const [showPassword, setShowPassword] = useState(false);
 
   const [form, setForm] = useState({
     name: "",
-    email: "",
+    username: "",
     password: "",
     usn: "",
-    sem: "",
+    semester: "",
     designation: "",
     department: "",
     subject: "",
@@ -38,31 +39,35 @@ export default function SignupPage() {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
 
-  const handleSignup = (e) => {
+  const handleSignup = async (e) => {
     e.preventDefault();
 
-    let users = JSON.parse(localStorage.getItem("users")) || [];
+    try {
+      const payload = {
+        ...signupData,
+        role: userType,
+      };
 
-    const emailExists = users.some((u) => u.email === form.email);
+      const response = await axios.post(`${BACKEND_URL}/signup`, payload);
 
-    if (emailExists) {
-      alert("Email already registered!");
-      return;
-    }
+      if (response.status === 200 || response.status === 201) {
+      alert(response.data.message || "Signup Successful");
 
-    const newUser = { ...form, userType };
+      if (userType === "student") {
+          navigate("/student-dashboard", { state: { userType: "student" } });
+        } else if (userType === "faculty") {
+          navigate("/faculty-dashboard", { state: { userType: "faculty" } });
+        }
+      } else {
+        alert(response.data.message || "Signup failed");
+      }
 
-    users.push(newUser);
-    localStorage.setItem("users", JSON.stringify(users));
-
-    localStorage.setItem("currentUser", JSON.stringify(newUser));
-
-    if (userType === "student") {
-      navigate("/student-dashboard");
-    } else {
-      navigate("/faculty-dashboard");
+    } catch (error) {
+      console.error("Signup Error:", error);
+      alert("Server error: " + (error.response?.data?.message || "Try again later"));
     }
   };
+  
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 px-4 py-10 flex flex-col items-center">
@@ -134,24 +139,24 @@ export default function SignupPage() {
             </div>
           </div>
 
-          {/* Email */}
-          <div>
-            <label className="text-sm font-semibold text-gray-700">
-              Email Address
-            </label>
-            <div className="relative mt-1">
-              <Mail className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" />
-              <input
-                type="email"
-                name="email"
-                value={form.email}
-                onChange={handleChange}
-                placeholder="Enter your email"
-                className="w-full border border-gray-200 bg-gray-50 rounded-xl px-12 py-3"
-                required
-              />
+              <div className="space-y-2">
+                <label className="text-sm font-semibold text-gray-700">
+                  Email Address
+                </label>
+                <div className="relative">
+                  <Mail className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" />
+                  <input
+                    type="email"
+                    name="username"
+                    value={signupData.username}
+                    onChange={handleSignupChange}
+                    className="w-full bg-gray-50 border border-gray-200 rounded-xl px-12 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    placeholder="Enter your email"
+                    required
+                  />
+                </div>
+              </div>
             </div>
-          </div>
 
           {/* Password */}
           <div>
@@ -202,27 +207,31 @@ export default function SignupPage() {
                 </div>
               </div>
 
-              {/* Semester */}
-              <div>
-                <label className="text-sm font-semibold text-gray-700">
-                  Semester
-                </label>
-                <select
-                  name="sem"
-                  value={form.sem}
-                  onChange={handleChange}
-                  className="w-full border border-gray-200 bg-gray-50 rounded-xl px-4 py-3 mt-1"
-                  required
-                >
-                  <option value="">Select Semester</option>
-                  {[1,2,3,4,5,6,7,8].map((n) => (
-                    <option key={n} value={n}>Semester {n}</option>
-                  ))}
-                </select>
+                {/* Semester */}
+                <div className="space-y-2">
+                  <label className="text-sm font-semibold text-gray-700">
+                    Semester
+                  </label>
+                  <div className="relative">
+                    <Calendar className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" />
+                    <select
+                      name="semester"
+                      value={signupData.semester}
+                      onChange={handleSignupChange}
+                      className="w-full bg-gray-50 border border-gray-200 rounded-xl px-12 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                      required
+                    >
+                      <option value="">Select Semester</option>
+                      {[1, 2, 3, 4, 5, 6, 7, 8].map((s) => (
+                        <option key={s} value={s}>
+                          Semester {s}
+                        </option>
+                      ))}
+                    </select>
+                  </div>
+                </div>
               </div>
-
-            </div>
-          )}
+            )}
 
           {/* Faculty Fields */}
           {userType === "faculty" && (

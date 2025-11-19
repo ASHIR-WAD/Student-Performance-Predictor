@@ -106,6 +106,7 @@ def signup():
 
             return jsonify({
                 "message": "Signup successful",
+                "success": True,
                 "role": "student",
                 "user_id": new_user.id,
                 "student_id": student.id
@@ -133,6 +134,7 @@ def signup():
 
             return jsonify({
                 "message": "Signup successful",
+                "success": True,
                 "role": "faculty",
                 "user_id": new_user.id,
                 "faculty_id": faculty.id
