@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import axios from "axios";   // <-- Added
 import {
   Mail,
   Lock,
@@ -15,18 +16,21 @@ import {
 } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
+
 export default function SignupPage() {
   const navigate = useNavigate();
+
+  const BACKEND_URL = import.meta.env.VITE_BACKEND_URL;  // <-- Backend ENV URL
 
   const [showPassword, setShowPassword] = useState(false);
   const [userType, setUserType] = useState("student");
 
   const [signupData, setSignupData] = useState({
     name: "",
-    email: "",
+    username: "",
     password: "",
     usn: "",
-    sem: "",
+    semester: "",
     designation: "",
     department: "",
     subject: "",
@@ -36,10 +40,35 @@ export default function SignupPage() {
     setSignupData({ ...signupData, [e.target.name]: e.target.value });
   };
 
-  const handleSignup = (e) => {
+  const handleSignup = async (e) => {
     e.preventDefault();
-    navigate("/dashboard");
+
+    try {
+      const payload = {
+        ...signupData,
+        role: userType,
+      };
+
+      const response = await axios.post(`${BACKEND_URL}/signup`, payload);
+
+      if (response.status === 200 || response.status === 201) {
+      alert(response.data.message || "Signup Successful");
+
+      if (userType === "student") {
+          navigate("/student-dashboard", { state: { userType: "student" } });
+        } else if (userType === "faculty") {
+          navigate("/faculty-dashboard", { state: { userType: "faculty" } });
+        }
+      } else {
+        alert(response.data.message || "Signup failed");
+      }
+
+    } catch (error) {
+      console.error("Signup Error:", error);
+      alert("Server error: " + (error.response?.data?.message || "Try again later"));
+    }
   };
+  
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 flex items-center justify-center px-4 py-12">
@@ -128,8 +157,8 @@ export default function SignupPage() {
                   <Mail className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" />
                   <input
                     type="email"
-                    name="email"
-                    value={signupData.email}
+                    name="username"
+                    value={signupData.username}
                     onChange={handleSignupChange}
                     className="w-full bg-gray-50 border border-gray-200 rounded-xl px-12 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500"
                     placeholder="Enter your email"
@@ -200,8 +229,8 @@ export default function SignupPage() {
                   <div className="relative">
                     <Calendar className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" />
                     <select
-                      name="sem"
-                      value={signupData.sem}
+                      name="semester"
+                      value={signupData.semester}
                       onChange={handleSignupChange}
                       className="w-full bg-gray-50 border border-gray-200 rounded-xl px-12 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500"
                       required
