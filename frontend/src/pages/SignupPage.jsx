@@ -1,12 +1,11 @@
 import React, { useState } from "react";
-import axios from "axios";   // <-- Added
+import axios from "axios";
 import {
   Mail,
   Lock,
   Eye,
   EyeOff,
   GraduationCap,
-  ChevronRight,
   ChevronLeft,
   User,
   Award,
@@ -16,11 +15,11 @@ import {
 } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
-
 export default function SignupPage() {
   const navigate = useNavigate();
 
-  const BACKEND_URL = import.meta.env.VITE_BACKEND_URL;  // <-- Backend ENV URL
+  // safe default if env var is missing
+  const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || "http://localhost:5000";
 
   const [showPassword, setShowPassword] = useState(false);
   const [userType, setUserType] = useState("student");
@@ -49,12 +48,13 @@ export default function SignupPage() {
         role: userType,
       };
 
+      // <-- FIX: use template string with backticks
       const response = await axios.post(`${BACKEND_URL}/signup`, payload);
 
       if (response.status === 200 || response.status === 201) {
-      alert(response.data.message || "Signup Successful");
+        alert(response.data.message || "Signup Successful");
 
-      if (userType === "student") {
+        if (userType === "student") {
           navigate("/student-dashboard", { state: { userType: "student" } });
         } else if (userType === "faculty") {
           navigate("/faculty-dashboard", { state: { userType: "faculty" } });
@@ -62,41 +62,36 @@ export default function SignupPage() {
       } else {
         alert(response.data.message || "Signup failed");
       }
-
     } catch (error) {
       console.error("Signup Error:", error);
       alert("Server error: " + (error.response?.data?.message || "Try again later"));
     }
   };
-  
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 flex items-center justify-center px-4 py-12">
       <div className="w-full max-w-2xl">
         {/* Back Button */}
         <div className="text-center mb-8">
-         {/* Back to Home (left aligned and spaced properly) */}
-{/* Back Button (LEFT aligned, separate row) */}
-<div className="w-full max-w-xl mx-auto mb-4">
-  <button
-    onClick={() => navigate("/")}
-    className="flex items-center text-blue-600 font-medium hover:text-blue-700"
-  >
-    <ChevronLeft className="w-5 h-5 mr-1" />
-    Back to Home
-  </button>
-</div>
+          {/* Back to Home (left aligned and spaced properly) */}
+          {/* Back Button (LEFT aligned, separate row) */}
+          <div className="w-full max-w-xl mx-auto mb-4">
+            <button
+              onClick={() => navigate("/")}
+              className="flex items-center text-blue-600 font-medium hover:text-blue-700"
+            >
+              <ChevronLeft className="w-5 h-5 mr-1" />
+              Back to Home
+            </button>
+          </div>
 
-{/* Logo (CENTERED) */}
-<div className="flex justify-center w-full mb-6 mt-2">
-  <div className="w-16 h-16 bg-gradient-to-br from-blue-600 to-indigo-600 
-    rounded-2xl flex items-center justify-center shadow-lg">
-    <GraduationCap className="w-8 h-8 text-white" />
-  </div>
-</div>
-</div>
-
-
+          {/* Logo (CENTERED) */}
+          <div className="flex justify-center w-full mb-6 mt-2">
+            <div className="w-16 h-16 bg-gradient-to-br from-blue-600 to-indigo-600 rounded-2xl flex items-center justify-center shadow-lg">
+              <GraduationCap className="w-8 h-8 text-white" />
+            </div>
+          </div>
+        </div>
 
         {/* Card */}
         <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-100">
@@ -132,9 +127,7 @@ export default function SignupPage() {
             {/* Name + Email */}
             <div className="grid md:grid-cols-2 gap-5">
               <div className="space-y-2">
-                <label className="text-sm font-semibold text-gray-700">
-                  Full Name
-                </label>
+                <label className="text-sm font-semibold text-gray-700">Full Name</label>
                 <div className="relative">
                   <User className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" />
                   <input
@@ -150,9 +143,7 @@ export default function SignupPage() {
               </div>
 
               <div className="space-y-2">
-                <label className="text-sm font-semibold text-gray-700">
-                  Email Address
-                </label>
+                <label className="text-sm font-semibold text-gray-700">Email Address</label>
                 <div className="relative">
                   <Mail className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" />
                   <input
@@ -170,9 +161,7 @@ export default function SignupPage() {
 
             {/* Password */}
             <div className="space-y-2">
-              <label className="text-sm font-semibold text-gray-700">
-                Password
-              </label>
+              <label className="text-sm font-semibold text-gray-700">Password</label>
               <div className="relative">
                 <Lock className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" />
                 <input
@@ -190,11 +179,7 @@ export default function SignupPage() {
                   onClick={() => setShowPassword(!showPassword)}
                   className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600"
                 >
-                  {showPassword ? (
-                    <EyeOff className="w-5 h-5" />
-                  ) : (
-                    <Eye className="w-5 h-5" />
-                  )}
+                  {showPassword ? <EyeOff className="w-5 h-5" /> : <Eye className="w-5 h-5" />}
                 </button>
               </div>
             </div>
@@ -204,9 +189,7 @@ export default function SignupPage() {
               <div className="grid md:grid-cols-2 gap-5">
                 {/* USN */}
                 <div className="space-y-2">
-                  <label className="text-sm font-semibold text-gray-700">
-                    USN
-                  </label>
+                  <label className="text-sm font-semibold text-gray-700">USN</label>
                   <div className="relative">
                     <FileText className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" />
                     <input
@@ -223,9 +206,7 @@ export default function SignupPage() {
 
                 {/* Semester */}
                 <div className="space-y-2">
-                  <label className="text-sm font-semibold text-gray-700">
-                    Semester
-                  </label>
+                  <label className="text-sm font-semibold text-gray-700">Semester</label>
                   <div className="relative">
                     <Calendar className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" />
                     <select
@@ -252,9 +233,7 @@ export default function SignupPage() {
               <div className="grid md:grid-cols-2 gap-5">
                 {/* Designation */}
                 <div className="space-y-2">
-                  <label className="text-sm font-semibold text-gray-700">
-                    Designation
-                  </label>
+                  <label className="text-sm font-semibold text-gray-700">Designation</label>
                   <div className="relative">
                     <Award className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" />
                     <input
@@ -271,9 +250,7 @@ export default function SignupPage() {
 
                 {/* Department */}
                 <div className="space-y-2">
-                  <label className="text-sm font-semibold text-gray-700">
-                    Department
-                  </label>
+                  <label className="text-sm font-semibold text-gray-700">Department</label>
                   <div className="relative">
                     <BookOpen className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" />
                     <input
@@ -290,9 +267,7 @@ export default function SignupPage() {
 
                 {/* Subject */}
                 <div className="space-y-2 md:col-span-2">
-                  <label className="text-sm font-semibold text-gray-700">
-                    Subject
-                  </label>
+                  <label className="text-sm font-semibold text-gray-700">Subject</label>
                   <div className="relative">
                     <FileText className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" />
                     <input
@@ -321,10 +296,7 @@ export default function SignupPage() {
           <div className="mt-6 text-center">
             <p className="text-gray-600">
               Already have an account?{" "}
-              <button
-                onClick={() => navigate("/login")}
-                className="text-blue-600 font-semibold hover:text-blue-700"
-              >
+              <button onClick={() => navigate("/login")} className="text-blue-600 font-semibold hover:text-blue-700">
                 Sign In
               </button>
             </p>
