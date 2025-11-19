@@ -63,6 +63,7 @@ def signup():
     password = data.get("password")
     role = data.get("role")  # "student" or "faculty"
 
+
     if not username or not password or not role:
         return jsonify({"error": "Missing required fields"}), 400
 
@@ -71,25 +72,79 @@ def signup():
     if existing:
         return jsonify({"error": "Username already taken"}), 400
 
-    # Create user entry
-    user_id = str(uuid.uuid4())
-    hashed_pw = generate_password_hash(password)
+    role=role.lower()
+    new_user = User(username=username, password=password, role=role)
 
-    new_user = User(
-        id=user_id,
-        username=username,
-        password=hashed_pw,
-        role=role
-    )
+    try:
+        # Add user to session first
+        db.session.add(new_user)
+        db.session.flush()  # assign new_user.id without commit
 
-    db.session.add(new_user)
-    db.session.commit()
+        # Role-specific required fields and creation
+        if role == "student":
+            name = data.get("name")
+            usn = data.get("usn")
+            semester = data.get("semester")
 
-    return jsonify({
-        "message": "Signup successful",
-        "user_id": user_id,
-        "role": role
-    }), 201
+            if not (name and usn and semester):
+                db.session.rollback()
+                return jsonify({"error": "Missing student fields: name, usn, semester"}), 400
+
+            # ensure USN unique
+            if Student.query.filter_by(usn=usn).first():
+                db.session.rollback()
+                return jsonify({"error": "USN already exists"}), 400
+
+            student = Student(
+                user_id=new_user.id,
+                name=name,
+                usn=usn,
+                semester=semester
+            )
+            db.session.add(student)
+            db.session.commit()
+
+            return jsonify({
+                "message": "Signup successful",
+                "role": "student",
+                "user_id": new_user.id,
+                "student_id": student.id
+            }), 201
+
+        else:  # faculty
+            name = data.get("name")
+            department = data.get("department")
+            subject = data.get("subject")
+            designation = data.get("designation")
+
+            if not (name and department and subject and designation):
+                db.session.rollback()
+                return jsonify({"error": "Missing faculty fields: name, department, subject, designation"}), 400
+
+            faculty = Faculty(
+                user_id=new_user.id,
+                name=name,
+                designation=designation,
+                subject=subject,
+                department=department
+            )
+            db.session.add(faculty)
+            db.session.commit()
+
+            return jsonify({
+                "message": "Signup successful",
+                "role": "faculty",
+                "user_id": new_user.id,
+                "faculty_id": faculty.id
+            }), 201
+
+    except IntegrityError as e:
+        db.session.rollback()
+        # return helpful message (don't expose raw DB error in production)
+        return jsonify({"error": "Database integrity error", "details": str(e.orig)}), 400
+    except Exception as e:
+        db.session.rollback()
+        return jsonify({"error": "Server error", "details": str(e)}), 500
 
 @app.route("/login", methods=["POST", "OPTIONS"])
 def login():
