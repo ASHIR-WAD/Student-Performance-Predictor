@@ -1,15 +1,12 @@
 import React, { useState } from "react";
-import axios from "axios";
 import { Mail, Lock, Eye, EyeOff, GraduationCap, ChevronLeft } from "lucide-react";
-import { useLocation, useNavigate } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 
 export default function LoginPage() {
   const location = useLocation();
   const navigate = useNavigate();
 
-  const BACKEND_URL = import.meta.env.VITE_BACKEND_URL;  // <-- Backend ENV URL
-
-  // Read userType from navigation state (student / faculty)
+  // Read userType from navigation state
   const userType = location.state?.userType || "student";
 
   const [showPassword, setShowPassword] = useState(false);
@@ -23,65 +20,29 @@ export default function LoginPage() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setError("");
-    setLoading(true);
-    const payload = {
-          username: form.email,
-          password: form.password,
-          role: userType,
-        };
-
-
-    try {
-      console.log(payload);
-      // NOTE: backend expects "username", we are sending email as username
-      const res = await axios.post(`${BACKEND_URL}`/login,   // if needed: "https://your-backend-url/login"
-        payload,
-        {
-          headers: {
-            "Content-Type": "application/json",
-          },
-        }
-      );
-
-      const data = res.data;
-
-      // Navigate to the redirect path returned by backend
-      navigate(data.redirect || "/dashboard", {
-        state: { user: data }, // you can read this in your dashboard pages
-      });
-    } catch (err) {
-      console.error("Login Error:", err);
-
-      // Handle backend error messages if any
-      if (err.response?.data?.error) {
-        setError(err.response.data.error);
-      } else {
-        setError("Something went wrong. Please try again.");
-      }
-    } finally {
-      setLoading(false);
-    }
+    navigate("/dashboard");
   };
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 flex flex-col items-center px-4 py-12">
-      {/* Back to Home */}
-      <div className="w-full max-w-md mb-4">
-        <button
-          onClick={() => navigate("/")}
-          className="flex items-center text-blue-600 font-medium"
-        >
-          <ChevronLeft className="w-5 h-5 mr-1" />
-          Back to Home
-        </button>
-      </div>
 
-      {/* Logo Box */}
-      <div className="w-16 h-16 bg-gradient-to-br from-blue-600 to-indigo-600 
-        rounded-2xl flex items-center justify-center shadow-lg mb-6 mt-2">
-        <GraduationCap className="w-8 h-8 text-white" />
-      </div>
+      {/* Back to Home (placed higher and separated from logo) */}
+<div className="w-full max-w-md mb-4">
+  <button
+    onClick={() => navigate("/")}
+    className="flex items-center text-blue-600 font-medium"
+  >
+    <ChevronLeft className="w-5 h-5 mr-1" />
+    Back to Home
+  </button>
+</div>
+
+{/* Logo Box */}
+<div className="w-16 h-16 bg-gradient-to-br from-blue-600 to-indigo-600 
+  rounded-2xl flex items-center justify-center shadow-lg mb-6 mt-2">
+  <GraduationCap className="w-8 h-8 text-white" />
+</div>
+
 
       {/* Heading */}
       <h2 className="text-3xl font-bold text-gray-800 mb-1">Welcome Back</h2>
@@ -118,6 +79,7 @@ export default function LoginPage() {
             </label>
             <div className="relative">
               <Lock className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" />
+
               <input
                 type={showPassword ? "text" : "password"}
                 name="password"
@@ -127,6 +89,7 @@ export default function LoginPage() {
                 placeholder="Enter your password"
                 required
               />
+
               <button
                 type="button"
                 onClick={() => setShowPassword(!showPassword)}
@@ -158,7 +121,7 @@ export default function LoginPage() {
             </button>
           </div>
 
-          {/* Sign In Button */}
+          {/* Login Button */}
           <button
             type="submit"
             disabled={loading}
