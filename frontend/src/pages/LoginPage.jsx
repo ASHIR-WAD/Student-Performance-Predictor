@@ -47,7 +47,7 @@ export default function LoginPage() {
       const data = res.data;
 
       // Navigate to the redirect path returned by backend
-      navigate(data.redirect || "/dashboard", {
+      navigate(data.redirect || "/login", {
         state: { user: data }, // you can read this in your dashboard pages
       });
     } catch (err) {
