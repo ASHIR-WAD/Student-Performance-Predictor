@@ -1,68 +1,87 @@
 import React, { useState } from "react";
+import axios from "axios";
 import { Mail, Lock, Eye, EyeOff, GraduationCap, ChevronLeft } from "lucide-react";
-import { Link, useLocation, useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 
 export default function LoginPage() {
   const location = useLocation();
   const navigate = useNavigate();
 
-  // Read userType from navigation state
+  const BACKEND_URL = import.meta.env.VITE_BACKEND_URL;  // <-- Backend ENV URL
+
+  // Read userType from navigation state (student / faculty)
   const userType = location.state?.userType || "student";
 
   const [showPassword, setShowPassword] = useState(false);
   const [form, setForm] = useState({ email: "", password: "" });
+  const [error, setError] = useState("");
+  const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
-  e.preventDefault();
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setError("");
+    setLoading(true);
+    const payload = {
+          username: form.email,
+          password: form.password,
+          role: userType,
+        };
 
-  // get all users saved in localStorage
-  const users = JSON.parse(localStorage.getItem("users")) || [];
 
-  // find matching user
-  const user = users.find(
-    (u) => u.email === form.email && u.password === form.password
-  );
+    try {
+      console.log(payload);
+      // NOTE: backend expects "username", we are sending email as username
+      const res = await axios.post(`${BACKEND_URL}`/login,   // if needed: "https://your-backend-url/login"
+        payload,
+        {
+          headers: {
+            "Content-Type": "application/json",
+          },
+        }
+      );
 
-  if (!user) {
-    alert("Invalid email or password");
-    return;
-  }
+      const data = res.data;
 
-  // store current user in session
-  localStorage.setItem("currentUser", JSON.stringify(user));
+      // Navigate to the redirect path returned by backend
+      navigate(data.redirect || "/dashboard", {
+        state: { user: data }, // you can read this in your dashboard pages
+      });
+    } catch (err) {
+      console.error("Login Error:", err);
 
-  // redirect based on role
-  if (user.userType === "faculty") {
-    navigate("/faculty-dashboard");
-  } else {
-    navigate("/student-dashboard");
-  }
-};
+      // Handle backend error messages if any
+      if (err.response?.data?.error) {
+        setError(err.response.data.error);
+      } else {
+        setError("Something went wrong. Please try again.");
+      }
+    } finally {
+      setLoading(false);
+    }
+  };
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 flex flex-col items-center px-4 py-12">
+      {/* Back to Home */}
+      <div className="w-full max-w-md mb-4">
+        <button
+          onClick={() => navigate("/")}
+          className="flex items-center text-blue-600 font-medium"
+        >
+          <ChevronLeft className="w-5 h-5 mr-1" />
+          Back to Home
+        </button>
+      </div>
 
-      {/* Back to Home (placed higher and separated from logo) */}
-<div className="w-full max-w-md mb-4">
-  <button
-    onClick={() => navigate("/")}
-    className="flex items-center text-blue-600 font-medium"
-  >
-    <ChevronLeft className="w-5 h-5 mr-1" />
-    Back to Home
-  </button>
-</div>
-
-{/* Logo Box */}
-<div className="w-16 h-16 bg-gradient-to-br from-blue-600 to-indigo-600 
-  rounded-2xl flex items-center justify-center shadow-lg mb-6 mt-2">
-  <GraduationCap className="w-8 h-8 text-white" />
-</div>
-
+      {/* Logo Box */}
+      <div className="w-16 h-16 bg-gradient-to-br from-blue-600 to-indigo-600 
+        rounded-2xl flex items-center justify-center shadow-lg mb-6 mt-2">
+        <GraduationCap className="w-8 h-8 text-white" />
+      </div>
 
       {/* Heading */}
       <h2 className="text-3xl font-bold text-gray-800 mb-1">Welcome Back</h2>
@@ -72,12 +91,12 @@ export default function LoginPage() {
 
       {/* Card */}
       <div className="w-full max-w-md bg-white p-8 rounded-2xl shadow-xl border border-gray-100">
-
         <form onSubmit={handleSubmit} className="space-y-6">
-
           {/* Email */}
           <div className="space-y-2">
-            <label className="text-sm font-semibold text-gray-700">Email Address</label>
+            <label className="text-sm font-semibold text-gray-700">
+              Email Address
+            </label>
             <div className="relative">
               <Mail className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" />
               <input
@@ -94,7 +113,9 @@ export default function LoginPage() {
 
           {/* Password */}
           <div className="space-y-2">
-            <label className="text-sm font-semibold text-gray-700">Password</label>
+            <label className="text-sm font-semibold text-gray-700">
+              Password
+            </label>
             <div className="relative">
               <Lock className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" />
               <input
@@ -116,13 +137,23 @@ export default function LoginPage() {
             </div>
           </div>
 
+          {/* Error Message */}
+          {error && (
+            <div className="text-sm text-red-600 bg-red-50 border border-red-100 rounded-lg px-3 py-2">
+              {error}
+            </div>
+          )}
+
           {/* Remember + Forgot */}
           <div className="flex items-center justify-between">
             <label className="flex items-center space-x-2 cursor-pointer">
               <input type="checkbox" className="w-4 h-4 rounded" />
               <span className="text-sm text-gray-600">Remember me</span>
             </label>
-            <button className="text-sm text-blue-600 font-semibold hover:text-blue-700">
+            <button
+              type="button"
+              className="text-sm text-blue-600 font-semibold hover:text-blue-700"
+            >
               Forgot password?
             </button>
           </div>
@@ -130,9 +161,10 @@ export default function LoginPage() {
           {/* Sign In Button */}
           <button
             type="submit"
-            className="w-full py-3 bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-semibold rounded-xl hover:shadow-lg transition-all"
+            disabled={loading}
+            className="w-full py-3 bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-semibold rounded-xl hover:shadow-lg transition-all disabled:opacity-60 disabled:cursor-not-allowed"
           >
-            Sign In
+            {loading ? "Signing in..." : "Sign In"}
           </button>
         </form>
 
