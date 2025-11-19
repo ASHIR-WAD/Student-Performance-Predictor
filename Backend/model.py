@@ -88,11 +88,11 @@ class Prediction(db.Model):
     iat_marks = db.Column(db.Float, nullable=True)
     assignments = db.Column(db.Integer, nullable=True)
     extra_curricular = db.Column(db.Integer, nullable=True)
+    consistency_rating = db.Column(db.Float, nullable=True)
 
     predicted_grade = db.Column(db.String(10), nullable=True)
-    consistency_rating = db.Column(db.Float, nullable=True)
-    notes = db.Column(db.String(512), nullable=True)
-
+    prediction = db.Column(db.String(512), nullable=True)
+    confidence_level = db.Column(db.String(512), nullable=True)
 
 
 if __name__ == '__main__':
