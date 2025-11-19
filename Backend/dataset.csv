@@ -1,0 +1,2001 @@
+attendance,study_hours,IAT_marks,assignment,extracurricular_activity,consistency_rating,predicted_grade,confidence_level,predictor
+68.73,2.62,70.04,71.86,Club Activity,6,B+,78.34,pass
+97.54,2.47,86.38,33.79,Art & Design,3,B,50.0,pass
+86.6,9.06,83.21,89.79,Entrepreneurship Cell,10,A,100.0,pass
+79.93,2.5,40.77,69.05,NSS,8,B,98.73,pass
+57.8,2.72,40.45,32.58,Art & Design,7,C,88.64,fail
+57.8,7.59,48.77,96.99,Drama/Theatre,1,B+,50.0,pass
+52.9,4.5,55.28,61.47,Music/Band,10,B,100.0,pass
+93.31,7.77,58.59,25.83,Student Council,5,B+,67.75,pass
+80.06,0.65,77.58,70.15,Drama/Theatre,10,B+,100.0,pass
+85.4,4.88,33.97,40.26,Volunteering,9,B,100.0,pass
+51.03,0.34,32.43,84.3,Volunteering,6,C,79.04,fail
+98.5,0.63,57.43,85.43,Club Activity,8,B+,91.98,pass
+91.62,9.06,78.8,98.32,Drama/Theatre,10,A+,100.0,pass
+60.62,1.39,43.54,60.15,Entrepreneurship Cell,1,C,50.0,fail
+59.09,5.32,74.91,56.4,Club Activity,10,B+,100.0,pass
+59.17,4.11,48.19,80.28,Music/Band,7,B,86.62,pass
+65.21,3.47,92.03,30.6,Volunteering,3,B,50.0,pass
+76.24,9.0,92.7,63.75,NSS,9,A,100.0,pass
+71.6,0.22,50.81,63.7,Volunteering,6,C,73.39,fail
+64.56,6.64,46.1,27.16,Cultural Activity,5,C,66.8,fail
+80.59,9.63,58.79,53.44,Photography Club,8,A-,90.58,pass
+56.97,5.6,46.84,88.26,Technical Club,8,B+,99.29,pass
+64.61,9.37,77.07,88.49,Student Council,3,A-,50.0,pass
+68.32,0.52,87.82,27.94,Drama/Theatre,2,C,50.0,fail
+72.8,4.19,77.12,27.26,Club Activity,2,B,50.0,pass
+89.26,2.6,87.7,41.02,Technical Club,5,B+,67.72,pass
+59.98,7.31,57.79,89.98,Technical Club,10,A-,100.0,pass
+75.71,9.81,40.94,30.31,Art & Design,7,B,80.81,pass
+79.62,2.57,81.66,77.6,Photography Club,8,B+,98.75,pass
+52.32,6.54,55.23,28.09,Sports,10,B,100.0,pass
+80.38,1.98,76.99,69.85,Art & Design,8,B+,94.04,pass
+58.53,5.65,48.95,48.49,Art & Design,8,B,97.02,pass
+53.25,4.64,35.69,83.11,Student Council,10,B,100.0,pass
+97.44,9.72,99.48,38.7,Cultural Activity,3,A-,50.0,pass
+98.28,6.09,40.93,71.14,Volunteering,2,B+,50.0,pass
+90.42,3.5,99.19,38.85,Art & Design,4,B+,55.24,pass
+65.23,1.14,98.41,77.09,Music/Band,1,B+,50.0,pass
+54.88,1.51,85.57,89.89,Volunteering,3,B+,50.0,pass
+84.21,2.25,76.16,30.14,Cultural Activity,9,B,100.0,pass
+72.01,2.51,70.45,89.33,Club Activity,7,B+,81.66,pass
+56.1,8.51,90.63,67.49,Sports,7,A-,81.5,pass
+74.76,5.61,50.26,30.17,Volunteering,1,C,50.0,fail
+51.72,5.23,62.74,54.2,Drama/Theatre,7,B,86.57,pass
+95.47,1.15,73.36,32.87,Student Council,10,B,100.0,pass
+62.94,8.6,58.78,76.03,Technical Club,7,A-,83.91,pass
+83.13,7.23,59.92,80.71,Entrepreneurship Cell,4,A-,59.47,pass
+65.59,0.68,53.12,28.46,Photography Club,7,C,82.47,fail
+76.0,7.08,69.5,60.49,Club Activity,8,B+,96.68,pass
+77.34,5.44,89.54,85.17,Cultural Activity,3,A-,50.0,pass
+59.24,0.82,44.11,94.89,Art & Design,10,B,100.0,pass
+98.48,4.58,95.41,61.08,Music/Band,2,B+,50.0,pass
+88.76,4.85,78.24,96.02,Music/Band,7,A-,87.37,pass
+96.97,1.66,87.63,62.86,Sports,5,B+,64.58,pass
+94.74,9.46,68.93,51.54,Cultural Activity,5,A-,65.69,pass
+79.89,8.5,84.57,87.86,Club Activity,5,A,66.93,pass
+96.09,6.69,31.13,59.44,Drama/Theatre,7,B+,85.92,pass
+54.42,4.62,87.29,57.75,Technical Club,9,B+,100.0,pass
+59.8,4.12,32.81,59.22,Art & Design,8,B,93.57,pass
+52.26,6.51,92.29,87.74,Entrepreneurship Cell,6,A-,73.0,pass
+66.27,5.45,99.44,86.56,Photography Club,7,A-,82.14,pass
+69.43,0.62,50.58,52.28,Student Council,9,C,100.0,fail
+63.57,5.13,44.72,46.66,NSS,6,B,70.43,pass
+91.44,8.06,83.58,59.35,NSS,1,A-,50.0,pass
+67.84,4.59,47.71,65.82,Art & Design,4,B,56.78,pass
+64.05,0.52,90.59,39.07,Club Activity,8,B,96.61,pass
+77.13,7.86,37.2,83.52,Art & Design,7,B+,86.15,pass
+57.05,2.01,38.82,58.92,Cultural Activity,3,C,50.0,fail
+90.11,2.59,98.54,46.72,Photography Club,10,B+,100.0,pass
+53.73,1.65,77.17,28.55,NSS,3,C,50.0,fail
+99.34,3.3,89.28,39.11,Sports,3,B+,50.0,pass
+88.61,7.57,52.7,95.94,Cultural Activity,1,A-,50.0,pass
+59.94,5.19,77.35,44.41,NSS,10,B+,100.0,pass
+50.28,2.05,71.6,33.51,Drama/Theatre,1,C,50.0,fail
+90.77,8.78,72.22,56.85,Photography Club,6,A-,75.64,pass
+85.34,8.8,77.78,44.57,Entrepreneurship Cell,1,B+,50.0,pass
+86.45,8.71,70.28,22.81,Technical Club,5,B+,61.38,pass
+88.56,2.39,60.03,45.85,Music/Band,4,B,55.91,pass
+53.7,4.51,49.31,63.53,Cultural Activity,5,B,63.15,pass
+67.92,9.85,83.8,64.14,Music/Band,7,A-,80.52,pass
+55.79,7.72,45.84,48.52,Music/Band,6,B,79.49,pass
+93.16,0.27,78.46,55.78,Photography Club,9,B+,100.0,pass
+81.16,0.65,46.33,97.24,Photography Club,6,B,78.77,pass
+66.54,4.64,73.77,50.19,NSS,9,B+,100.0,pass
+53.18,9.09,82.3,40.66,Cultural Activity,4,B+,53.57,pass
+65.55,5.39,45.31,39.48,Technical Club,1,C,50.0,fail
+66.26,4.98,34.2,56.62,Drama/Theatre,1,C,50.0,fail
+86.48,1.05,39.17,80.76,Volunteering,10,B,100.0,pass
+81.88,6.57,72.42,36.48,Sports,7,B+,82.54,pass
+94.36,8.22,89.46,76.74,Music/Band,3,A-,50.0,pass
+73.61,3.8,33.15,21.69,Technical Club,2,C,50.0,fail
+55.98,7.76,81.39,53.51,Photography Club,6,B+,76.7,pass
+85.66,9.64,53.89,82.07,Student Council,6,A-,79.31,pass
+88.04,2.04,63.5,47.1,Student Council,7,B,83.98,pass
+78.06,5.23,95.02,65.1,Volunteering,5,A-,69.53,pass
+88.55,2.87,53.24,36.4,Volunteering,8,B,97.03,pass
+74.69,7.93,62.57,79.36,Volunteering,7,A-,80.42,pass
+76.14,5.78,30.96,24.18,Entrepreneurship Cell,2,C,50.0,fail
+71.38,6.35,35.71,88.2,Sports,1,B,50.0,pass
+51.27,7.98,48.1,35.86,Sports,9,B,100.0,pass
+55.39,3.96,31.95,89.95,Drama/Theatre,5,B,65.66,pass
+51.57,9.15,74.2,48.2,Music/Band,5,B+,61.49,pass
+81.82,5.33,59.85,77.81,Club Activity,10,A-,100.0,pass
+65.72,1.58,68.37,45.54,Entrepreneurship Cell,4,C,58.31,fail
+75.43,6.96,42.23,92.47,Student Council,2,B+,50.0,pass
+95.38,7.93,50.72,30.13,NSS,5,B+,62.73,pass
+62.46,3.17,76.47,34.28,NSS,2,C,50.0,fail
+70.52,8.57,97.57,59.44,Volunteering,7,A-,84.16,pass
+87.78,9.06,33.53,26.56,Art & Design,9,B,100.0,pass
+61.44,2.77,92.33,35.68,Student Council,9,B,100.0,pass
+53.85,9.84,70.38,95.5,Club Activity,6,A-,79.45,pass
+64.49,1.41,69.47,98.12,Entrepreneurship Cell,1,B,50.0,pass
+58.06,2.02,65.02,50.1,Club Activity,6,B,72.55,pass
+96.48,1.84,34.86,93.86,NSS,5,B+,69.24,pass
+90.41,8.94,36.29,63.59,Art & Design,4,B+,57.75,pass
+81.67,6.54,72.06,41.58,Club Activity,6,B+,75.74,pass
+93.57,1.52,53.87,76.19,Student Council,6,B+,76.96,pass
+90.18,4.4,94.21,72.71,Music/Band,6,A-,79.24,pass
+59.33,6.15,58.46,99.13,Technical Club,2,B+,50.0,pass
+94.63,0.83,40.03,41.2,Art & Design,7,C,83.68,fail
+76.97,8.82,80.03,73.76,Club Activity,4,A-,57.13,pass
+90.37,8.04,50.53,24.16,Photography Club,9,B+,100.0,pass
+94.8,5.05,66.78,29.09,Art & Design,10,B+,100.0,pass
+65.9,9.67,78.85,20.31,Art & Design,2,B,50.0,pass
+55.5,4.18,93.02,99.96,Music/Band,5,A-,61.67,pass
+61.4,9.84,85.45,84.18,Student Council,4,A-,50.23,pass
+71.36,6.68,77.35,82.94,Entrepreneurship Cell,9,A-,100.0,pass
+90.9,6.35,77.57,60.78,NSS,4,B+,56.55,pass
+93.04,1.66,96.21,44.01,Photography Club,8,B+,98.02,pass
+50.35,8.82,50.71,32.1,Music/Band,8,B,99.88,pass
+75.54,4.27,30.08,42.77,Club Activity,6,C,73.46,fail
+70.87,1.62,49.04,50.08,Volunteering,6,C,75.99,fail
+61.11,0.13,45.25,80.5,Music/Band,8,B,99.37,pass
+55.99,5.6,76.33,63.17,Volunteering,10,B+,100.0,pass
+66.88,5.27,74.36,26.2,Cultural Activity,9,B,100.0,pass
+97.15,7.19,71.54,21.44,NSS,5,B+,67.55,pass
+66.16,8.9,31.14,28.19,Student Council,1,C,50.0,fail
+75.94,0.79,81.01,52.84,Technical Club,1,B,50.0,pass
+85.15,7.31,52.65,94.66,Art & Design,2,A-,50.0,pass
+68.18,1.87,76.55,70.99,Volunteering,10,B+,100.0,pass
+98.59,8.58,68.96,84.15,Technical Club,10,A,100.0,pass
+98.12,8.19,53.99,57.31,Technical Club,5,B+,60.49,pass
+62.59,5.41,39.42,48.93,Volunteering,4,C,53.35,fail
+74.86,7.1,36.61,28.67,Technical Club,1,C,50.0,fail
+65.04,3.14,88.21,90.07,Art & Design,4,B+,55.32,pass
+64.24,4.71,94.29,82.65,Entrepreneurship Cell,4,A-,52.68,pass
+51.84,8.22,75.49,33.45,Drama/Theatre,10,B+,100.0,pass
+80.48,4.59,37.24,60.98,Cultural Activity,4,B,53.68,pass
+75.13,3.58,58.14,58.99,Volunteering,1,B,50.0,pass
+52.57,4.94,81.03,70.01,Art & Design,9,B+,100.0,pass
+63.93,8.28,84.59,95.69,Photography Club,3,A-,50.0,pass
+95.41,3.35,38.28,66.38,NSS,4,B,54.08,pass
+61.98,1.74,30.0,63.22,Volunteering,5,C,62.74,fail
+57.24,7.12,79.85,24.03,Entrepreneurship Cell,7,B,81.31,pass
+74.47,8.26,54.96,25.03,Art & Design,6,B,78.19,pass
+99.28,1.01,47.81,34.99,Art & Design,5,C,69.96,fail
+62.1,2.4,30.9,22.6,Photography Club,8,C,93.3,fail
+83.61,1.42,67.82,79.47,Music/Band,1,B,50.0,pass
+88.08,3.48,89.58,77.87,Drama/Theatre,7,A-,86.18,pass
+61.88,4.5,97.03,30.88,Entrepreneurship Cell,6,B,77.18,pass
+86.41,7.49,69.6,86.89,Volunteering,5,A-,63.92,pass
+68.39,6.51,66.01,32.38,Photography Club,7,B,89.05,pass
+81.62,6.21,35.95,44.09,Student Council,3,B,50.0,pass
+81.68,3.52,68.42,39.92,Art & Design,1,B,50.0,pass
+76.79,8.41,56.6,49.78,Cultural Activity,9,B+,100.0,pass
+54.51,4.71,72.5,40.37,Music/Band,2,B,50.0,pass
+91.77,9.79,57.21,59.12,Art & Design,10,A-,100.0,pass
+66.04,6.34,46.82,52.59,Volunteering,3,B,50.0,pass
+59.33,1.26,36.65,98.93,Club Activity,8,B,93.32,pass
+52.04,6.76,52.04,24.47,Art & Design,10,B,100.0,pass
+79.54,3.25,36.77,31.37,Sports,9,C,100.0,fail
+83.88,6.86,42.38,24.23,Club Activity,3,B,50.0,pass
+50.83,0.7,99.11,70.07,Art & Design,6,B,78.26,pass
+75.6,1.75,61.09,24.36,Technical Club,7,C,87.31,fail
+61.32,8.56,67.23,86.92,Entrepreneurship Cell,1,B+,50.0,pass
+82.26,2.27,91.15,60.96,Art & Design,7,B+,82.73,pass
+58.72,8.37,99.69,62.16,NSS,4,A-,58.75,pass
+84.55,2.79,70.79,64.93,Technical Club,5,B+,67.67,pass
+69.34,6.43,86.87,33.67,Volunteering,8,B+,93.62,pass
+96.84,6.94,52.89,35.82,Cultural Activity,4,B,57.34,pass
+56.88,5.13,51.4,45.51,Club Activity,4,C,51.04,fail
+67.05,3.05,58.19,67.48,Student Council,8,B,97.89,pass
+55.67,2.13,77.08,36.81,Music/Band,5,C,65.32,fail
+96.23,0.33,77.75,29.31,Photography Club,6,B,72.92,pass
+93.87,3.04,52.07,97.61,Cultural Activity,5,B+,66.56,pass
+62.9,6.53,39.32,21.76,Technical Club,1,C,50.0,fail
+83.0,9.38,74.27,84.22,Music/Band,7,A,82.09,pass
+90.86,8.71,38.98,83.04,Club Activity,6,A-,70.3,pass
+77.76,7.66,70.49,43.78,Student Council,2,B+,50.0,pass
+76.48,7.88,78.54,30.85,Sports,7,B+,85.7,pass
+62.09,6.65,79.04,31.65,Sports,6,B,78.77,pass
+54.66,2.6,82.74,75.79,Entrepreneurship Cell,5,B+,69.28,pass
+94.86,9.07,91.1,71.42,Student Council,8,A,95.29,pass
+95.02,6.71,65.0,82.62,Music/Band,5,A-,67.54,pass
+81.66,5.6,81.12,95.0,Volunteering,2,A-,50.0,pass
+66.95,1.11,73.34,75.35,Music/Band,6,B,77.46,pass
+67.46,4.47,43.06,32.47,Entrepreneurship Cell,1,C,50.0,fail
+86.3,4.6,31.8,39.48,Art & Design,5,C,63.71,fail
+94.86,8.65,49.92,87.38,Music/Band,6,A-,76.34,pass
+94.35,5.47,61.01,36.74,Volunteering,7,B+,80.18,pass
+88.99,3.8,73.2,25.8,Cultural Activity,2,B,50.0,pass
+82.1,9.77,89.5,76.26,Club Activity,1,A-,50.0,pass
+54.21,1.11,43.74,52.2,Music/Band,6,C,73.99,fail
+58.08,4.23,38.79,93.6,Photography Club,3,B,50.0,pass
+94.93,0.42,97.44,72.02,Club Activity,5,B+,68.51,pass
+80.32,7.4,37.56,27.23,Technical Club,2,C,50.0,fail
+50.46,9.18,63.49,95.83,Sports,1,B+,50.0,pass
+55.07,2.8,70.99,40.68,Sports,1,C,50.0,fail
+83.18,8.58,67.9,46.98,Volunteering,4,B+,56.79,pass
+50.25,2.92,36.02,52.18,Technical Club,10,C,100.0,fail
+58.04,9.11,33.99,24.1,Sports,2,C,50.0,fail
+77.44,7.54,37.38,59.72,Entrepreneurship Cell,1,B,50.0,pass
+84.59,8.05,70.99,29.87,Volunteering,6,B+,79.0,pass
+82.6,0.18,68.1,52.08,Music/Band,4,B,56.88,pass
+61.21,9.63,46.36,48.06,Technical Club,10,B+,100.0,pass
+85.61,7.27,74.64,81.83,Entrepreneurship Cell,7,A-,87.67,pass
+61.86,3.05,87.4,84.25,Art & Design,6,B+,79.42,pass
+66.27,8.29,32.91,32.27,Art & Design,5,B,62.16,pass
+87.32,2.82,64.87,49.32,Art & Design,10,B+,100.0,pass
+82.48,8.73,78.25,49.87,Cultural Activity,2,B+,50.0,pass
+92.46,1.13,47.66,32.11,Art & Design,5,C,66.71,fail
+82.88,7.04,51.54,83.88,Technical Club,9,A-,100.0,pass
+78.42,5.41,72.95,76.58,NSS,9,A-,100.0,pass
+54.68,0.97,92.86,35.23,Sports,2,C,50.0,fail
+68.39,2.42,86.69,49.34,Art & Design,7,B,88.54,pass
+63.26,0.12,70.82,28.46,Technical Club,10,C,100.0,fail
+62.2,4.69,81.12,70.26,Entrepreneurship Cell,4,B+,56.1,pass
+98.65,3.01,55.54,29.71,Drama/Theatre,3,B,50.0,pass
+69.65,5.98,74.87,98.87,Entrepreneurship Cell,1,A-,50.0,pass
+94.6,2.97,62.63,82.45,Music/Band,3,B+,50.0,pass
+81.56,3.0,43.3,51.22,Entrepreneurship Cell,9,B,100.0,pass
+89.74,7.43,79.12,66.29,Cultural Activity,9,A-,100.0,pass
+75.13,0.48,68.95,92.91,Club Activity,7,B+,81.8,pass
+78.85,9.03,55.1,64.33,Volunteering,3,B+,50.0,pass
+74.63,8.52,93.79,33.96,Drama/Theatre,3,B+,50.0,pass
+59.76,6.68,31.47,50.3,Entrepreneurship Cell,4,C,52.52,fail
+86.12,5.93,52.1,87.45,Drama/Theatre,7,A-,83.25,pass
+64.04,8.92,33.98,71.54,Cultural Activity,7,B+,88.35,pass
+51.22,1.85,83.66,72.06,Volunteering,2,B,50.0,pass
+82.27,0.79,79.15,89.35,Cultural Activity,5,B+,63.29,pass
+58.86,2.4,53.19,91.52,Art & Design,7,B,85.34,pass
+97.02,7.95,77.3,93.58,Club Activity,7,A,80.62,pass
+97.7,0.35,57.72,27.59,Volunteering,6,C,72.09,fail
+95.74,5.83,82.94,63.53,Technical Club,10,A-,100.0,pass
+68.51,9.95,61.79,79.24,Entrepreneurship Cell,10,A-,100.0,pass
+50.77,8.56,58.86,80.55,Entrepreneurship Cell,8,A-,98.43,pass
+96.42,5.21,95.43,68.54,Sports,3,A-,50.0,pass
+71.41,0.64,47.56,33.34,Cultural Activity,1,C,50.0,fail
+98.33,8.31,38.43,83.79,Club Activity,3,B+,50.0,pass
+98.18,5.99,70.92,77.61,Music/Band,2,A-,50.0,pass
+92.65,1.15,97.85,26.89,NSS,2,B,50.0,pass
+64.72,0.94,56.45,57.1,Music/Band,2,C,50.0,fail
+69.25,9.1,34.34,33.92,NSS,5,B,69.77,pass
+92.56,6.69,53.75,47.0,Student Council,1,B,50.0,pass
+65.85,8.29,65.42,21.45,Technical Club,10,B+,100.0,pass
+58.47,8.79,41.33,52.03,Student Council,4,B,57.24,pass
+77.84,5.72,76.07,63.99,Cultural Activity,10,A-,100.0,pass
+96.81,5.17,99.84,69.57,Cultural Activity,5,A-,67.96,pass
+84.8,4.3,61.62,73.08,Entrepreneurship Cell,2,B+,50.0,pass
+78.5,3.17,54.83,86.9,NSS,5,B+,66.71,pass
+54.86,4.35,58.05,37.24,Volunteering,10,B,100.0,pass
+80.75,7.74,38.06,29.64,Photography Club,4,B,50.91,pass
+99.5,6.02,91.83,88.12,Club Activity,8,A,96.67,pass
+57.0,8.93,59.04,32.53,Art & Design,1,B,50.0,pass
+75.92,4.43,57.11,97.98,Drama/Theatre,5,B+,66.4,pass
+93.87,6.07,76.18,87.4,Cultural Activity,10,A,100.0,pass
+87.04,6.31,60.94,60.07,Student Council,1,B+,50.0,pass
+84.85,5.92,75.38,98.51,Student Council,10,A,100.0,pass
+85.12,7.03,34.3,27.79,Photography Club,10,B,100.0,pass
+67.97,2.37,86.96,44.25,Music/Band,4,B,51.28,pass
+64.68,5.12,95.84,71.06,Technical Club,8,A-,92.65,pass
+90.47,1.04,75.41,48.0,NSS,1,B,50.0,pass
+90.51,3.85,96.82,94.27,Drama/Theatre,2,A-,50.0,pass
+93.35,4.88,40.6,25.25,NSS,1,C,50.0,fail
+95.66,6.52,63.42,63.95,Cultural Activity,7,A-,89.41,pass
+75.57,9.51,72.13,67.27,Entrepreneurship Cell,2,A-,50.0,pass
+75.08,6.01,70.72,72.22,Sports,1,B+,50.0,pass
+89.91,7.44,58.1,40.45,Drama/Theatre,6,B+,76.06,pass
+82.5,5.06,53.67,49.17,Music/Band,6,B,77.55,pass
+85.1,6.34,38.88,87.49,Student Council,10,A-,100.0,pass
+89.79,0.71,57.42,35.6,Music/Band,2,C,50.0,fail
+94.5,2.54,41.39,86.15,Entrepreneurship Cell,1,B,50.0,pass
+66.9,3.62,81.41,65.01,Cultural Activity,10,B+,100.0,pass
+68.78,4.72,44.62,80.98,Sports,3,B,50.0,pass
+54.7,0.46,34.1,77.09,Art & Design,10,C,100.0,fail
+78.91,1.4,68.67,36.6,Drama/Theatre,5,C,61.42,fail
+51.8,2.77,71.67,65.51,Photography Club,6,B,77.1,pass
+73.28,9.72,91.03,89.42,NSS,3,A,50.0,pass
+77.13,3.31,70.39,54.57,Drama/Theatre,9,B+,100.0,pass
+64.33,4.82,54.18,97.33,Student Council,5,B+,68.37,pass
+79.54,1.96,86.21,56.18,NSS,2,B,50.0,pass
+51.53,6.11,67.82,31.42,Art & Design,10,B,100.0,pass
+51.87,2.81,35.55,51.15,Photography Club,6,C,76.68,fail
+91.13,2.07,69.61,96.14,Art & Design,8,A-,94.29,pass
+68.01,5.17,93.56,45.58,Photography Club,6,B+,74.41,pass
+56.35,0.06,57.74,89.45,Technical Club,4,B,50.66,pass
+76.11,0.08,50.74,90.5,NSS,6,B,74.01,pass
+88.5,2.19,40.04,48.01,Club Activity,8,B,97.65,pass
+60.79,0.37,40.6,26.66,Sports,8,C,99.15,fail
+81.14,1.08,60.29,77.96,Club Activity,10,B+,100.0,pass
+54.27,3.39,71.7,44.92,Art & Design,2,C,50.0,fail
+52.58,8.03,35.64,82.63,NSS,8,B+,97.03,pass
+76.57,5.72,95.77,55.41,Technical Club,6,A-,79.43,pass
+77.03,5.13,82.86,58.82,Drama/Theatre,2,B+,50.0,pass
+81.87,2.93,71.06,82.23,Drama/Theatre,1,B+,50.0,pass
+86.3,9.32,87.99,50.59,Drama/Theatre,6,A-,77.96,pass
+98.79,3.97,35.61,55.45,Entrepreneurship Cell,7,B,86.1,pass
+75.82,0.87,63.38,50.1,Technical Club,10,B,100.0,pass
+66.15,6.17,74.11,49.39,Entrepreneurship Cell,5,B+,66.28,pass
+89.76,1.14,88.01,62.08,Cultural Activity,10,B+,100.0,pass
+63.54,3.45,84.84,84.7,NSS,8,B+,95.1,pass
+71.95,5.07,49.39,48.94,Club Activity,9,B,100.0,pass
+53.92,8.74,95.86,61.94,Sports,4,A-,58.76,pass
+51.27,4.94,38.7,73.66,Art & Design,7,B,84.62,pass
+98.13,7.02,91.26,41.56,Sports,8,A-,92.79,pass
+91.8,9.93,97.97,42.2,Art & Design,6,A-,72.31,pass
+84.8,1.31,42.4,94.67,NSS,2,B,50.0,pass
+70.45,2.75,80.54,77.88,NSS,7,B+,81.71,pass
+58.66,3.95,32.82,66.17,Music/Band,9,B,100.0,pass
+57.82,4.22,58.38,71.82,Club Activity,5,B,61.87,pass
+62.51,4.11,66.14,22.34,Student Council,2,C,50.0,fail
+77.46,9.08,70.65,69.45,Art & Design,4,A-,54.74,pass
+85.73,7.14,95.52,60.76,Volunteering,3,A-,50.0,pass
+83.01,6.08,77.06,63.66,Student Council,4,B+,53.61,pass
+64.0,3.09,63.69,48.75,Drama/Theatre,10,B,100.0,pass
+97.74,8.24,86.68,26.52,Sports,7,A-,85.54,pass
+86.89,9.55,96.54,35.47,Photography Club,10,A-,100.0,pass
+77.72,8.21,31.54,96.06,Photography Club,8,A-,98.97,pass
+80.59,0.02,98.78,52.7,NSS,1,B,50.0,pass
+70.98,6.36,36.03,57.33,Volunteering,8,B,93.29,pass
+62.39,0.51,87.01,24.22,Art & Design,5,C,69.52,fail
+67.8,2.58,49.62,23.01,Cultural Activity,7,C,80.25,fail
+87.89,0.6,39.25,77.37,Art & Design,1,C,50.0,fail
+50.72,6.04,60.79,63.05,Photography Club,2,B,50.0,pass
+55.8,6.87,75.08,60.7,Sports,1,B,50.0,pass
+52.3,1.14,56.67,39.45,Art & Design,5,C,62.73,fail
+52.04,3.84,33.82,79.58,Art & Design,6,B,73.03,pass
+92.77,4.56,71.96,33.46,Technical Club,10,B+,100.0,pass
+85.18,3.69,93.17,35.19,Club Activity,9,B+,100.0,pass
+73.71,1.21,56.83,56.86,Student Council,8,B,97.27,pass
+54.89,4.19,45.14,42.9,Cultural Activity,7,C,88.95,fail
+74.58,7.51,60.98,39.8,NSS,5,B+,66.74,pass
+73.67,0.71,33.39,71.62,Art & Design,3,C,50.0,fail
+58.66,0.8,87.43,72.08,Cultural Activity,9,B+,100.0,pass
+71.69,3.55,87.84,85.96,Music/Band,5,B+,62.64,pass
+69.93,9.42,71.16,53.42,Art & Design,3,B+,50.0,pass
+80.79,6.69,54.72,25.85,Entrepreneurship Cell,3,B,50.0,pass
+81.75,6.79,85.98,41.89,Entrepreneurship Cell,3,B+,50.0,pass
+52.27,3.62,68.83,98.4,Technical Club,6,B+,71.14,pass
+68.73,5.94,87.82,67.7,Entrepreneurship Cell,1,B+,50.0,pass
+81.29,0.1,74.2,76.78,Technical Club,4,B,53.0,pass
+75.16,6.36,84.91,20.59,Volunteering,8,B+,92.82,pass
+92.82,9.13,71.9,61.46,Drama/Theatre,3,A-,50.0,pass
+82.93,6.13,58.99,23.0,Sports,5,B,68.17,pass
+58.15,8.74,97.06,65.54,Student Council,2,A-,50.0,pass
+53.53,7.24,67.88,93.66,Music/Band,2,B+,50.0,pass
+82.12,1.21,72.36,97.47,Sports,7,B+,82.45,pass
+51.33,9.02,45.43,63.24,Entrepreneurship Cell,10,B+,100.0,pass
+79.29,0.66,73.8,56.66,Sports,3,B,50.0,pass
+97.01,5.34,70.01,95.6,Volunteering,5,A-,68.8,pass
+78.77,1.42,42.94,73.89,Technical Club,3,B,50.0,pass
+69.41,0.12,34.17,25.19,Club Activity,6,C,79.47,fail
+82.16,4.22,72.31,57.26,Cultural Activity,10,B+,100.0,pass
+72.91,2.95,83.46,39.22,NSS,3,B,50.0,pass
+77.28,4.86,66.64,57.58,Club Activity,8,B+,97.07,pass
+97.07,5.77,45.87,56.44,Club Activity,2,B,50.0,pass
+69.31,0.44,76.66,66.57,Drama/Theatre,3,B,50.0,pass
+98.06,1.23,35.61,48.54,Drama/Theatre,8,B,95.54,pass
+95.27,5.59,60.93,33.14,Club Activity,8,B+,97.31,pass
+59.79,3.43,41.44,60.3,Technical Club,1,C,50.0,fail
+53.47,7.29,42.91,86.42,Sports,8,B+,90.11,pass
+55.04,6.52,44.16,73.12,Cultural Activity,10,B+,100.0,pass
+50.91,8.46,57.07,47.07,Sports,2,B,50.0,pass
+54.72,6.92,33.58,94.84,Sports,7,B+,86.64,pass
+84.15,4.3,57.85,92.98,Sports,6,B+,72.14,pass
+53.56,6.73,65.82,36.75,Cultural Activity,2,B,50.0,pass
+65.95,2.75,63.83,23.15,Cultural Activity,5,C,61.98,fail
+92.24,3.06,56.79,79.3,Volunteering,7,B+,85.48,pass
+51.16,7.89,88.74,86.21,Student Council,8,A-,91.16,pass
+90.72,4.46,40.17,97.43,Photography Club,3,B+,50.0,pass
+64.09,7.98,65.4,91.19,Photography Club,1,B+,50.0,pass
+55.91,8.22,34.34,68.04,Photography Club,7,B+,89.54,pass
+84.84,8.58,34.98,62.4,Club Activity,5,B+,61.42,pass
+81.45,9.17,70.17,22.23,Art & Design,5,B+,67.08,pass
+93.87,4.31,69.62,39.73,Volunteering,7,B+,80.68,pass
+86.75,3.19,91.46,56.77,Volunteering,1,B+,50.0,pass
+90.17,5.82,69.05,70.28,NSS,8,A-,95.09,pass
+64.1,3.71,97.19,64.58,Art & Design,10,A-,100.0,pass
+58.87,6.01,33.41,79.41,Drama/Theatre,5,B,69.52,pass
+87.53,7.06,36.86,42.38,NSS,8,B,99.45,pass
+90.34,6.88,33.08,65.2,Drama/Theatre,10,B+,100.0,pass
+99.53,3.75,42.97,27.05,Student Council,10,B,100.0,pass
+70.63,1.67,67.89,53.09,Music/Band,5,B,64.55,pass
+68.6,4.31,75.19,80.01,Drama/Theatre,7,B+,83.56,pass
+88.82,1.43,33.19,75.47,Sports,10,B,100.0,pass
+67.04,8.9,96.22,99.25,Drama/Theatre,3,A,50.0,pass
+96.54,3.46,88.95,42.23,Entrepreneurship Cell,2,B+,50.0,pass
+92.92,1.54,50.76,59.86,Art & Design,6,B,72.32,pass
+71.45,0.25,35.4,46.36,Photography Club,5,C,60.47,fail
+87.54,6.46,41.89,55.25,Photography Club,9,B+,100.0,pass
+87.73,6.37,38.89,88.56,Cultural Activity,10,A-,100.0,pass
+55.16,3.41,38.63,74.74,Art & Design,4,B,54.43,pass
+95.13,0.72,66.3,90.6,Student Council,3,B+,50.0,pass
+75.26,4.1,47.21,36.28,Photography Club,9,B,100.0,pass
+91.32,3.11,55.07,89.87,Volunteering,8,B+,90.28,pass
+66.0,6.77,99.27,24.78,Sports,6,B+,78.34,pass
+94.78,6.06,77.9,91.09,Music/Band,1,A-,50.0,pass
+69.46,3.65,96.43,46.33,Student Council,10,B+,100.0,pass
+50.54,2.18,39.98,45.17,Volunteering,1,C,50.0,fail
+95.27,9.88,56.75,60.97,Technical Club,6,A-,71.65,pass
+54.56,4.54,68.83,95.26,Art & Design,3,B+,50.0,pass
+65.97,6.88,35.37,23.82,Entrepreneurship Cell,3,C,50.0,fail
+97.5,1.41,30.29,48.18,Student Council,6,C,71.78,fail
+97.53,4.86,76.93,88.53,Art & Design,3,A-,50.0,pass
+78.67,0.28,74.93,51.68,Music/Band,10,B,100.0,pass
+81.59,5.05,58.76,35.93,Volunteering,6,B,73.99,pass
+72.42,9.64,64.28,53.98,Art & Design,5,B+,61.7,pass
+64.66,3.84,59.08,50.84,Cultural Activity,4,B,53.83,pass
+66.43,0.39,31.68,93.23,Drama/Theatre,8,B,98.72,pass
+83.63,0.31,53.48,80.95,NSS,2,B,50.0,pass
+87.62,3.88,42.4,60.41,Music/Band,7,B,89.52,pass
+89.58,1.6,36.89,99.07,NSS,4,B,59.46,pass
+89.48,0.23,96.97,57.22,Club Activity,2,B,50.0,pass
+54.56,7.56,71.96,24.66,Drama/Theatre,7,B,81.77,pass
+74.72,4.59,81.01,40.98,Music/Band,1,B,50.0,pass
+52.88,2.89,52.08,54.89,Student Council,4,C,53.93,fail
+77.48,9.0,57.52,32.55,Cultural Activity,9,B+,100.0,pass
+72.08,1.16,46.58,95.81,Student Council,4,B,52.74,pass
+94.39,9.56,36.79,81.35,Technical Club,3,A-,50.0,pass
+67.55,3.14,42.53,41.46,Club Activity,10,B,100.0,pass
+55.85,8.88,85.83,67.26,Cultural Activity,10,A-,100.0,pass
+57.15,6.03,77.43,77.72,Entrepreneurship Cell,2,B+,50.0,pass
+88.08,8.27,68.29,95.3,Photography Club,3,A-,50.0,pass
+80.91,9.84,63.26,90.53,Art & Design,1,A-,50.0,pass
+55.06,2.88,94.57,61.22,Art & Design,10,B+,100.0,pass
+54.21,9.61,35.09,81.97,Photography Club,8,B+,97.69,pass
+85.05,3.89,49.64,64.97,Sports,1,B,50.0,pass
+53.64,3.86,54.5,64.22,Art & Design,3,B,50.0,pass
+91.09,3.4,84.77,29.18,Volunteering,3,B,50.0,pass
+85.31,5.41,99.48,30.09,Club Activity,2,B+,50.0,pass
+54.07,1.54,46.85,62.36,Volunteering,5,C,67.29,fail
+54.24,5.54,91.2,41.51,Photography Club,10,B+,100.0,pass
+99.33,5.42,88.14,21.68,Drama/Theatre,3,B+,50.0,pass
+68.71,7.62,45.73,77.83,Sports,3,B+,50.0,pass
+68.53,8.34,57.95,22.6,Sports,8,B,99.22,pass
+90.64,4.4,58.68,67.62,Photography Club,4,B+,59.33,pass
+97.36,3.02,98.48,63.14,Photography Club,4,B+,52.42,pass
+99.3,2.59,42.66,97.51,Art & Design,3,B+,50.0,pass
+87.67,1.95,85.94,58.74,Cultural Activity,1,B,50.0,pass
+68.81,0.58,53.39,25.09,Drama/Theatre,8,C,99.18,fail
+54.18,3.42,81.16,64.14,Technical Club,1,B,50.0,pass
+88.86,2.7,59.4,87.29,Club Activity,7,B+,87.44,pass
+77.92,9.66,70.49,99.75,Club Activity,5,A,64.67,pass
+71.21,5.58,88.28,54.43,Music/Band,4,B+,52.28,pass
+95.32,3.47,86.29,45.62,Student Council,4,B+,51.99,pass
+55.56,5.8,90.65,92.53,Art & Design,8,A-,94.25,pass
+74.63,1.39,34.17,35.3,Music/Band,6,C,77.55,fail
+50.57,4.44,78.44,69.23,Technical Club,1,B,50.0,pass
+73.43,6.26,39.8,52.46,Sports,10,B+,100.0,pass
+52.82,4.89,59.11,23.29,Photography Club,8,C,92.82,fail
+55.94,4.02,68.4,47.78,NSS,2,B,50.0,pass
+55.88,9.94,58.19,41.22,Photography Club,6,B+,70.44,pass
+82.46,8.8,66.37,74.89,Technical Club,9,A-,100.0,pass
+87.3,6.23,99.76,95.9,Technical Club,1,A-,50.0,pass
+79.17,5.69,39.47,41.44,Cultural Activity,6,B,74.07,pass
+98.11,6.21,77.28,84.92,Cultural Activity,8,A,90.11,pass
+68.74,2.01,57.72,24.43,Cultural Activity,10,C,100.0,fail
+64.29,3.95,39.31,63.05,Cultural Activity,2,C,50.0,fail
+93.43,0.39,41.11,25.64,Student Council,5,C,66.12,fail
+61.18,4.76,96.45,94.72,Art & Design,6,A-,77.88,pass
+98.16,5.43,91.57,81.31,Entrepreneurship Cell,5,A-,62.54,pass
+50.61,2.28,93.49,72.64,Club Activity,3,B,50.0,pass
+98.49,9.64,99.41,85.91,Art & Design,4,A,56.88,pass
+52.16,9.09,44.58,71.8,Art & Design,7,B+,83.23,pass
+94.56,7.22,54.88,97.52,Club Activity,4,A-,55.45,pass
+76.39,5.33,76.85,77.12,Cultural Activity,9,A-,100.0,pass
+99.65,8.7,63.87,93.97,Art & Design,10,A,100.0,pass
+53.69,1.31,59.29,61.37,Photography Club,2,C,50.0,fail
+77.69,7.91,55.05,29.37,Student Council,5,B,64.21,pass
+98.47,1.25,71.56,62.25,Cultural Activity,8,B+,98.4,pass
+76.15,7.94,70.29,30.15,Student Council,5,B+,65.9,pass
+81.47,2.76,41.3,67.4,Music/Band,10,B,100.0,pass
+84.79,8.77,63.02,58.6,Entrepreneurship Cell,8,A-,95.81,pass
+72.73,9.44,68.74,69.81,Art & Design,8,A-,95.06,pass
+81.38,1.49,69.92,20.8,Photography Club,9,B,100.0,pass
+79.22,4.63,44.71,35.59,Entrepreneurship Cell,10,B,100.0,pass
+95.06,9.81,81.96,59.31,Volunteering,6,A-,74.17,pass
+52.27,4.83,31.76,96.04,Student Council,4,B,50.73,pass
+64.05,8.64,54.84,50.69,Music/Band,3,B,50.0,pass
+97.52,5.89,84.61,53.95,Drama/Theatre,5,A-,64.16,pass
+94.51,3.75,69.47,77.18,Drama/Theatre,6,B+,73.05,pass
+72.78,2.86,48.28,68.3,Music/Band,3,B,50.0,pass
+81.01,2.03,78.65,43.91,Sports,2,B,50.0,pass
+63.87,7.62,69.72,52.87,Sports,7,B+,87.58,pass
+59.41,3.87,85.74,37.42,Cultural Activity,5,B,65.3,pass
+73.18,5.11,81.45,97.28,Sports,9,A-,100.0,pass
+67.67,4.92,72.71,30.45,Drama/Theatre,3,B,50.0,pass
+79.18,5.77,64.17,49.75,Photography Club,8,B+,99.42,pass
+53.89,8.66,39.32,22.07,Sports,6,C,75.3,fail
+98.72,9.81,48.29,37.74,Volunteering,4,B+,58.31,pass
+99.31,4.08,59.34,82.44,Drama/Theatre,9,A-,100.0,pass
+84.91,8.28,71.95,36.09,Student Council,5,B+,61.0,pass
+76.8,7.65,65.96,26.41,Technical Club,10,B+,100.0,pass
+65.48,5.74,50.17,57.96,Sports,6,B,70.08,pass
+90.69,9.56,30.45,20.8,Sports,9,B,100.0,pass
+84.24,2.0,64.74,26.78,Art & Design,7,B,81.93,pass
+58.13,1.09,49.99,84.61,Club Activity,5,B,66.27,pass
+95.55,8.54,81.42,81.72,Volunteering,2,A-,50.0,pass
+91.13,4.39,31.68,93.21,Drama/Theatre,4,B+,54.64,pass
+97.49,8.47,70.94,88.36,Drama/Theatre,2,A-,50.0,pass
+86.29,8.93,95.9,74.65,Entrepreneurship Cell,3,A,50.0,pass
+80.67,0.62,42.21,24.19,NSS,10,C,100.0,fail
+70.91,8.83,63.02,82.63,Club Activity,3,A-,50.0,pass
+96.64,4.48,36.4,87.64,Sports,4,B+,58.9,pass
+93.3,5.1,73.8,83.93,Music/Band,6,A-,77.86,pass
+52.26,6.27,68.54,60.68,Art & Design,3,B,50.0,pass
+51.32,9.26,58.52,38.63,Entrepreneurship Cell,10,B+,100.0,pass
+68.82,0.19,66.5,87.63,Photography Club,1,B,50.0,pass
+90.53,4.77,92.76,78.17,Entrepreneurship Cell,1,A-,50.0,pass
+99.36,6.88,43.74,98.46,Student Council,9,A-,100.0,pass
+57.52,7.23,31.58,32.46,Art & Design,9,B,100.0,pass
+79.71,6.93,90.32,38.05,Sports,5,B+,68.96,pass
+69.04,1.34,70.4,36.94,NSS,9,B,100.0,pass
+98.5,2.99,92.35,83.4,Technical Club,7,A-,80.18,pass
+92.11,3.59,71.79,34.95,Photography Club,9,B+,100.0,pass
+91.92,8.04,86.71,25.33,Drama/Theatre,7,B+,81.74,pass
+73.43,2.79,60.08,99.88,Student Council,9,B+,100.0,pass
+70.74,2.11,82.49,21.99,Club Activity,2,C,50.0,fail
+63.67,9.57,93.91,86.82,Photography Club,8,A,94.0,pass
+52.82,0.09,70.05,49.23,Sports,7,C,89.86,fail
+93.24,9.98,42.65,87.33,Entrepreneurship Cell,6,A-,71.01,pass
+90.65,6.77,48.82,64.37,Volunteering,5,B+,64.24,pass
+99.99,8.28,43.91,92.13,Music/Band,4,A-,53.07,pass
+99.83,2.95,47.28,94.1,Art & Design,7,B+,89.05,pass
+77.77,0.14,51.45,20.73,NSS,3,C,50.0,fail
+88.45,7.38,68.86,26.03,Photography Club,8,B+,92.38,pass
+97.24,8.34,71.16,40.03,Technical Club,2,B+,50.0,pass
+92.48,7.4,59.85,73.55,Cultural Activity,1,B+,50.0,pass
+62.37,1.43,73.08,91.06,Entrepreneurship Cell,2,B,50.0,pass
+72.53,7.53,35.71,56.8,Music/Band,9,B+,100.0,pass
+56.46,7.69,36.15,68.56,Sports,5,B,60.32,pass
+97.7,6.59,42.03,35.08,Technical Club,8,B,91.33,pass
+80.31,7.66,66.27,84.4,Entrepreneurship Cell,3,A-,50.0,pass
+61.43,8.46,44.98,97.39,Music/Band,7,A-,82.12,pass
+83.59,6.14,49.83,41.49,Music/Band,2,B,50.0,pass
+80.91,0.89,58.02,59.59,Drama/Theatre,8,B,90.59,pass
+67.91,4.88,86.83,26.89,Music/Band,7,B,82.15,pass
+55.68,0.78,30.97,64.73,Volunteering,5,C,69.99,fail
+83.58,4.08,75.46,60.22,Technical Club,4,B+,54.33,pass
+76.02,4.07,76.82,31.55,Sports,1,B,50.0,pass
+88.62,0.66,85.91,55.37,Sports,5,B,61.83,pass
+76.01,3.49,95.29,46.73,Volunteering,9,B+,100.0,pass
+92.61,1.11,31.41,61.75,Club Activity,10,B,100.0,pass
+77.6,8.08,40.76,66.85,Photography Club,4,B+,53.14,pass
+78.05,9.48,92.03,20.68,Technical Club,9,A-,100.0,pass
+93.83,0.72,62.1,80.88,Music/Band,2,B,50.0,pass
+70.17,9.55,69.52,77.04,Photography Club,4,A-,53.89,pass
+56.7,5.23,76.41,49.3,NSS,9,B+,100.0,pass
+51.44,3.0,77.53,24.23,Student Council,4,C,55.77,fail
+87.76,0.77,95.22,80.39,Technical Club,5,B+,61.66,pass
+81.02,5.01,99.79,96.41,Cultural Activity,8,A,94.03,pass
+85.2,7.95,80.41,39.21,NSS,1,B+,50.0,pass
+60.65,7.07,50.11,45.88,Volunteering,1,B,50.0,pass
+56.82,0.5,91.58,34.71,Music/Band,9,B,100.0,pass
+50.73,0.73,33.45,66.15,Club Activity,9,C,100.0,fail
+67.53,4.03,46.18,32.39,Cultural Activity,4,C,59.4,fail
+79.5,2.95,92.82,48.5,Club Activity,2,B,50.0,pass
+69.61,2.32,47.93,75.76,Club Activity,9,B,100.0,pass
+71.87,2.81,45.45,64.81,Art & Design,4,B,57.87,pass
+95.21,8.03,39.67,50.92,Entrepreneurship Cell,6,B+,75.46,pass
+67.41,9.29,90.14,53.62,Entrepreneurship Cell,1,B+,50.0,pass
+75.7,4.05,65.0,64.97,Drama/Theatre,9,B+,100.0,pass
+89.18,9.06,77.24,20.47,Cultural Activity,5,B+,63.99,pass
+69.83,3.21,46.73,26.28,Student Council,3,C,50.0,fail
+81.1,4.76,83.06,90.5,Drama/Theatre,4,A-,59.99,pass
+93.12,2.26,83.2,26.23,Cultural Activity,1,B,50.0,pass
+97.48,6.4,51.88,76.54,Club Activity,9,A-,100.0,pass
+57.35,9.79,58.75,93.6,Drama/Theatre,8,A-,96.76,pass
+96.33,6.03,44.68,41.65,Cultural Activity,4,B,53.41,pass
+74.61,3.58,98.36,49.64,Student Council,2,B+,50.0,pass
+62.91,6.48,75.19,65.51,Photography Club,9,B+,100.0,pass
+72.96,1.23,95.42,90.54,NSS,4,B+,58.83,pass
+99.0,8.89,51.24,95.35,Photography Club,9,A,100.0,pass
+74.63,5.03,84.73,79.17,Technical Club,10,A-,100.0,pass
+66.44,4.49,83.61,26.93,Photography Club,3,B,50.0,pass
+81.67,5.86,78.42,73.53,Photography Club,7,A-,80.42,pass
+62.01,6.25,97.59,52.82,Music/Band,7,B+,85.98,pass
+53.79,0.72,57.55,57.66,Photography Club,10,B,100.0,pass
+56.44,6.83,39.15,23.93,Cultural Activity,4,C,53.82,fail
+56.4,2.42,77.02,35.28,Student Council,2,C,50.0,fail
+57.6,7.14,81.05,83.24,Technical Club,9,A-,100.0,pass
+56.94,8.23,70.25,56.32,Drama/Theatre,4,B+,53.76,pass
+82.04,8.04,44.48,44.13,Cultural Activity,8,B+,91.41,pass
+59.09,5.53,65.31,50.72,Cultural Activity,2,B,50.0,pass
+67.28,5.2,51.85,88.35,Volunteering,8,B+,98.55,pass
+94.84,1.43,59.92,79.92,Cultural Activity,10,B+,100.0,pass
+73.7,7.75,75.17,41.79,Music/Band,5,B+,60.18,pass
+83.38,2.71,82.17,29.4,Entrepreneurship Cell,7,B,82.16,pass
+58.62,4.97,46.26,40.16,Volunteering,7,B,80.69,pass
+59.61,2.84,58.37,93.66,Technical Club,9,B+,100.0,pass
+52.04,1.34,48.84,66.53,Drama/Theatre,3,C,50.0,fail
+58.45,6.3,43.9,62.68,Entrepreneurship Cell,10,B+,100.0,pass
+63.93,0.54,84.84,67.71,Drama/Theatre,4,B,58.38,pass
+58.85,7.49,93.65,49.28,Sports,10,A-,100.0,pass
+54.44,3.18,55.92,84.57,Sports,4,B,56.9,pass
+56.03,0.0,82.59,61.86,Technical Club,10,B,100.0,pass
+73.04,5.11,92.79,29.34,Art & Design,5,B+,60.84,pass
+60.32,0.47,89.23,30.33,Student Council,6,C,79.01,fail
+68.21,2.76,42.8,62.95,Art & Design,3,C,50.0,fail
+75.17,7.07,96.94,94.93,Student Council,4,A,53.93,pass
+84.52,0.63,56.37,44.67,Volunteering,3,C,50.0,fail
+51.97,8.39,53.75,89.56,Technical Club,2,B+,50.0,pass
+89.97,0.04,34.37,81.13,Student Council,10,B,100.0,pass
+81.4,2.47,64.03,39.82,Sports,9,B,100.0,pass
+54.09,7.41,37.63,22.91,Sports,1,C,50.0,fail
+93.68,3.16,47.4,28.15,Club Activity,2,C,50.0,fail
+96.04,1.02,52.19,78.28,Student Council,8,B+,91.22,pass
+53.05,3.6,86.62,35.97,Photography Club,7,B,88.1,pass
+63.84,2.7,91.28,49.7,Technical Club,1,B,50.0,pass
+90.31,8.43,51.17,60.14,Entrepreneurship Cell,5,B+,64.51,pass
+87.41,3.13,90.11,78.04,NSS,10,A-,100.0,pass
+59.23,7.89,90.01,29.06,Volunteering,6,B+,75.09,pass
+60.47,8.92,83.53,52.51,Cultural Activity,5,B+,69.45,pass
+68.52,4.34,40.27,58.81,Photography Club,4,B,55.48,pass
+74.23,9.1,78.32,63.27,Cultural Activity,1,B+,50.0,pass
+80.91,3.77,96.15,85.47,Student Council,7,A-,81.8,pass
+68.45,9.64,77.78,33.73,Entrepreneurship Cell,9,B+,100.0,pass
+73.13,0.89,53.21,84.63,Photography Club,6,B,78.12,pass
+87.37,6.87,65.04,75.43,Art & Design,3,B+,50.0,pass
+51.83,4.94,75.2,64.47,Volunteering,10,B+,100.0,pass
+62.62,3.88,65.74,75.96,Photography Club,4,B,55.65,pass
+85.67,6.33,38.4,52.96,Drama/Theatre,10,B+,100.0,pass
+94.76,7.04,51.84,31.07,Entrepreneurship Cell,5,B,68.22,pass
+75.58,0.04,86.17,73.26,Music/Band,1,B,50.0,pass
+76.61,1.67,90.3,61.97,Cultural Activity,5,B+,68.49,pass
+55.36,7.13,39.61,71.15,Sports,1,B,50.0,pass
+72.37,6.66,96.67,47.04,Volunteering,9,A-,100.0,pass
+76.63,9.66,53.02,92.55,Photography Club,7,A-,88.7,pass
+62.12,7.61,76.36,66.99,Art & Design,3,B+,50.0,pass
+63.46,9.51,82.63,26.83,Technical Club,9,B+,100.0,pass
+68.86,7.03,86.84,55.98,Entrepreneurship Cell,2,B+,50.0,pass
+51.0,2.98,96.2,80.51,Art & Design,7,B+,80.04,pass
+66.1,1.05,51.9,83.53,Volunteering,9,B,100.0,pass
+60.57,7.82,90.1,59.57,Drama/Theatre,6,A-,71.0,pass
+66.37,6.44,39.22,91.58,Cultural Activity,10,B+,100.0,pass
+55.99,0.48,79.35,41.41,Entrepreneurship Cell,5,C,62.76,fail
+94.53,3.6,81.94,52.85,Sports,7,B+,84.44,pass
+79.68,9.57,77.44,91.89,NSS,6,A,70.87,pass
+83.96,5.0,47.66,91.7,Technical Club,5,B+,62.87,pass
+89.46,4.33,91.11,74.86,Entrepreneurship Cell,2,A-,50.0,pass
+74.92,4.58,41.82,88.72,Sports,8,B+,91.52,pass
+54.35,2.09,33.75,27.1,Drama/Theatre,7,C,86.47,fail
+76.86,3.69,80.22,89.2,Music/Band,6,A-,79.17,pass
+79.34,3.7,63.28,45.65,Drama/Theatre,5,B,66.8,pass
+87.27,0.52,89.44,34.27,Drama/Theatre,5,B,68.11,pass
+71.58,7.68,56.84,39.15,Photography Club,9,B+,100.0,pass
+56.38,4.17,41.78,53.44,Cultural Activity,1,C,50.0,fail
+64.19,8.22,88.55,40.1,Volunteering,9,A-,100.0,pass
+68.15,8.5,68.42,45.65,Entrepreneurship Cell,6,B+,77.15,pass
+82.3,2.12,43.24,30.8,Volunteering,4,C,56.4,fail
+78.54,6.57,80.43,43.69,Entrepreneurship Cell,10,B+,100.0,pass
+67.8,4.72,65.78,65.78,Sports,7,B+,84.14,pass
+99.33,8.8,72.3,55.35,Music/Band,9,A-,100.0,pass
+80.29,2.16,62.26,47.74,Photography Club,5,B,67.84,pass
+61.86,6.78,88.01,79.72,Music/Band,5,A-,66.79,pass
+55.09,6.08,88.07,91.48,Art & Design,8,A-,94.73,pass
+57.64,2.95,79.66,80.54,Photography Club,7,B+,89.0,pass
+62.3,1.37,37.38,46.56,NSS,8,C,93.36,fail
+58.03,6.52,88.72,79.56,Drama/Theatre,10,A-,100.0,pass
+59.33,7.39,76.97,32.16,NSS,2,B,50.0,pass
+64.25,3.16,78.79,30.43,Club Activity,9,B,100.0,pass
+58.67,6.45,55.41,47.65,Student Council,3,B,50.0,pass
+94.84,3.95,91.55,84.62,Drama/Theatre,6,A-,71.31,pass
+54.01,7.13,80.78,39.71,NSS,6,B+,72.15,pass
+76.23,1.99,37.88,25.06,Cultural Activity,2,C,50.0,fail
+70.52,8.9,58.54,30.54,Student Council,7,B+,83.85,pass
+99.12,2.87,92.05,88.7,Music/Band,9,A-,100.0,pass
+55.6,3.68,33.3,70.7,Drama/Theatre,10,B,100.0,pass
+69.89,0.58,97.3,40.26,Drama/Theatre,1,B,50.0,pass
+98.47,1.12,77.54,64.42,Music/Band,8,B+,93.78,pass
+93.28,5.16,74.2,62.21,Art & Design,2,B+,50.0,pass
+90.85,2.68,48.94,72.43,Cultural Activity,1,B,50.0,pass
+62.9,8.35,47.42,38.66,Drama/Theatre,8,B,91.67,pass
+58.54,0.15,95.94,89.15,NSS,2,B+,50.0,pass
+83.43,3.79,50.88,44.75,Drama/Theatre,6,B,73.86,pass
+96.47,3.37,84.29,75.53,Student Council,6,A-,79.04,pass
+77.84,0.19,57.52,21.29,Drama/Theatre,5,C,62.39,fail
+78.58,1.24,39.75,49.81,NSS,8,C,92.07,fail
+64.0,4.14,30.75,48.14,Technical Club,3,C,50.0,fail
+88.47,4.93,68.1,63.48,Student Council,10,A-,100.0,pass
+59.35,4.04,98.3,25.82,Entrepreneurship Cell,4,B,57.86,pass
+66.18,5.31,55.84,83.21,Sports,7,B+,83.21,pass
+71.27,5.95,55.0,37.42,Sports,7,B,80.37,pass
+75.38,0.1,54.09,74.16,Student Council,8,B,99.18,pass
+62.12,4.64,66.44,84.26,Entrepreneurship Cell,2,B+,50.0,pass
+55.74,9.63,60.85,64.95,Cultural Activity,2,B+,50.0,pass
+80.53,5.19,91.59,79.27,Technical Club,4,A-,52.74,pass
+64.43,6.78,65.39,72.95,Student Council,10,A-,100.0,pass
+79.06,3.12,65.54,48.44,NSS,9,B,100.0,pass
+57.72,7.74,39.69,84.71,Photography Club,10,B+,100.0,pass
+74.06,7.73,98.79,43.58,Club Activity,9,A-,100.0,pass
+76.63,5.21,47.5,65.7,Photography Club,4,B,57.61,pass
+52.59,9.76,35.14,79.63,Volunteering,9,B+,100.0,pass
+66.83,1.26,76.42,50.32,Drama/Theatre,3,B,50.0,pass
+56.72,0.17,71.68,44.22,Entrepreneurship Cell,5,C,64.18,fail
+53.17,7.7,59.06,56.75,Art & Design,10,B+,100.0,pass
+99.5,8.07,59.55,85.44,Technical Club,9,A,100.0,pass
+66.12,1.2,84.95,94.39,NSS,6,B+,77.16,pass
+90.49,2.66,43.7,63.61,Art & Design,3,B,50.0,pass
+62.73,0.18,87.42,72.92,Sports,10,B+,100.0,pass
+84.08,2.93,75.41,92.26,Student Council,9,A-,100.0,pass
+88.01,7.73,59.33,27.88,Technical Club,6,B+,76.14,pass
+79.78,5.18,62.06,38.57,Photography Club,4,B,56.24,pass
+73.58,3.48,47.97,76.71,Music/Band,4,B,54.82,pass
+70.59,3.72,82.65,85.9,Drama/Theatre,8,A-,94.01,pass
+67.44,0.01,65.9,88.56,Volunteering,7,B,89.86,pass
+96.48,3.0,52.46,53.21,Entrepreneurship Cell,1,B,50.0,pass
+91.53,6.46,71.72,27.15,Photography Club,6,B+,74.35,pass
+98.25,9.74,99.7,55.02,Sports,8,A,97.27,pass
+56.21,8.47,60.47,38.46,Student Council,3,B,50.0,pass
+86.54,0.24,94.45,43.3,Drama/Theatre,9,B+,100.0,pass
+96.92,8.99,54.15,81.78,Sports,10,A,100.0,pass
+59.06,7.83,33.83,26.04,Music/Band,2,C,50.0,fail
+53.32,7.8,44.3,86.21,Art & Design,6,B+,70.17,pass
+87.06,4.58,59.31,54.21,Photography Club,1,B,50.0,pass
+78.72,3.98,45.37,67.69,Volunteering,2,B,50.0,pass
+92.09,3.03,30.02,27.17,Volunteering,5,C,65.8,fail
+56.99,0.66,94.05,46.99,Drama/Theatre,1,C,50.0,fail
+89.76,2.28,89.07,27.18,NSS,8,B,91.75,pass
+60.08,2.47,81.96,96.92,Drama/Theatre,1,B+,50.0,pass
+58.18,4.84,41.75,84.58,Sports,9,B+,100.0,pass
+58.21,7.47,38.43,56.77,Entrepreneurship Cell,10,B+,100.0,pass
+90.73,4.74,34.73,37.89,NSS,3,C,50.0,fail
+83.26,0.58,80.68,94.68,Volunteering,2,B+,50.0,pass
+76.15,9.58,95.02,47.57,Club Activity,1,A-,50.0,pass
+67.94,9.43,60.14,32.88,Volunteering,9,B+,100.0,pass
+93.86,7.85,38.34,65.05,Drama/Theatre,4,B+,59.99,pass
+69.62,9.91,65.87,95.5,Sports,1,A-,50.0,pass
+90.83,5.44,54.42,20.31,NSS,1,C,50.0,fail
+71.96,9.63,56.24,39.05,Student Council,7,B+,87.82,pass
+68.85,0.76,73.49,95.08,NSS,2,B,50.0,pass
+73.13,3.66,80.31,33.69,Music/Band,7,B,85.74,pass
+65.07,2.25,37.74,29.06,Cultural Activity,7,C,88.33,fail
+87.38,1.96,32.49,65.61,Photography Club,10,B,100.0,pass
+75.14,1.41,99.6,88.95,Cultural Activity,9,A-,100.0,pass
+61.61,6.22,46.29,58.17,Technical Club,7,B,83.37,pass
+94.98,7.81,33.77,99.57,Art & Design,1,B+,50.0,pass
+69.19,5.78,43.29,74.33,Technical Club,8,B+,92.33,pass
+77.18,1.47,32.73,25.93,Entrepreneurship Cell,8,C,99.05,fail
+95.32,8.11,57.43,99.43,Entrepreneurship Cell,4,A-,50.37,pass
+81.21,6.36,86.17,52.63,Technical Club,8,A-,92.2,pass
+55.84,3.88,53.89,42.99,NSS,4,C,53.1,fail
+96.99,6.74,61.09,64.63,Sports,8,A-,96.17,pass
+81.39,2.6,77.29,44.34,Photography Club,5,B,65.34,pass
+66.75,3.45,65.62,26.92,Technical Club,4,C,52.18,fail
+56.96,9.17,90.3,20.11,Drama/Theatre,6,B+,71.64,pass
+89.7,2.91,90.62,55.97,NSS,2,B+,50.0,pass
+81.0,4.7,30.69,86.95,Sports,2,B,50.0,pass
+76.67,8.9,84.46,65.79,Cultural Activity,2,A-,50.0,pass
+94.69,7.08,62.25,99.94,Club Activity,9,A,100.0,pass
+89.43,0.62,99.22,42.95,Entrepreneurship Cell,10,B+,100.0,pass
+57.58,1.47,63.83,42.44,Drama/Theatre,3,C,50.0,fail
+65.59,0.08,99.08,32.78,Student Council,10,B,100.0,pass
+62.42,6.31,82.82,33.13,Art & Design,4,B,53.29,pass
+87.2,4.48,47.4,42.81,Student Council,10,B,100.0,pass
+51.68,1.34,67.69,83.43,Sports,8,B,92.8,pass
+78.49,9.58,99.45,92.46,Photography Club,4,A,55.71,pass
+88.12,5.3,90.03,98.01,Music/Band,10,A,100.0,pass
+93.84,2.42,36.82,38.58,Sports,10,B,100.0,pass
+67.1,5.01,79.45,90.5,Club Activity,7,A-,82.61,pass
+91.06,6.8,54.19,46.26,Cultural Activity,5,B+,63.35,pass
+55.53,0.76,30.49,29.03,Volunteering,9,C,100.0,fail
+92.32,2.75,58.24,89.6,Sports,4,B+,59.27,pass
+56.37,8.07,46.43,70.89,Cultural Activity,3,B,50.0,pass
+69.86,4.6,87.32,33.18,Photography Club,2,B,50.0,pass
+89.86,5.47,53.61,54.39,Student Council,1,B,50.0,pass
+57.5,4.33,87.93,42.98,Sports,6,B,74.96,pass
+61.46,0.44,30.04,78.94,Sports,10,B,100.0,pass
+86.11,1.66,51.55,56.27,Technical Club,2,C,50.0,fail
+86.0,4.46,46.88,99.14,Student Council,8,A-,91.48,pass
+82.06,2.09,46.35,24.38,Art & Design,6,C,76.36,fail
+84.7,0.5,34.77,48.4,Art & Design,5,C,69.49,fail
+77.14,8.44,43.1,58.55,Drama/Theatre,2,B,50.0,pass
+62.59,9.81,68.89,60.25,Music/Band,7,A-,83.75,pass
+67.28,7.93,50.4,45.27,Entrepreneurship Cell,2,B,50.0,pass
+59.08,8.54,59.22,78.34,Volunteering,5,B+,68.56,pass
+95.42,2.42,56.38,89.98,Sports,2,B+,50.0,pass
+79.17,9.61,91.31,95.1,Sports,10,A+,100.0,pass
+70.04,1.97,93.37,84.41,Drama/Theatre,2,B+,50.0,pass
+73.1,9.51,64.51,88.05,Music/Band,7,A-,82.06,pass
+97.36,9.95,53.11,64.04,Student Council,9,A-,100.0,pass
+57.67,7.12,37.48,86.07,Sports,5,B+,60.76,pass
+79.31,9.81,96.74,44.28,Cultural Activity,7,A-,86.95,pass
+75.29,5.7,34.22,51.88,NSS,4,B,52.53,pass
+80.57,2.6,50.84,45.35,Entrepreneurship Cell,2,C,50.0,fail
+50.91,4.37,50.86,57.39,Music/Band,3,C,50.0,fail
+93.61,5.94,52.43,42.85,Sports,2,B,50.0,pass
+96.61,0.73,41.5,96.93,Music/Band,5,B+,64.93,pass
+78.26,6.22,84.82,45.03,Art & Design,6,B+,75.72,pass
+84.83,9.81,38.57,27.84,Photography Club,7,B+,85.69,pass
+96.12,1.9,74.44,62.15,Volunteering,3,B+,50.0,pass
+85.36,7.93,38.67,24.57,Sports,4,B,51.93,pass
+57.63,9.08,34.94,28.84,Volunteering,8,B,97.45,pass
+78.81,9.44,93.66,37.55,Club Activity,4,A-,51.27,pass
+80.34,9.6,43.31,57.15,Photography Club,7,B+,81.04,pass
+71.21,5.21,87.49,54.66,NSS,6,B+,77.1,pass
+86.82,9.77,68.12,83.98,Drama/Theatre,7,A,82.09,pass
+96.72,7.57,35.45,79.16,Volunteering,1,B+,50.0,pass
+96.28,1.62,96.88,54.11,Sports,3,B+,50.0,pass
+72.54,4.77,47.29,46.7,Technical Club,6,B,74.49,pass
+55.66,7.18,90.18,45.32,Drama/Theatre,3,B+,50.0,pass
+99.24,2.47,41.82,81.92,Entrepreneurship Cell,7,B+,86.23,pass
+91.94,6.41,89.78,24.17,Drama/Theatre,9,B+,100.0,pass
+56.23,6.67,30.93,21.03,Student Council,3,C,50.0,fail
+96.04,1.63,65.82,83.64,Volunteering,1,B+,50.0,pass
+93.49,5.65,83.86,58.17,Technical Club,10,A-,100.0,pass
+75.94,7.72,95.44,30.47,Volunteering,6,B+,74.38,pass
+79.56,4.99,93.64,38.85,Student Council,1,B+,50.0,pass
+69.95,0.12,87.37,94.6,Photography Club,1,B+,50.0,pass
+52.74,0.09,92.17,88.76,Photography Club,8,B+,98.14,pass
+66.76,3.57,43.95,76.78,Entrepreneurship Cell,9,B,100.0,pass
+90.14,9.26,49.89,58.58,NSS,2,B+,50.0,pass
+50.23,2.29,50.23,61.63,Sports,9,B,100.0,pass
+66.67,6.34,56.39,98.02,Art & Design,5,B+,62.44,pass
+69.91,2.22,57.53,97.26,Photography Club,8,B+,91.14,pass
+76.87,3.22,68.12,37.22,Art & Design,7,B,85.33,pass
+95.99,8.48,41.19,84.89,Volunteering,7,A-,88.58,pass
+67.32,7.29,78.39,35.78,Entrepreneurship Cell,4,B+,57.37,pass
+67.35,0.95,41.73,37.08,Student Council,2,C,50.0,fail
+86.88,4.29,51.72,74.09,Music/Band,5,B+,63.99,pass
+72.61,0.29,65.23,52.4,Sports,3,C,50.0,fail
+61.23,4.81,85.75,94.52,Volunteering,9,A-,100.0,pass
+72.62,6.62,81.76,27.12,Music/Band,6,B+,78.39,pass
+57.04,1.19,75.19,60.92,Sports,1,C,50.0,fail
+58.82,2.89,40.9,93.48,Music/Band,3,B,50.0,pass
+74.92,3.98,68.29,92.33,Drama/Theatre,4,B+,56.94,pass
+70.95,9.2,36.12,32.52,Volunteering,9,B,100.0,pass
+95.74,9.93,56.42,49.33,Entrepreneurship Cell,6,A-,75.65,pass
+68.12,0.45,58.95,69.53,Entrepreneurship Cell,4,B,52.49,pass
+79.03,7.61,32.79,32.75,Student Council,1,C,50.0,fail
+81.61,3.72,49.18,97.44,Sports,8,B+,96.34,pass
+50.65,3.92,96.9,93.18,Art & Design,2,B+,50.0,pass
+83.18,7.54,96.75,33.36,Volunteering,8,A-,90.52,pass
+58.9,9.18,54.66,29.69,Sports,6,B,70.1,pass
+98.05,9.51,33.02,26.83,Sports,8,B+,90.22,pass
+57.43,5.77,42.54,92.76,Entrepreneurship Cell,6,B+,70.08,pass
+70.73,3.57,57.46,35.49,Music/Band,5,C,61.1,fail
+54.27,7.88,96.34,53.3,Photography Club,5,B+,62.39,pass
+99.84,2.51,39.88,55.91,Music/Band,10,B,100.0,pass
+75.11,5.64,83.45,67.92,Technical Club,10,A-,100.0,pass
+79.77,3.59,37.61,25.74,Volunteering,8,C,93.06,fail
+53.35,6.57,98.69,38.14,Club Activity,7,B+,81.27,pass
+87.5,2.4,56.71,94.52,Cultural Activity,8,B+,95.46,pass
+60.5,1.92,84.27,92.67,Club Activity,8,B+,98.58,pass
+94.9,9.18,53.98,82.5,Sports,7,A-,86.78,pass
+60.26,1.02,73.94,21.55,Technical Club,2,C,50.0,fail
+59.53,5.06,43.44,46.16,Entrepreneurship Cell,9,B,100.0,pass
+51.83,2.21,40.22,70.24,Sports,7,C,87.15,fail
+73.6,0.39,95.66,42.02,Club Activity,6,B,77.28,pass
+78.24,0.36,94.24,92.77,Photography Club,9,A-,100.0,pass
+53.29,1.75,92.12,70.71,Sports,1,B,50.0,pass
+88.78,8.67,73.78,25.75,Music/Band,2,B+,50.0,pass
+72.66,2.82,86.58,92.72,Volunteering,1,B+,50.0,pass
+76.22,9.5,34.83,96.62,Photography Club,10,A-,100.0,pass
+72.04,5.82,53.44,26.22,Art & Design,3,C,50.0,fail
+70.04,4.37,51.96,62.59,Club Activity,5,B,68.18,pass
+77.98,5.8,74.5,44.27,Cultural Activity,1,B,50.0,pass
+57.76,5.17,54.92,51.43,Cultural Activity,4,B,59.92,pass
+59.1,7.59,40.4,34.37,Music/Band,8,B,91.83,pass
+93.09,2.82,71.75,66.25,Volunteering,6,B+,74.7,pass
+97.31,3.53,87.01,96.64,NSS,1,A-,50.0,pass
+68.67,8.94,56.75,60.25,NSS,1,B+,50.0,pass
+63.54,9.46,39.26,26.63,Student Council,3,B,50.0,pass
+82.2,8.93,43.77,69.6,Student Council,10,A-,100.0,pass
+70.44,4.19,46.62,47.22,Club Activity,8,B,93.95,pass
+51.27,7.8,50.99,88.47,Music/Band,8,B+,91.77,pass
+57.81,4.76,75.0,54.77,Music/Band,3,B,50.0,pass
+85.8,4.98,72.07,35.43,Sports,7,B+,83.73,pass
+82.95,2.05,78.73,35.29,Cultural Activity,3,B,50.0,pass
+51.35,5.91,55.38,81.5,Cultural Activity,4,B+,59.95,pass
+61.1,1.86,87.68,41.25,Photography Club,9,B,100.0,pass
+61.55,3.32,44.29,81.38,Cultural Activity,4,B,57.26,pass
+83.59,8.55,62.83,36.47,Technical Club,3,B+,50.0,pass
+50.99,2.07,86.07,45.73,Volunteering,5,B,60.3,pass
+55.21,0.71,42.61,57.24,Drama/Theatre,7,C,81.05,fail
+90.0,0.69,37.69,95.46,Entrepreneurship Cell,5,B,69.65,pass
+58.93,9.41,91.86,94.54,Entrepreneurship Cell,4,A,59.41,pass
+82.64,5.07,54.01,36.55,Entrepreneurship Cell,8,B,91.94,pass
+61.91,4.09,77.87,48.66,Sports,4,B,51.62,pass
+54.97,8.11,31.77,31.95,NSS,2,C,50.0,fail
+62.16,8.36,78.3,60.8,Music/Band,10,A-,100.0,pass
+86.11,3.32,52.13,56.85,NSS,6,B,75.7,pass
+92.78,6.94,33.9,92.06,Technical Club,2,B+,50.0,pass
+91.51,7.71,72.69,94.4,NSS,3,A-,50.0,pass
+69.86,6.55,46.86,50.69,Cultural Activity,1,B,50.0,pass
+83.4,1.52,57.08,59.34,Art & Design,5,B,69.22,pass
+60.25,8.76,35.64,91.7,Sports,9,A-,100.0,pass
+64.66,5.39,40.3,84.54,Art & Design,2,B,50.0,pass
+94.82,2.82,50.86,20.29,Student Council,7,C,87.9,fail
+50.65,4.25,36.28,45.6,Art & Design,5,C,68.18,fail
+54.28,0.38,93.76,53.74,Drama/Theatre,2,B,50.0,pass
+60.39,1.28,30.42,38.38,Photography Club,8,C,93.4,fail
+51.33,7.66,63.87,35.97,Music/Band,6,B,79.36,pass
+59.07,0.0,38.63,23.02,Technical Club,4,C,51.65,fail
+79.15,4.17,51.54,71.47,Entrepreneurship Cell,4,B,50.42,pass
+71.07,5.23,94.82,41.0,Music/Band,2,B+,50.0,pass
+94.63,0.55,41.32,24.19,Drama/Theatre,3,C,50.0,fail
+90.87,9.73,97.61,38.48,Music/Band,7,A-,87.72,pass
+67.09,2.26,44.41,84.15,Art & Design,3,B,50.0,pass
+62.97,3.04,81.91,88.12,Volunteering,5,B+,65.33,pass
+68.98,3.04,68.27,58.65,Music/Band,10,B+,100.0,pass
+79.51,2.3,91.91,53.29,Student Council,6,B+,75.89,pass
+63.4,0.01,68.78,98.23,Sports,6,B+,77.78,pass
+81.21,7.29,67.42,36.05,Sports,4,B+,50.93,pass
+70.47,9.67,43.68,37.23,NSS,6,B,71.73,pass
+77.6,2.24,41.64,43.35,Club Activity,3,C,50.0,fail
+71.81,6.63,94.15,33.82,Art & Design,7,B+,85.94,pass
+64.72,7.42,52.95,50.35,Cultural Activity,7,B+,88.87,pass
+97.42,8.48,56.05,92.87,Drama/Theatre,4,A-,56.71,pass
+88.18,4.23,83.19,69.23,Technical Club,2,B+,50.0,pass
+57.01,3.03,53.72,52.96,Photography Club,7,B,80.63,pass
+93.42,3.25,96.64,94.75,Art & Design,3,A-,50.0,pass
+74.37,7.13,81.65,23.88,Entrepreneurship Cell,1,B,50.0,pass
+94.73,8.17,71.82,36.82,Sports,2,B+,50.0,pass
+89.99,1.82,91.66,65.27,NSS,10,A-,100.0,pass
+71.26,3.71,33.47,69.24,Photography Club,9,B,100.0,pass
+51.12,9.02,47.99,23.16,Entrepreneurship Cell,8,B,98.89,pass
+63.43,8.07,62.55,52.24,Photography Club,6,B+,78.81,pass
+77.08,9.85,45.89,71.93,Music/Band,6,A-,77.58,pass
+81.67,7.54,82.07,75.85,Cultural Activity,1,A-,50.0,pass
+62.89,3.93,94.34,71.05,Cultural Activity,2,B+,50.0,pass
+56.97,5.91,59.66,45.65,Club Activity,4,B,55.32,pass
+91.75,6.61,53.95,27.48,Volunteering,3,B,50.0,pass
+99.22,0.78,97.31,54.17,Photography Club,1,B+,50.0,pass
+76.28,5.44,61.14,30.3,Club Activity,8,B,97.58,pass
+58.58,7.09,64.23,95.81,Music/Band,7,A-,89.11,pass
+63.62,1.67,54.62,58.01,Photography Club,4,C,50.15,fail
+50.92,7.81,93.67,45.38,Art & Design,9,B+,100.0,pass
+95.71,5.84,69.83,81.3,Student Council,4,A-,59.38,pass
+55.89,9.52,83.35,59.84,Drama/Theatre,1,B+,50.0,pass
+78.83,0.42,86.83,44.8,Cultural Activity,10,B,100.0,pass
+63.7,2.65,53.93,84.96,Technical Club,1,B,50.0,pass
+77.71,6.02,60.36,89.37,Art & Design,1,B+,50.0,pass
+82.57,2.97,89.39,73.84,Technical Club,1,B+,50.0,pass
+91.49,7.14,55.43,23.76,NSS,4,B,56.3,pass
+60.32,7.59,85.58,65.31,Technical Club,1,B+,50.0,pass
+50.55,1.03,95.87,81.06,Cultural Activity,2,B,50.0,pass
+56.84,5.14,73.62,30.92,Entrepreneurship Cell,4,B,53.32,pass
+95.0,5.09,81.91,38.29,Cultural Activity,7,B+,86.24,pass
+93.69,3.69,86.36,90.6,Cultural Activity,2,A-,50.0,pass
+79.87,9.33,89.15,21.61,Art & Design,8,A-,99.37,pass
+80.03,8.28,57.65,80.22,Entrepreneurship Cell,7,A-,88.03,pass
+83.25,6.97,33.59,57.9,Entrepreneurship Cell,9,B+,100.0,pass
+58.77,7.14,58.13,55.74,Art & Design,6,B+,76.35,pass
+95.72,4.62,77.16,20.57,Entrepreneurship Cell,4,B,58.56,pass
+70.94,9.21,61.52,85.55,Drama/Theatre,6,A-,74.91,pass
+69.16,6.95,82.43,48.79,Sports,4,B+,52.17,pass
+75.95,7.29,54.99,63.26,Volunteering,7,B+,81.7,pass
+52.35,8.62,74.43,74.18,Music/Band,9,A-,100.0,pass
+58.31,2.74,43.05,76.21,Music/Band,3,C,50.0,fail
+86.9,8.07,82.46,96.48,NSS,3,A,50.0,pass
+54.14,1.95,68.2,62.51,Club Activity,2,C,50.0,fail
+80.16,3.45,44.28,51.98,Drama/Theatre,1,C,50.0,fail
+62.27,3.36,50.43,96.3,Sports,1,B,50.0,pass
+69.46,9.79,82.4,71.37,Student Council,3,A-,50.0,pass
+64.43,8.57,63.78,43.85,NSS,7,B+,86.75,pass
+67.78,7.01,45.12,30.12,Photography Club,9,B,100.0,pass
+85.95,7.27,97.71,87.4,Art & Design,2,A,50.0,pass
+64.86,5.62,80.06,48.97,Photography Club,7,B+,84.99,pass
+78.32,9.47,97.0,72.84,Sports,1,A-,50.0,pass
+73.8,4.96,59.9,57.67,Entrepreneurship Cell,2,B,50.0,pass
+83.18,3.81,63.26,35.91,Photography Club,6,B,70.67,pass
+96.84,1.63,92.86,68.13,Cultural Activity,5,B+,68.96,pass
+86.63,7.86,66.75,24.85,Art & Design,8,B+,96.92,pass
+60.75,7.34,79.51,53.07,Photography Club,2,B+,50.0,pass
+51.56,3.84,47.65,63.73,Photography Club,1,C,50.0,fail
+63.11,0.25,61.27,54.88,Club Activity,7,C,89.75,fail
+79.75,8.39,38.64,79.89,Club Activity,6,B+,76.81,pass
+52.57,0.11,44.42,86.23,Music/Band,8,B,94.17,pass
+74.82,7.04,30.07,81.7,Volunteering,8,B+,97.02,pass
+79.84,9.7,32.75,23.11,Volunteering,2,B,50.0,pass
+66.71,4.38,98.41,35.53,Student Council,8,B+,97.8,pass
+88.55,2.35,46.96,62.93,Art & Design,6,B,74.78,pass
+55.33,7.05,76.43,94.79,Art & Design,9,A-,100.0,pass
+53.76,8.17,88.74,86.8,Club Activity,7,A-,80.11,pass
+86.41,5.46,68.55,87.4,Cultural Activity,2,B+,50.0,pass
+74.77,9.67,40.72,44.26,Cultural Activity,8,B+,96.03,pass
+84.42,0.52,80.97,54.36,Technical Club,9,B+,100.0,pass
+71.74,5.05,72.02,57.66,Cultural Activity,7,B+,89.2,pass
+62.32,7.18,81.19,32.59,Entrepreneurship Cell,4,B,59.15,pass
+90.96,8.63,83.88,22.49,Sports,9,A-,100.0,pass
+89.97,1.79,98.28,95.75,Volunteering,4,A-,58.74,pass
+84.73,8.0,70.15,39.26,Cultural Activity,4,B+,59.98,pass
+63.61,5.53,53.91,39.2,Drama/Theatre,9,B,100.0,pass
+79.51,3.97,75.39,26.67,Art & Design,8,B,98.42,pass
+68.05,1.32,34.79,94.28,Cultural Activity,4,B,58.23,pass
+54.58,8.65,92.82,66.38,Technical Club,8,A-,92.31,pass
+95.87,1.57,38.36,73.36,Student Council,8,B,90.98,pass
+56.84,3.1,52.95,92.93,Student Council,7,B+,89.79,pass
+97.51,2.9,87.1,47.65,Club Activity,10,B+,100.0,pass
+72.3,8.71,71.81,69.72,Cultural Activity,6,A-,78.71,pass
+59.26,6.73,57.55,23.1,Photography Club,8,B,90.04,pass
+77.1,7.97,63.14,34.94,Art & Design,7,B+,80.21,pass
+93.65,2.5,89.82,86.5,Art & Design,5,A-,64.66,pass
+86.61,6.25,53.8,81.34,Volunteering,4,B+,52.39,pass
+90.33,5.72,90.88,48.05,Student Council,2,B+,50.0,pass
+82.94,8.33,36.17,50.14,Club Activity,8,B+,95.66,pass
+84.61,9.06,84.38,62.68,Cultural Activity,9,A,100.0,pass
+92.46,0.12,89.33,20.02,Student Council,4,B,51.63,pass
+62.48,6.74,42.73,39.3,Student Council,4,B,53.88,pass
+74.47,0.52,60.12,36.66,Art & Design,5,C,61.86,fail
+61.06,5.49,41.58,40.04,Cultural Activity,2,C,50.0,fail
+99.38,2.88,79.46,84.47,Photography Club,7,A-,84.16,pass
+97.2,3.07,67.47,42.37,NSS,5,B,60.93,pass
+51.97,3.53,74.47,35.32,Photography Club,6,B,74.84,pass
+85.28,6.21,43.75,60.34,Cultural Activity,4,B,50.91,pass
+96.26,3.34,44.82,89.25,Sports,8,B+,91.29,pass
+59.03,7.33,32.9,39.31,Student Council,8,B,92.4,pass
+78.4,4.05,52.54,26.28,Volunteering,5,C,68.6,fail
+95.77,0.68,69.18,48.51,Entrepreneurship Cell,6,B,79.25,pass
+51.7,7.84,90.06,79.81,Entrepreneurship Cell,3,A-,50.0,pass
+84.87,2.86,76.68,64.06,NSS,1,B,50.0,pass
+64.87,4.33,60.48,85.34,Technical Club,9,B+,100.0,pass
+96.22,6.85,96.72,96.77,Club Activity,9,A+,100.0,pass
+98.55,3.32,80.35,83.41,Photography Club,3,A-,50.0,pass
+97.21,0.57,95.11,68.3,Cultural Activity,4,B+,59.93,pass
+73.71,3.74,66.93,59.47,Volunteering,7,B+,81.32,pass
+93.1,9.44,48.12,23.21,Technical Club,2,B,50.0,pass
+92.23,6.42,33.7,98.75,Technical Club,3,B+,50.0,pass
+65.96,6.71,80.83,50.68,Student Council,6,B+,78.32,pass
+91.45,6.32,38.49,32.18,Sports,8,B,98.46,pass
+51.85,1.99,51.19,73.34,Student Council,1,C,50.0,fail
+79.81,4.18,67.27,42.74,Club Activity,4,B,59.54,pass
+61.5,7.51,69.51,66.86,NSS,1,B+,50.0,pass
+56.03,1.01,72.04,66.94,Photography Club,2,C,50.0,fail
+53.85,2.78,41.64,55.66,Art & Design,8,C,99.68,fail
+84.81,2.76,56.58,86.89,Drama/Theatre,6,B+,78.47,pass
+66.99,4.32,73.2,41.2,NSS,9,B,100.0,pass
+86.24,9.8,97.89,55.89,Photography Club,2,A-,50.0,pass
+53.27,0.68,80.93,63.02,Club Activity,3,B,50.0,pass
+65.76,5.19,94.58,73.09,Entrepreneurship Cell,9,A-,100.0,pass
+76.97,1.79,83.35,82.72,Photography Club,9,B+,100.0,pass
+89.54,9.71,71.42,51.58,Art & Design,6,A-,71.0,pass
+65.94,1.13,43.44,71.68,Technical Club,3,C,50.0,fail
+81.29,4.04,76.67,32.05,NSS,5,B,67.52,pass
+94.3,7.38,73.64,94.61,Art & Design,2,A-,50.0,pass
+80.79,7.05,72.17,50.64,Cultural Activity,7,B+,83.21,pass
+61.65,4.23,64.29,78.36,Student Council,10,B+,100.0,pass
+51.22,3.47,67.01,21.63,Photography Club,8,C,96.23,fail
+93.5,3.98,53.41,36.41,Drama/Theatre,6,B,71.58,pass
+51.06,2.64,66.35,58.97,Volunteering,8,B,98.61,pass
+93.74,2.05,43.83,90.26,Photography Club,2,B,50.0,pass
+76.45,4.83,86.36,62.18,Cultural Activity,3,B+,50.0,pass
+96.95,2.69,43.0,94.39,NSS,7,B+,84.68,pass
+89.94,2.87,35.95,58.7,Photography Club,10,B,100.0,pass
+99.9,6.57,60.54,59.24,Music/Band,1,B+,50.0,pass
+67.54,9.69,76.08,29.58,Art & Design,7,B+,80.04,pass
+88.36,6.04,60.64,84.21,Technical Club,6,A-,75.32,pass
+70.1,0.77,49.37,39.76,Technical Club,8,C,91.07,fail
+73.99,0.76,69.07,91.97,Music/Band,7,B+,83.92,pass
+81.38,9.51,54.29,92.87,NSS,4,A-,55.89,pass
+93.68,2.97,95.3,95.46,Technical Club,3,A-,50.0,pass
+99.2,0.92,94.59,61.62,Photography Club,3,B+,50.0,pass
+88.41,5.99,65.17,74.17,Sports,4,B+,57.75,pass
+70.89,6.24,52.95,82.28,Entrepreneurship Cell,9,B+,100.0,pass
+71.07,6.49,81.6,30.48,Technical Club,9,B+,100.0,pass
+86.88,2.67,32.57,68.08,Entrepreneurship Cell,2,C,50.0,fail
+61.94,0.15,63.23,22.74,Drama/Theatre,5,C,69.6,fail
+55.52,9.65,53.54,59.81,Sports,1,B,50.0,pass
+67.73,2.51,94.44,32.39,Club Activity,4,B,59.78,pass
+64.36,6.76,30.84,34.63,Photography Club,2,C,50.0,fail
+64.82,7.07,68.7,49.2,Photography Club,8,B+,98.74,pass
+61.68,6.1,81.85,54.59,Club Activity,4,B+,53.07,pass
+52.1,3.13,63.95,69.85,Art & Design,5,B,69.39,pass
+50.89,2.71,35.98,25.95,Sports,4,C,53.17,fail
+99.39,5.98,98.07,60.3,Cultural Activity,5,A-,66.54,pass
+71.39,8.66,66.26,34.61,Art & Design,5,B+,60.8,pass
+69.22,9.47,72.99,65.92,Cultural Activity,5,A-,62.42,pass
+83.98,1.06,46.56,70.99,Drama/Theatre,3,B,50.0,pass
+60.91,1.55,63.84,64.54,Student Council,7,B,85.29,pass
+97.5,9.45,60.04,79.06,NSS,3,A-,50.0,pass
+89.32,7.37,35.24,46.85,Photography Club,2,B,50.0,pass
+54.47,8.83,37.43,81.21,Photography Club,3,B+,50.0,pass
+70.88,2.03,88.62,54.62,Sports,3,B,50.0,pass
+93.96,5.88,46.79,58.73,Music/Band,8,B+,99.79,pass
+97.24,7.01,43.65,71.85,Volunteering,4,B+,59.6,pass
+73.37,6.8,65.34,21.47,NSS,3,B,50.0,pass
+80.67,4.08,83.81,72.32,Drama/Theatre,10,A-,100.0,pass
+58.35,0.15,34.34,69.49,Sports,5,C,68.48,fail
+99.56,5.83,70.38,44.79,Club Activity,4,B+,52.11,pass
+61.58,2.53,38.34,26.86,Photography Club,9,C,100.0,fail
+97.14,4.5,32.55,27.27,NSS,8,B,90.73,pass
+82.48,9.58,33.69,93.86,Photography Club,7,A-,88.37,pass
+80.39,3.99,88.39,75.14,Photography Club,8,A-,91.75,pass
+75.63,8.4,38.26,30.17,Photography Club,5,B,60.71,pass
+61.53,1.89,33.16,48.54,Cultural Activity,4,C,54.0,fail
+58.83,6.72,60.65,67.4,Music/Band,7,B+,85.77,pass
+61.02,9.77,89.08,86.85,NSS,1,A-,50.0,pass
+59.32,1.02,48.37,23.49,Volunteering,6,C,79.74,fail
+88.98,0.08,59.52,38.93,Drama/Theatre,8,B,94.39,pass
+67.51,4.34,32.79,91.18,Drama/Theatre,7,B+,80.6,pass
+52.89,0.93,61.44,20.73,Art & Design,2,C,50.0,fail
+98.46,7.48,70.43,36.11,Photography Club,7,B+,85.65,pass
+94.19,9.15,69.96,96.72,Entrepreneurship Cell,6,A,74.48,pass
+96.39,4.34,53.27,69.07,Entrepreneurship Cell,5,B+,63.09,pass
+99.75,2.59,52.09,40.93,Drama/Theatre,4,B,55.02,pass
+58.69,4.34,37.46,25.36,Art & Design,1,C,50.0,fail
+69.81,7.23,55.68,22.26,Drama/Theatre,2,C,50.0,fail
+87.91,0.09,36.96,39.58,Volunteering,7,C,85.44,fail
+84.8,5.89,83.66,90.52,Drama/Theatre,10,A,100.0,pass
+57.69,6.13,97.64,53.27,Music/Band,3,B+,50.0,pass
+90.79,6.38,97.91,77.63,Student Council,5,A-,62.38,pass
+61.22,2.42,90.55,93.46,Photography Club,8,A-,98.51,pass
+61.19,7.14,72.06,52.64,Club Activity,8,B+,95.57,pass
+76.85,0.91,79.06,35.3,Music/Band,6,B,72.07,pass
+79.65,1.99,49.96,61.37,Entrepreneurship Cell,5,B,66.24,pass
+79.0,8.77,74.15,92.65,Drama/Theatre,2,A-,50.0,pass
+54.57,7.39,61.9,84.35,Sports,9,A-,100.0,pass
+93.87,0.14,63.74,25.27,Photography Club,1,C,50.0,fail
+63.28,2.48,83.04,75.41,Cultural Activity,2,B,50.0,pass
+56.48,2.14,49.73,65.75,Student Council,1,C,50.0,fail
+94.44,2.71,52.26,92.6,Club Activity,4,B+,53.96,pass
+97.78,2.48,94.72,29.8,Cultural Activity,4,B,59.83,pass
+93.11,0.63,33.94,62.72,Photography Club,5,C,68.08,fail
+90.48,4.59,63.99,90.36,Music/Band,5,A-,61.6,pass
+82.76,7.33,93.9,52.8,Volunteering,8,A-,92.78,pass
+77.54,6.07,72.73,58.56,Volunteering,3,B+,50.0,pass
+54.35,6.73,68.25,25.64,Cultural Activity,6,B,76.5,pass
+70.42,0.81,47.48,42.25,Sports,3,C,50.0,fail
+68.63,9.51,54.03,45.96,Cultural Activity,2,B,50.0,pass
+62.99,8.38,89.64,95.61,Music/Band,8,A,95.1,pass
+86.17,8.05,69.15,42.61,Cultural Activity,1,B+,50.0,pass
+74.79,8.23,66.03,56.87,Club Activity,9,A-,100.0,pass
+54.05,9.33,36.97,73.7,Photography Club,7,B+,81.24,pass
+61.01,5.44,31.12,32.97,Sports,10,C,100.0,fail
+84.16,2.0,97.46,58.92,Technical Club,4,B+,59.52,pass
+53.81,6.17,56.39,79.08,NSS,3,B,50.0,pass
+92.56,7.43,72.22,89.35,Photography Club,6,A-,75.79,pass
+74.76,7.38,35.58,70.1,Entrepreneurship Cell,9,B+,100.0,pass
+74.03,5.21,77.82,73.52,Technical Club,9,A-,100.0,pass
+79.62,0.68,95.28,30.1,Art & Design,4,B,54.28,pass
+91.23,3.71,70.3,95.66,Cultural Activity,10,A-,100.0,pass
+67.39,9.21,38.83,30.61,Volunteering,5,B,69.77,pass
+83.9,5.84,70.72,81.97,Technical Club,9,A-,100.0,pass
+78.29,5.38,83.64,41.19,Drama/Theatre,2,B,50.0,pass
+63.35,2.69,58.45,94.69,Music/Band,2,B,50.0,pass
+93.93,3.68,91.59,77.6,Technical Club,5,A-,64.15,pass
+89.87,8.95,75.41,80.31,Student Council,1,A-,50.0,pass
+82.92,6.66,92.95,37.52,Sports,8,A-,99.58,pass
+92.53,7.87,73.65,55.44,Photography Club,5,A-,64.04,pass
+93.36,4.54,39.19,69.43,Music/Band,10,B+,100.0,pass
+85.42,6.3,51.68,81.6,Volunteering,2,B+,50.0,pass
+91.85,2.48,44.13,28.32,Art & Design,9,B,100.0,pass
+84.87,7.05,93.62,96.99,Entrepreneurship Cell,2,A,50.0,pass
+84.01,4.28,83.23,91.22,Technical Club,7,A-,87.64,pass
+80.93,4.43,77.35,41.63,Sports,8,B+,95.81,pass
+87.64,6.49,51.07,85.82,NSS,6,A-,76.26,pass
+57.93,9.36,42.88,61.47,Sports,7,B+,80.52,pass
+94.04,0.64,82.95,56.94,Sports,1,B,50.0,pass
+93.59,8.25,63.19,45.15,Music/Band,4,B+,50.74,pass
+51.46,2.92,45.81,66.48,NSS,7,B,82.89,pass
+91.29,4.44,73.16,78.39,Sports,1,B+,50.0,pass
+56.44,0.22,32.82,52.87,Student Council,1,C,50.0,fail
+66.76,3.01,52.83,70.34,Entrepreneurship Cell,6,B,76.12,pass
+87.18,5.03,62.8,75.95,Technical Club,4,B+,55.49,pass
+58.04,0.56,40.36,76.89,Technical Club,3,C,50.0,fail
+90.9,4.91,98.93,24.16,Photography Club,5,B+,62.45,pass
+91.61,9.27,44.64,88.78,Student Council,9,A-,100.0,pass
+75.37,1.05,39.12,56.66,Technical Club,10,B,100.0,pass
+50.32,7.64,44.25,40.99,Sports,10,B,100.0,pass
+64.35,4.1,83.83,39.34,Art & Design,10,B+,100.0,pass
+80.85,6.55,59.79,58.64,Sports,3,B+,50.0,pass
+99.06,2.6,69.58,90.95,Music/Band,5,A-,68.73,pass
+81.59,1.59,31.47,50.27,Drama/Theatre,10,C,100.0,fail
+62.99,1.6,32.41,79.98,Photography Club,5,C,66.59,fail
+81.7,0.7,61.21,27.75,Art & Design,9,C,100.0,fail
+77.0,1.86,87.17,58.08,Volunteering,10,B+,100.0,pass
+88.99,6.64,91.97,99.33,Volunteering,4,A,59.79,pass
+55.35,8.82,36.07,81.64,Art & Design,1,B,50.0,pass
+88.05,8.14,67.69,36.84,Sports,10,A-,100.0,pass
+77.06,6.85,93.93,60.12,Cultural Activity,5,A-,68.48,pass
+98.15,1.1,57.16,38.69,Drama/Theatre,1,C,50.0,fail
+67.09,2.89,88.07,52.76,Student Council,6,B+,72.97,pass
+81.63,3.1,39.36,82.41,Sports,10,B+,100.0,pass
+96.6,2.5,95.48,81.7,Art & Design,10,A-,100.0,pass
+55.13,5.15,82.6,38.25,Cultural Activity,7,B,81.11,pass
+96.86,5.36,95.89,93.78,Sports,1,A-,50.0,pass
+84.39,3.57,77.36,67.41,Cultural Activity,10,A-,100.0,pass
+53.39,3.54,55.44,50.39,Art & Design,4,C,58.2,fail
+65.05,8.29,95.67,60.15,Sports,9,A-,100.0,pass
+85.41,7.89,49.29,68.41,NSS,1,B+,50.0,pass
+53.37,3.08,53.25,64.79,Technical Club,9,B,100.0,pass
+79.11,9.14,79.06,58.91,Art & Design,8,A-,98.02,pass
+67.29,9.53,83.57,60.39,Volunteering,5,A-,67.89,pass
+81.05,3.27,95.06,34.11,Volunteering,6,B+,77.6,pass
+52.29,3.54,44.34,85.02,Drama/Theatre,7,B,83.49,pass
+93.58,5.06,85.86,63.34,Club Activity,4,A-,54.54,pass
+98.67,9.41,81.7,30.49,Volunteering,6,A-,75.95,pass
+98.44,8.76,34.47,81.29,Club Activity,7,A-,89.74,pass
+87.48,1.03,57.11,94.6,NSS,6,B+,73.28,pass
+56.5,3.93,49.79,95.78,Art & Design,6,B+,79.23,pass
+87.91,5.53,51.31,49.52,Cultural Activity,2,B,50.0,pass
+51.23,5.03,98.81,30.84,Photography Club,5,B,69.89,pass
+51.11,1.94,74.99,61.47,Drama/Theatre,3,B,50.0,pass
+66.18,8.59,80.24,29.01,Technical Club,7,B+,84.64,pass
+74.43,6.77,98.36,94.72,Photography Club,4,A,56.13,pass
+88.52,8.38,56.4,34.69,Student Council,1,B,50.0,pass
+84.16,8.59,86.13,40.22,Club Activity,6,A-,72.74,pass
+72.3,7.48,60.42,52.53,Technical Club,6,B+,71.14,pass
+63.68,4.39,90.87,50.65,Drama/Theatre,7,B+,81.14,pass
+99.86,6.11,42.65,83.57,Drama/Theatre,8,A-,93.48,pass
+71.31,1.6,96.34,56.51,Volunteering,3,B,50.0,pass
+72.57,6.74,45.31,33.66,Technical Club,6,B,76.08,pass
+58.18,1.79,52.84,41.38,Sports,10,C,100.0,fail
+89.74,6.94,82.93,60.73,Music/Band,2,B+,50.0,pass
+84.68,2.3,57.56,31.8,Drama/Theatre,9,B,100.0,pass
+61.04,1.18,72.57,68.93,Club Activity,2,B,50.0,pass
+54.12,1.65,61.12,65.26,Photography Club,3,C,50.0,fail
+84.02,0.02,81.97,77.18,Student Council,10,B+,100.0,pass
+82.73,7.19,45.98,95.02,Student Council,2,B+,50.0,pass
+63.66,7.32,34.09,92.98,Entrepreneurship Cell,9,B+,100.0,pass
+97.54,5.15,51.0,95.69,Photography Club,1,B+,50.0,pass
+57.55,1.61,63.2,39.58,NSS,5,C,60.15,fail
+71.62,0.84,41.76,30.53,NSS,1,C,50.0,fail
+97.18,0.19,54.84,44.18,Photography Club,5,C,62.52,fail
+70.99,1.66,58.0,91.61,Volunteering,8,B+,94.3,pass
+81.93,8.91,34.02,97.76,Sports,8,A-,94.87,pass
+69.88,2.42,70.83,88.75,Volunteering,8,B+,91.38,pass
+63.71,3.54,91.9,28.8,Student Council,2,B,50.0,pass
+99.2,1.05,40.62,95.79,Cultural Activity,8,B+,95.96,pass
+70.47,2.22,71.85,53.87,Student Council,5,B,62.94,pass
+94.7,5.19,76.53,20.74,Drama/Theatre,1,B,50.0,pass
+61.5,6.08,59.35,55.39,Technical Club,7,B+,80.78,pass
+60.66,2.45,79.08,23.69,Technical Club,6,C,73.92,fail
+51.56,0.58,58.75,63.51,Drama/Theatre,5,C,61.54,fail
+82.58,3.91,65.32,47.08,Drama/Theatre,1,B,50.0,pass
+68.43,2.34,30.51,57.87,Student Council,1,C,50.0,fail
+93.22,2.2,78.42,69.05,Technical Club,6,B+,75.47,pass
+73.66,9.6,76.29,89.5,Technical Club,10,A,100.0,pass
+98.41,6.16,32.69,72.95,Art & Design,7,B+,83.44,pass
+59.28,5.57,55.78,54.72,Entrepreneurship Cell,10,B+,100.0,pass
+93.43,4.16,98.53,85.55,Technical Club,10,A,100.0,pass
+88.83,4.29,59.45,92.45,Drama/Theatre,1,B+,50.0,pass
+88.55,5.41,65.14,29.58,NSS,9,B+,100.0,pass
+92.24,6.96,93.7,62.55,Sports,4,A-,53.62,pass
+88.05,7.02,80.21,42.76,Cultural Activity,5,B+,63.65,pass
+81.31,1.72,70.74,23.76,Photography Club,2,C,50.0,fail
+56.56,5.0,85.85,73.48,Drama/Theatre,10,A-,100.0,pass
+51.63,4.12,90.51,89.02,Entrepreneurship Cell,8,A-,99.88,pass
+96.04,8.71,61.98,33.03,Technical Club,2,B+,50.0,pass
+80.83,6.31,63.26,84.99,Club Activity,3,B+,50.0,pass
+89.83,5.33,57.02,88.27,Student Council,9,A-,100.0,pass
+74.08,1.15,97.67,93.15,Student Council,2,B+,50.0,pass
+55.87,6.06,78.8,41.22,Sports,6,B,74.85,pass
+56.26,1.17,35.83,92.32,Drama/Theatre,4,C,51.06,fail
+84.28,3.37,90.41,45.65,Sports,7,B+,82.78,pass
+71.52,1.43,63.64,64.19,NSS,6,B,78.9,pass
+60.03,6.92,34.81,24.04,Music/Band,10,B,100.0,pass
+74.58,2.06,68.48,23.51,Volunteering,9,B,100.0,pass
+53.21,3.92,59.2,77.63,Club Activity,9,B+,100.0,pass
+79.1,8.96,91.44,55.56,Volunteering,10,A,100.0,pass
+63.45,2.04,44.28,40.5,Music/Band,4,C,57.03,fail
+89.88,5.08,87.85,35.23,Club Activity,1,B,50.0,pass
+65.52,4.19,69.04,73.6,Volunteering,2,B,50.0,pass
+72.76,0.18,33.82,20.03,Club Activity,8,C,94.34,fail
+50.58,7.93,98.03,84.47,Sports,10,A,100.0,pass
+53.62,0.69,65.88,26.34,Cultural Activity,8,C,92.33,fail
+69.62,4.74,50.36,35.32,Art & Design,2,C,50.0,fail
+74.0,5.61,62.86,50.9,Club Activity,4,B,55.89,pass
+80.0,6.28,90.05,58.79,Music/Band,1,B+,50.0,pass
+64.58,6.89,51.34,48.4,Sports,7,B,84.5,pass
+84.75,2.53,43.49,45.66,Art & Design,4,C,58.06,fail
+93.01,0.1,39.03,97.11,Sports,8,B+,91.62,pass
+88.99,7.23,50.85,71.33,NSS,9,A-,100.0,pass
+51.98,5.36,84.6,21.87,Technical Club,9,B,100.0,pass
+74.03,8.36,63.01,54.41,Student Council,3,B+,50.0,pass
+55.25,8.21,45.92,90.0,NSS,5,B+,67.93,pass
+62.1,8.43,41.63,44.12,Music/Band,6,B,71.3,pass
+99.33,4.85,53.29,27.56,Drama/Theatre,6,B,77.63,pass
+57.12,3.34,95.79,80.67,Photography Club,10,A-,100.0,pass
+74.94,7.92,54.01,68.48,Drama/Theatre,8,B+,90.13,pass
+80.91,4.51,99.17,65.63,Student Council,6,A-,78.98,pass
+85.12,1.83,63.97,24.29,Sports,6,C,75.81,fail
+77.98,8.55,42.54,31.24,Cultural Activity,4,B,53.52,pass
+50.49,8.83,92.38,69.8,Photography Club,7,A-,82.33,pass
+66.32,4.66,62.22,36.63,Music/Band,8,B,96.17,pass
+75.89,0.76,79.68,60.33,Student Council,3,B,50.0,pass
+54.39,3.88,98.86,63.59,Entrepreneurship Cell,7,B+,89.92,pass
+67.53,8.04,33.51,42.68,Art & Design,3,B,50.0,pass
+51.66,9.02,36.77,95.87,Art & Design,8,B+,96.35,pass
+53.93,2.03,80.43,87.4,Drama/Theatre,1,B,50.0,pass
+69.85,0.67,49.73,77.79,Technical Club,1,C,50.0,fail
+56.64,8.77,42.9,26.24,Photography Club,6,B,76.82,pass
+78.38,3.89,32.76,28.49,Entrepreneurship Cell,10,C,100.0,fail
+84.47,5.42,31.53,59.42,Sports,9,B,100.0,pass
+90.03,9.68,84.21,32.86,Drama/Theatre,4,A-,50.75,pass
+60.01,0.67,39.41,98.26,Cultural Activity,6,B,70.73,pass
+58.37,6.48,62.74,32.68,Photography Club,5,B,61.96,pass
+55.23,0.74,72.41,59.0,Student Council,1,C,50.0,fail
+81.82,3.75,59.98,49.13,Club Activity,6,B,77.85,pass
+85.32,8.04,31.9,71.15,Cultural Activity,9,B+,100.0,pass
+51.58,4.33,84.85,30.32,Photography Club,3,B,50.0,pass
+96.81,9.97,30.74,54.43,Club Activity,3,B+,50.0,pass
+52.6,5.59,83.33,41.98,Sports,2,B,50.0,pass
+77.06,3.21,92.53,91.02,Student Council,4,A-,52.71,pass
+85.45,2.2,60.3,23.25,Entrepreneurship Cell,10,B,100.0,pass
+93.55,3.51,67.49,93.1,Art & Design,3,B+,50.0,pass
+85.7,3.73,63.39,86.64,Entrepreneurship Cell,2,B+,50.0,pass
+90.09,0.69,57.24,43.81,Entrepreneurship Cell,1,C,50.0,fail
+66.97,3.7,92.12,83.14,Entrepreneurship Cell,3,B+,50.0,pass
+90.74,4.64,92.58,22.5,Art & Design,10,B+,100.0,pass
+54.01,7.23,53.51,97.35,NSS,6,B+,77.72,pass
+94.74,6.57,73.05,62.13,Art & Design,9,A-,100.0,pass
+77.38,7.09,94.88,44.26,Music/Band,5,B+,63.34,pass
+90.86,0.08,97.34,49.01,NSS,3,B,50.0,pass
+72.62,2.18,65.63,25.31,NSS,5,C,61.03,fail
+82.18,6.62,61.7,99.15,Photography Club,5,A-,60.53,pass
+76.32,4.84,49.51,23.14,Art & Design,5,C,68.56,fail
+86.58,0.05,97.12,72.39,Drama/Theatre,7,B+,89.27,pass
+54.08,8.04,40.0,55.42,Technical Club,5,B,60.91,pass
+53.02,7.73,70.59,95.91,Technical Club,7,A-,81.13,pass
+62.36,5.48,49.78,39.68,Photography Club,9,B,100.0,pass
+57.98,0.66,49.53,62.57,Music/Band,5,C,61.05,fail
+93.59,7.67,58.35,58.59,Volunteering,2,B+,50.0,pass
+60.96,5.84,99.92,76.23,Drama/Theatre,5,A-,69.7,pass
+98.79,7.82,33.85,25.44,Volunteering,8,B,96.68,pass
+66.84,7.52,70.5,35.5,Club Activity,4,B,57.79,pass
+59.11,8.03,35.78,37.17,Entrepreneurship Cell,2,C,50.0,fail
+89.48,5.18,40.82,79.05,Drama/Theatre,10,B+,100.0,pass
+82.94,1.4,60.77,35.13,Photography Club,3,C,50.0,fail
+74.91,6.71,65.73,65.88,Student Council,9,A-,100.0,pass
+77.77,6.2,48.12,37.22,Volunteering,9,B,100.0,pass
+85.96,7.42,52.15,88.93,Music/Band,8,A-,95.61,pass
+61.42,1.7,36.09,95.37,Music/Band,8,B,95.34,pass
+99.82,1.95,51.23,61.48,Drama/Theatre,8,B+,98.23,pass
+98.74,8.9,97.66,48.18,NSS,8,A,99.82,pass
+82.52,7.5,96.13,38.72,Student Council,8,A-,94.11,pass
+59.98,9.08,53.44,23.98,Sports,1,B,50.0,pass
+84.01,7.59,69.96,41.48,Student Council,6,B+,71.0,pass
+53.61,5.97,93.67,72.34,Photography Club,9,A-,100.0,pass
+51.53,6.54,30.43,62.69,Music/Band,8,B,93.71,pass
+62.88,8.89,86.75,95.52,Club Activity,3,A-,50.0,pass
+73.13,5.79,96.39,51.7,Entrepreneurship Cell,1,B+,50.0,pass
+93.41,6.32,36.39,75.51,Volunteering,2,B+,50.0,pass
+86.36,1.56,41.3,59.15,Volunteering,2,C,50.0,fail
+87.14,4.74,97.25,61.01,Club Activity,7,A-,89.24,pass
+71.27,7.16,67.63,41.42,Cultural Activity,6,B+,70.78,pass
+67.3,2.71,30.99,56.4,Entrepreneurship Cell,2,C,50.0,fail
+68.55,2.02,48.03,57.66,Drama/Theatre,8,B,97.07,pass
+99.38,3.14,61.5,76.53,Photography Club,9,B+,100.0,pass
+52.01,2.42,78.5,95.25,Music/Band,7,B+,83.91,pass
+93.35,2.15,81.32,46.35,Technical Club,4,B,57.41,pass
+78.93,4.25,99.68,23.38,Art & Design,1,B,50.0,pass
+71.93,9.08,50.13,59.7,Club Activity,4,B+,56.72,pass
+86.26,5.07,67.68,63.56,Club Activity,4,B+,53.89,pass
+74.33,1.88,67.33,33.48,Student Council,8,B,94.88,pass
+93.67,0.77,58.4,80.84,Drama/Theatre,4,B,59.9,pass
+95.04,6.96,41.84,98.79,Drama/Theatre,4,A-,52.14,pass
+71.09,3.83,98.42,95.66,Technical Club,2,A-,50.0,pass
+63.84,8.22,89.73,35.77,Art & Design,10,A-,100.0,pass
+79.62,6.6,64.88,90.03,Drama/Theatre,7,A-,87.65,pass
+95.62,7.96,72.23,76.36,NSS,4,A-,57.64,pass
+60.53,2.72,45.91,56.31,Music/Band,6,C,72.92,fail
+81.15,6.92,68.07,63.25,Photography Club,3,B+,50.0,pass
+81.58,2.64,78.65,87.97,NSS,7,A-,80.11,pass
+86.66,9.39,66.06,58.41,Cultural Activity,6,A-,74.27,pass
+56.58,6.36,99.32,49.86,Photography Club,3,B+,50.0,pass
+85.79,3.25,72.79,59.46,Music/Band,4,B+,59.88,pass
+95.45,2.7,55.97,66.33,Entrepreneurship Cell,10,B+,100.0,pass
+58.98,1.91,84.05,35.13,Sports,5,B,62.56,pass
+61.88,6.95,41.93,92.07,Music/Band,9,B+,100.0,pass
+98.57,2.19,56.92,73.93,Music/Band,6,B+,74.91,pass
+59.05,5.95,54.29,70.66,Technical Club,4,B,55.99,pass
+92.72,2.65,60.23,27.96,Entrepreneurship Cell,7,B,80.96,pass
+74.61,6.62,84.72,68.33,NSS,2,B+,50.0,pass
+62.36,8.15,63.89,29.68,Art & Design,4,B,59.44,pass
+93.54,7.78,85.58,26.3,Student Council,5,B+,65.9,pass
+72.27,7.61,70.35,62.18,Technical Club,4,B+,53.45,pass
+75.74,1.88,53.94,52.22,Music/Band,4,C,56.26,fail
+67.96,0.88,86.7,67.1,Student Council,9,B+,100.0,pass
+79.65,6.99,46.68,27.14,Photography Club,2,B,50.0,pass
+58.18,3.68,45.71,54.48,Entrepreneurship Cell,6,B,75.05,pass
+69.55,4.32,65.32,33.98,Photography Club,8,B,99.59,pass
+98.47,0.31,48.26,98.97,Volunteering,8,B+,91.72,pass
+62.91,2.6,30.64,64.89,Student Council,7,C,87.2,fail
+82.84,0.34,75.38,74.99,Club Activity,10,B+,100.0,pass
+66.26,8.79,65.78,46.03,Technical Club,4,B+,56.8,pass
+88.67,2.43,61.19,27.58,Technical Club,7,B,83.51,pass
+56.54,5.57,97.69,98.07,Club Activity,10,A,100.0,pass
+98.49,0.39,69.98,42.9,Volunteering,6,B,76.84,pass
+72.69,6.67,90.44,53.9,Drama/Theatre,6,B+,72.16,pass
+61.8,3.23,39.76,71.99,Drama/Theatre,2,C,50.0,fail
+53.67,8.98,69.84,21.98,Drama/Theatre,8,B,91.88,pass
+58.49,8.88,90.76,84.82,Drama/Theatre,8,A,90.08,pass
+75.99,3.25,70.82,62.93,NSS,7,B+,89.7,pass
+66.85,9.01,80.26,42.26,Club Activity,9,A-,100.0,pass
+91.44,9.96,56.04,24.93,Photography Club,8,B+,99.69,pass
+71.54,8.25,36.47,33.0,Volunteering,9,B,100.0,pass
+62.44,8.45,62.05,91.6,Photography Club,9,A-,100.0,pass
+80.86,2.49,57.61,74.88,Music/Band,6,B+,72.01,pass
+85.34,5.77,90.69,39.99,Cultural Activity,2,B+,50.0,pass
+58.35,0.67,47.08,25.25,Technical Club,7,C,87.84,fail
+58.38,0.95,97.67,75.25,Student Council,3,B,50.0,pass
+51.83,9.99,97.07,65.79,Drama/Theatre,7,A-,89.12,pass
+86.82,3.27,47.33,52.36,Student Council,9,B,100.0,pass
+83.19,7.48,54.36,49.09,Cultural Activity,10,B+,100.0,pass
+73.73,8.07,92.69,37.35,Technical Club,10,A-,100.0,pass
+92.21,8.58,97.66,73.57,Sports,2,A,50.0,pass
+90.28,9.98,61.04,97.65,Photography Club,6,A,79.57,pass
+79.27,2.41,52.47,34.06,Art & Design,6,C,73.43,fail
+93.41,0.4,66.83,67.77,Volunteering,9,B+,100.0,pass
+60.29,4.11,78.14,53.93,NSS,9,B+,100.0,pass
+55.6,1.3,49.14,55.74,Student Council,5,C,65.0,fail
+63.49,0.22,81.55,40.33,Drama/Theatre,5,C,67.93,fail
+52.85,3.6,33.62,86.01,Club Activity,9,B,100.0,pass
+76.56,7.84,33.45,58.82,Student Council,8,B+,96.6,pass
+96.83,5.66,57.04,63.47,Technical Club,7,B+,83.24,pass
+51.97,3.13,54.74,44.38,Sports,8,C,93.41,fail
+56.11,6.54,52.09,34.54,Volunteering,6,B,76.62,pass
+72.61,2.32,64.37,26.87,Club Activity,3,C,50.0,fail
+96.69,0.14,52.45,77.13,Art & Design,7,B,88.12,pass
+65.81,7.64,43.46,35.7,Technical Club,8,B,91.56,pass
+75.36,6.24,51.66,75.21,Sports,8,B+,97.9,pass
+52.08,7.62,98.24,51.23,Club Activity,1,B+,50.0,pass
+57.42,0.39,58.78,53.26,Art & Design,7,C,81.94,fail
+99.33,8.37,61.13,57.53,Student Council,3,B+,50.0,pass
+98.26,6.2,70.36,49.42,Technical Club,2,B+,50.0,pass
+50.25,5.63,98.83,28.05,Photography Club,2,B,50.0,pass
+97.59,6.25,46.91,44.77,Entrepreneurship Cell,8,B+,93.27,pass
+81.96,8.64,77.69,73.1,Music/Band,9,A,100.0,pass
+93.4,5.87,80.12,73.26,Entrepreneurship Cell,3,A-,50.0,pass
+72.74,5.81,72.51,42.9,Art & Design,3,B,50.0,pass
+75.78,9.91,36.2,56.81,Sports,6,B+,77.74,pass
+74.44,7.57,77.38,35.48,Music/Band,10,B+,100.0,pass
+83.34,4.42,34.49,36.83,Music/Band,1,C,50.0,fail
+56.98,7.07,71.73,21.84,NSS,6,B,77.75,pass
+51.5,3.89,81.77,91.74,Sports,3,B+,50.0,pass
+65.4,2.29,44.77,36.86,Music/Band,4,C,56.33,fail
+85.23,5.97,88.91,38.2,Student Council,9,B+,100.0,pass
+60.09,9.28,32.12,42.37,Technical Club,3,B,50.0,pass
+83.67,9.29,89.07,30.19,Technical Club,1,B+,50.0,pass
+98.5,3.42,62.22,71.14,Entrepreneurship Cell,3,B+,50.0,pass
+54.7,5.28,45.23,26.01,Student Council,7,C,83.55,fail
+83.63,2.12,39.36,30.74,NSS,7,C,82.82,fail
+72.19,9.96,96.73,71.58,Volunteering,5,A,68.41,pass
+93.41,9.81,35.09,47.17,NSS,1,B,50.0,pass
+58.86,6.5,43.94,76.64,Technical Club,8,B+,93.97,pass
+84.63,8.04,54.35,64.59,Volunteering,10,A-,100.0,pass
+91.91,7.15,73.42,40.48,NSS,8,B+,92.85,pass
+97.23,5.93,68.14,72.07,Music/Band,10,A-,100.0,pass
+84.16,0.53,38.8,29.3,Photography Club,10,C,100.0,fail
+74.86,4.55,50.28,62.91,Volunteering,10,B+,100.0,pass
+80.89,6.75,46.71,54.97,Photography Club,2,B,50.0,pass
+93.45,6.78,44.95,41.43,Technical Club,10,B+,100.0,pass
+78.53,3.73,58.78,68.32,Student Council,3,B,50.0,pass
+51.52,9.42,79.28,89.71,Drama/Theatre,4,A-,53.13,pass
+96.55,1.67,45.22,99.91,Photography Club,1,B,50.0,pass
+84.48,5.0,55.67,68.62,Entrepreneurship Cell,4,B+,55.01,pass
+83.83,6.91,57.36,52.38,Music/Band,5,B+,64.9,pass
+60.78,6.97,98.35,38.02,Music/Band,3,B+,50.0,pass
+82.94,6.49,96.83,40.57,Drama/Theatre,10,A-,100.0,pass
+69.69,2.75,86.01,58.36,Art & Design,2,B,50.0,pass
+82.56,1.56,46.92,49.38,Entrepreneurship Cell,6,C,74.51,fail
+55.33,6.36,34.76,93.11,Photography Club,8,B+,99.59,pass
+82.89,5.99,52.18,49.46,Photography Club,7,B+,82.61,pass
+99.97,1.79,48.68,49.88,Cultural Activity,1,C,50.0,fail
+52.41,7.05,65.41,50.68,Photography Club,4,B,59.41,pass
+98.86,4.55,84.44,86.93,Club Activity,3,A-,50.0,pass
+70.35,6.68,90.08,72.06,Sports,6,A-,78.71,pass
+93.54,8.37,89.14,69.13,NSS,9,A,100.0,pass
+89.12,1.7,55.18,46.73,Cultural Activity,9,B,100.0,pass
+78.35,0.19,78.11,85.43,NSS,7,B+,86.0,pass
+86.92,7.79,51.9,23.07,Cultural Activity,9,B+,100.0,pass
+93.93,6.1,34.26,89.66,Volunteering,8,B+,95.36,pass
+70.21,7.0,79.11,61.02,Student Council,5,B+,62.3,pass
+66.35,8.38,30.69,51.86,Photography Club,9,B,100.0,pass
+83.38,8.03,58.64,59.77,Photography Club,7,B+,85.28,pass
+90.39,9.61,53.06,73.39,Sports,5,A-,64.11,pass
+88.11,5.36,78.54,21.02,Sports,8,B+,92.69,pass
+89.89,4.88,83.64,89.72,NSS,7,A-,89.99,pass
+71.78,4.02,51.29,55.74,Drama/Theatre,9,B,100.0,pass
+90.89,1.54,86.81,47.44,Volunteering,10,B+,100.0,pass
+56.01,5.73,50.57,31.06,Art & Design,1,C,50.0,fail
+77.22,2.77,61.24,55.16,Sports,9,B,100.0,pass
+50.29,9.21,80.89,59.71,Club Activity,7,A-,89.79,pass
+66.23,5.83,78.5,52.29,Photography Club,1,B,50.0,pass
+68.32,5.93,99.12,74.29,NSS,1,B+,50.0,pass
+69.81,3.55,45.76,53.67,Music/Band,5,B,62.14,pass
+84.77,0.52,76.36,96.91,Club Activity,8,B+,99.72,pass
+69.43,0.32,72.68,67.94,Technical Club,9,B,100.0,pass
+72.43,4.23,94.06,84.6,NSS,6,A-,71.01,pass
+61.88,0.85,40.95,28.75,NSS,10,C,100.0,fail
+68.66,6.07,82.63,51.78,Music/Band,8,B+,95.73,pass
+61.36,8.81,69.78,46.95,Volunteering,6,B+,77.81,pass
+53.66,8.83,49.23,65.56,Music/Band,6,B+,73.67,pass
+80.17,6.59,63.21,88.89,Entrepreneurship Cell,4,A-,59.78,pass
+83.41,2.11,53.36,26.27,Sports,5,C,64.34,fail
+80.97,8.63,70.55,25.81,Student Council,2,B,50.0,pass
+73.17,8.86,92.23,88.03,NSS,3,A,50.0,pass
+68.99,1.97,69.85,37.03,Technical Club,3,C,50.0,fail
+93.17,7.37,74.22,73.5,Drama/Theatre,5,A-,68.32,pass
+75.95,2.87,66.31,63.43,NSS,5,B,64.59,pass
+73.96,8.03,33.58,86.63,Music/Band,6,B+,75.94,pass
+51.28,9.97,46.3,30.01,Cultural Activity,5,B,62.67,pass
+67.06,0.3,64.44,30.38,NSS,6,C,76.46,fail
+69.01,8.97,51.72,64.55,NSS,8,B+,99.86,pass
+69.94,6.23,42.72,95.71,Entrepreneurship Cell,2,B+,50.0,pass
+79.01,9.73,65.29,53.2,Technical Club,4,B+,58.87,pass
+76.68,4.65,52.6,46.16,Entrepreneurship Cell,6,B,75.62,pass
+80.4,8.47,48.07,68.54,Technical Club,5,B+,62.52,pass
+88.24,0.62,62.48,94.44,NSS,1,B,50.0,pass
+90.65,3.35,39.33,86.95,Cultural Activity,9,B+,100.0,pass
+85.91,0.67,94.94,99.64,Student Council,3,A-,50.0,pass
+97.78,9.75,90.74,21.81,Art & Design,2,B+,50.0,pass
+50.91,8.17,79.53,29.03,Cultural Activity,9,B+,100.0,pass
+59.79,8.53,37.43,68.76,Cultural Activity,7,B+,88.33,pass
+50.38,9.38,84.31,85.65,Cultural Activity,5,A-,66.14,pass
+82.37,0.85,86.56,42.82,Photography Club,6,B,79.13,pass
+94.9,3.86,83.74,39.14,Student Council,4,B+,52.32,pass
+62.17,0.71,37.98,82.96,Volunteering,1,C,50.0,fail
+96.35,2.11,75.07,24.51,Volunteering,4,B,50.06,pass
+53.01,2.29,88.4,49.55,Cultural Activity,9,B,100.0,pass
+96.72,4.69,70.41,60.46,Art & Design,1,B+,50.0,pass
+67.58,2.69,75.25,64.83,Entrepreneurship Cell,10,B+,100.0,pass
+55.07,1.01,62.09,78.29,Music/Band,3,B,50.0,pass
+74.29,1.67,67.01,48.39,Club Activity,5,B,68.77,pass
+62.84,1.47,32.41,69.01,Volunteering,7,C,87.82,fail
+64.24,9.73,74.73,66.83,Drama/Theatre,9,A-,100.0,pass
+65.36,7.59,35.7,63.81,Technical Club,6,B,78.17,pass
+90.15,9.68,60.45,71.24,Student Council,3,A-,50.0,pass
+76.96,4.4,50.49,40.76,Student Council,7,B,81.5,pass
+65.57,2.78,68.18,26.77,Club Activity,4,C,52.26,fail
+80.52,7.98,39.34,29.54,Volunteering,3,B,50.0,pass
+85.81,3.26,78.42,37.97,Art & Design,7,B,84.25,pass
+63.63,2.99,85.65,60.02,Art & Design,7,B+,82.89,pass
+70.68,2.33,41.43,87.24,Technical Club,4,B,51.72,pass
+56.09,1.3,37.3,76.1,Cultural Activity,7,C,87.62,fail
+59.06,2.56,40.19,83.12,Music/Band,2,C,50.0,fail
+84.06,3.55,91.4,48.08,Volunteering,1,B,50.0,pass
+59.07,6.74,66.97,52.37,Art & Design,2,B,50.0,pass
+76.26,0.63,62.71,51.49,Club Activity,4,C,52.45,fail
+85.45,2.11,37.47,35.35,Technical Club,8,C,92.18,fail
+55.34,8.09,75.47,24.9,NSS,3,B,50.0,pass
+78.37,1.47,90.76,67.27,Technical Club,10,B+,100.0,pass
+62.83,3.43,87.97,99.14,Photography Club,6,A-,76.05,pass
+98.15,8.65,73.82,33.35,Art & Design,6,B+,77.06,pass
+74.18,1.55,35.27,23.73,NSS,9,C,100.0,fail
+90.3,0.83,37.87,82.36,Drama/Theatre,9,B,100.0,pass
+77.51,4.85,33.45,40.21,Sports,4,C,53.3,fail
+52.17,3.02,48.02,86.37,Technical Club,9,B,100.0,pass
+81.66,5.63,39.5,76.31,Club Activity,6,B+,73.49,pass
+97.57,8.04,48.2,95.65,Club Activity,2,A-,50.0,pass
+80.08,1.37,56.95,52.71,Photography Club,10,B,100.0,pass
+90.96,5.81,96.01,72.96,Music/Band,6,A-,72.72,pass
+94.21,5.06,72.73,57.19,Cultural Activity,2,B+,50.0,pass
+61.4,1.44,88.45,70.45,Technical Club,8,B+,98.3,pass
+60.6,6.24,79.72,55.97,Art & Design,4,B+,58.53,pass
+80.55,2.74,37.88,35.09,Sports,5,C,62.2,fail
+70.55,4.88,81.51,60.63,Photography Club,8,B+,90.65,pass
+91.99,0.82,49.26,62.29,Volunteering,8,B,97.39,pass
+95.0,4.6,74.74,84.85,Art & Design,6,A-,72.12,pass
+67.67,3.06,53.87,78.84,Club Activity,4,B,53.93,pass
+61.84,8.22,99.84,73.1,Drama/Theatre,1,A-,50.0,pass
+89.03,0.57,48.45,29.07,Art & Design,7,C,82.26,fail
+63.74,4.19,49.54,77.65,Student Council,8,B+,97.93,pass
+91.13,4.58,95.15,60.02,Entrepreneurship Cell,9,A-,100.0,pass
+71.19,7.25,31.73,91.53,Club Activity,2,B+,50.0,pass
+83.38,5.74,78.77,93.59,Technical Club,1,A-,50.0,pass
+54.78,6.67,80.77,24.41,Drama/Theatre,4,B,51.34,pass
+81.19,7.77,88.55,85.65,Student Council,5,A,60.74,pass
+72.59,8.62,98.21,23.02,NSS,10,A-,100.0,pass
+79.33,3.14,98.29,49.37,Sports,1,B+,50.0,pass
+58.4,5.38,34.57,63.38,Club Activity,5,B,65.42,pass
+86.84,8.4,87.53,31.85,Technical Club,6,A-,77.65,pass
+93.14,9.89,75.24,79.71,Student Council,3,A,50.0,pass
+60.84,8.9,75.31,20.67,Student Council,7,B+,88.07,pass
+54.79,3.71,38.98,33.49,Cultural Activity,6,C,70.17,fail
+51.18,1.95,75.51,66.46,Student Council,4,B,51.87,pass
+82.1,4.89,98.77,77.15,Sports,3,A-,50.0,pass
+80.35,7.42,93.83,93.33,Drama/Theatre,5,A,63.76,pass
+77.33,4.93,60.74,76.44,Photography Club,3,B+,50.0,pass
+61.6,4.83,32.8,73.74,Drama/Theatre,10,B,100.0,pass
+69.55,8.38,55.36,51.55,Student Council,9,B+,100.0,pass
+79.72,3.61,87.85,20.1,Technical Club,9,B,100.0,pass
+74.84,8.6,79.1,29.61,Club Activity,6,B+,78.64,pass
+99.39,4.07,62.15,62.76,Technical Club,6,B+,73.21,pass
+56.82,3.28,33.86,74.01,Photography Club,4,C,59.9,fail
+84.76,4.54,59.88,53.4,Entrepreneurship Cell,4,B,51.58,pass
+70.22,7.62,62.83,78.45,Music/Band,2,B+,50.0,pass
+71.41,1.26,95.0,61.75,Club Activity,10,B+,100.0,pass
+85.88,1.96,74.88,25.93,NSS,4,B,54.33,pass
+84.62,9.51,51.82,35.36,Entrepreneurship Cell,8,B+,94.68,pass
+99.56,1.75,66.77,87.2,Sports,10,A-,100.0,pass
+56.42,5.68,34.62,77.99,Entrepreneurship Cell,2,B,50.0,pass
+55.21,5.79,98.08,91.58,Technical Club,9,A-,100.0,pass
+86.22,4.9,55.2,29.4,Cultural Activity,1,C,50.0,fail
+78.92,6.45,63.45,99.22,Drama/Theatre,2,A-,50.0,pass
+63.71,2.3,54.87,36.75,Student Council,2,C,50.0,fail
+53.97,5.53,77.78,20.94,Club Activity,6,B,74.04,pass
+54.28,3.72,76.36,99.79,Photography Club,7,B+,80.16,pass
+94.71,6.62,80.07,42.49,Student Council,3,B+,50.0,pass
+59.59,1.41,48.77,73.44,NSS,9,B,100.0,pass
+66.17,5.71,52.1,34.13,Music/Band,5,B,60.01,pass
+61.33,1.85,38.77,66.42,Student Council,5,C,66.16,fail
+67.75,2.79,75.89,92.32,Technical Club,4,B+,51.89,pass
+53.47,2.19,32.79,45.61,Club Activity,9,C,100.0,fail
+75.95,1.83,71.84,73.62,Cultural Activity,8,B+,96.53,pass
+53.38,8.26,90.88,35.03,NSS,4,B+,50.54,pass
+90.02,2.86,92.36,69.98,Art & Design,4,B+,53.13,pass
+61.69,9.27,61.43,46.92,Sports,2,B,50.0,pass
+77.0,9.7,62.15,36.9,Music/Band,9,B+,100.0,pass
+94.0,5.71,35.39,45.05,Technical Club,3,B,50.0,pass
+82.54,1.43,76.95,34.31,Sports,4,B,57.21,pass
+76.65,3.75,87.49,92.15,Photography Club,7,A-,82.55,pass
+66.22,7.98,47.13,51.77,Cultural Activity,10,B+,100.0,pass
+66.65,3.67,59.49,39.62,Sports,8,B,90.79,pass
+83.47,0.87,88.72,55.87,Drama/Theatre,8,B+,94.26,pass
+99.71,5.57,91.4,45.64,Photography Club,4,B+,59.46,pass
+83.09,8.45,47.02,79.55,Club Activity,7,A-,82.18,pass
+77.89,7.96,68.54,97.7,Sports,10,A,100.0,pass
+86.53,1.75,43.47,55.04,Technical Club,1,C,50.0,fail
+73.26,6.73,37.13,88.88,Art & Design,6,B+,76.06,pass
+53.01,2.21,93.78,65.27,Drama/Theatre,6,B+,76.8,pass
+78.11,2.18,87.44,32.58,Drama/Theatre,6,B,76.43,pass
+97.88,8.74,83.2,75.25,Sports,2,A-,50.0,pass
+58.77,2.5,33.41,61.07,Music/Band,8,C,94.86,fail
+84.5,2.63,89.06,72.05,Volunteering,5,B+,61.34,pass
+60.05,0.01,60.66,91.17,Photography Club,5,B,62.89,pass
+76.79,8.71,53.97,55.23,Music/Band,2,B+,50.0,pass
+54.83,7.93,68.25,92.09,Entrepreneurship Cell,4,A-,56.13,pass
+72.52,6.27,36.39,80.05,Student Council,9,B+,100.0,pass
+87.81,7.5,82.97,59.09,Technical Club,9,A-,100.0,pass
+67.38,1.52,70.77,68.26,Volunteering,6,B,76.37,pass
+83.25,4.58,43.06,46.05,Club Activity,9,B,100.0,pass
+89.77,3.51,43.18,98.69,Drama/Theatre,4,B+,55.86,pass
+96.36,0.94,42.9,73.39,Technical Club,1,B,50.0,pass
+61.73,4.86,33.99,23.51,Photography Club,2,C,50.0,fail
+69.97,9.21,71.15,46.13,Cultural Activity,1,B+,50.0,pass
+57.62,0.4,88.82,69.87,Student Council,8,B,99.02,pass
+99.62,2.91,31.22,24.51,Art & Design,9,C,100.0,fail
+96.35,2.08,33.43,21.91,Student Council,10,C,100.0,fail
+77.0,2.38,70.09,56.0,Technical Club,6,B,77.25,pass
+92.1,9.08,87.36,46.62,Club Activity,2,A-,50.0,pass
+76.05,4.68,52.87,55.06,Drama/Theatre,6,B,75.82,pass
+81.18,4.66,54.47,41.02,NSS,9,B,100.0,pass
+54.46,7.61,71.74,33.18,NSS,3,B,50.0,pass
+87.76,1.54,49.19,75.13,Technical Club,9,B+,100.0,pass
+56.39,4.87,31.86,61.17,Sports,2,C,50.0,fail
+91.3,4.3,81.47,36.01,Music/Band,5,B+,61.22,pass
+89.1,5.97,73.8,45.57,Photography Club,2,B+,50.0,pass
+85.44,10.0,70.65,67.34,Student Council,7,A-,83.45,pass
+51.81,7.69,81.92,25.78,Club Activity,10,B+,100.0,pass
+65.16,3.98,77.27,31.8,Photography Club,9,B,100.0,pass
+63.16,8.28,44.41,25.86,Student Council,7,B,83.88,pass
+68.01,1.71,54.67,84.99,Cultural Activity,5,B,61.01,pass
+54.38,0.3,38.83,80.19,NSS,4,C,58.02,fail
+96.85,2.04,39.09,80.27,Entrepreneurship Cell,4,B,59.15,pass
+77.69,3.4,77.33,77.31,Drama/Theatre,10,A-,100.0,pass
+65.28,5.11,90.1,73.55,Photography Club,8,A-,98.22,pass
+69.85,6.15,97.39,58.16,Cultural Activity,10,A-,100.0,pass
+72.36,9.11,73.98,71.38,Entrepreneurship Cell,10,A-,100.0,pass
+80.03,5.1,42.89,23.07,Drama/Theatre,10,B,100.0,pass
+75.78,5.01,37.4,69.72,Student Council,10,B+,100.0,pass
+95.97,0.5,86.9,82.23,Photography Club,10,A-,100.0,pass
+74.85,0.35,70.51,60.03,Club Activity,1,C,50.0,fail
+99.61,5.51,73.28,48.6,NSS,5,B+,68.81,pass
+92.57,4.38,84.7,42.19,Student Council,2,B+,50.0,pass
+60.43,8.39,79.23,71.42,NSS,9,A-,100.0,pass
+96.53,1.61,88.41,75.42,Technical Club,7,A-,84.26,pass
+55.82,0.25,33.93,89.68,Entrepreneurship Cell,10,B,100.0,pass
+90.87,4.49,82.33,47.39,Art & Design,8,B+,90.31,pass
+69.03,2.37,89.56,81.58,Entrepreneurship Cell,6,B+,76.95,pass
+93.9,0.5,50.03,64.91,Art & Design,9,B,100.0,pass
+93.4,7.25,74.83,90.63,Drama/Theatre,6,A,75.52,pass
+90.3,1.12,51.99,62.22,Student Council,7,B,85.58,pass
+89.5,6.08,97.06,61.41,Volunteering,7,A-,82.77,pass
+65.23,2.81,32.34,66.23,NSS,9,B,100.0,pass
+54.05,1.73,70.59,79.95,NSS,8,B,94.71,pass
+70.15,3.8,41.66,97.18,Volunteering,1,B,50.0,pass
+58.68,8.01,79.86,25.89,Sports,4,B,58.21,pass
+84.75,3.92,42.31,24.27,Photography Club,7,C,84.51,fail
+67.3,7.51,46.48,95.0,Student Council,8,A-,96.04,pass
+98.78,1.25,64.61,62.39,Volunteering,7,B+,88.96,pass
+82.05,7.73,94.04,69.19,Art & Design,3,A-,50.0,pass
+91.12,2.37,44.82,58.59,Photography Club,4,B,58.9,pass
+56.63,6.77,40.1,27.49,NSS,7,C,82.7,fail
+93.1,5.66,83.13,81.45,Entrepreneurship Cell,8,A-,90.35,pass
+96.14,9.29,65.04,79.78,Art & Design,7,A,82.61,pass
+74.35,3.87,93.82,44.94,Student Council,6,B+,72.79,pass
+80.31,0.66,40.26,44.5,Club Activity,9,C,100.0,fail
+88.24,0.19,75.21,87.03,Entrepreneurship Cell,9,B+,100.0,pass
+58.74,8.27,46.3,25.79,Club Activity,7,B,80.82,pass
+75.13,5.25,40.97,90.49,Drama/Theatre,8,B+,91.35,pass
+69.93,7.75,77.84,40.53,Photography Club,6,B+,71.56,pass
+57.32,2.34,71.56,67.44,Art & Design,1,B,50.0,pass
+68.38,3.45,82.84,94.88,Art & Design,1,B+,50.0,pass
+53.41,0.3,51.66,74.25,Art & Design,6,C,78.6,fail
+51.29,9.61,61.36,53.15,Sports,2,B+,50.0,pass
+56.76,6.68,58.38,75.16,Art & Design,8,B+,92.02,pass
+98.16,9.33,98.89,47.52,Club Activity,1,A-,50.0,pass
+77.48,2.65,50.46,42.18,Sports,2,C,50.0,fail
+98.29,6.11,50.64,99.73,Drama/Theatre,8,A-,93.59,pass
+71.62,6.78,54.82,80.06,Technical Club,6,B+,79.15,pass
+65.59,3.18,69.52,71.58,Cultural Activity,10,B+,100.0,pass
+75.31,8.48,47.66,48.42,Drama/Theatre,2,B,50.0,pass
+71.98,9.47,94.07,23.93,Music/Band,2,B+,50.0,pass
+55.28,8.85,48.6,22.48,Sports,7,B,80.29,pass
+82.04,7.39,92.71,64.33,Club Activity,5,A-,60.64,pass
+60.8,2.77,37.24,80.96,Club Activity,5,B,65.38,pass
+80.98,2.82,75.96,62.99,Student Council,8,B+,97.19,pass
+82.51,9.63,93.49,87.26,NSS,7,A,82.15,pass
+57.6,0.1,41.81,22.67,Art & Design,9,C,100.0,fail
+53.07,7.16,97.78,49.34,Photography Club,4,B+,58.11,pass
+89.04,7.06,61.7,38.97,Club Activity,10,B+,100.0,pass
+72.99,6.23,96.2,55.78,Art & Design,4,B+,57.46,pass
+52.91,9.9,77.38,25.79,Volunteering,2,B,50.0,pass
+99.74,3.12,51.11,96.33,NSS,3,B+,50.0,pass
+52.89,3.4,43.18,37.86,Volunteering,1,C,50.0,fail
+84.75,0.79,51.26,93.78,Photography Club,1,B,50.0,pass
+99.18,4.43,36.51,54.07,Entrepreneurship Cell,7,B,83.45,pass
+61.96,2.61,40.07,98.84,Art & Design,5,B,64.11,pass
+57.11,3.43,37.33,64.32,Sports,3,C,50.0,fail
+56.07,8.35,59.61,94.47,Music/Band,7,A-,82.04,pass
+65.16,9.35,85.69,20.43,NSS,2,B+,50.0,pass
+55.05,1.86,39.9,79.86,Photography Club,3,C,50.0,fail
+84.61,3.73,39.12,92.24,Sports,1,B,50.0,pass
+53.11,9.29,75.04,31.18,Club Activity,8,B+,91.8,pass
+75.47,0.62,43.8,27.69,Music/Band,2,C,50.0,fail
+99.83,0.92,36.83,53.97,Technical Club,7,B,84.55,pass
+90.7,1.63,41.68,94.69,Club Activity,9,B+,100.0,pass
+80.76,5.95,94.66,63.39,Cultural Activity,6,A-,72.34,pass
+65.31,1.5,87.5,62.2,Drama/Theatre,2,B,50.0,pass
+81.19,9.68,54.78,31.29,NSS,2,B,50.0,pass
+76.35,4.47,75.91,20.06,Photography Club,9,B,100.0,pass
+71.3,5.02,67.61,84.81,Cultural Activity,10,A-,100.0,pass
+56.54,2.47,77.4,27.01,Art & Design,8,B,92.66,pass
+94.33,4.71,77.79,70.71,NSS,9,A-,100.0,pass
+72.49,6.62,74.01,93.17,Entrepreneurship Cell,4,A-,56.69,pass
+59.73,7.51,48.63,36.69,Entrepreneurship Cell,4,B,56.55,pass
+68.39,7.54,32.73,73.22,Drama/Theatre,2,B,50.0,pass
+70.71,5.78,61.89,26.3,NSS,10,B,100.0,pass
+91.38,9.04,92.37,68.3,Sports,1,A-,50.0,pass
+86.68,8.17,69.86,33.11,Volunteering,10,B+,100.0,pass
+88.47,7.57,88.27,78.88,Student Council,4,A-,53.21,pass
+50.55,0.56,99.41,44.1,Sports,10,B,100.0,pass
+70.81,0.07,41.45,57.07,Drama/Theatre,10,C,100.0,fail
+74.07,2.12,78.42,67.95,Photography Club,8,B+,90.94,pass
+50.96,6.64,77.2,33.7,Entrepreneurship Cell,2,B,50.0,pass
+62.99,4.11,98.6,79.33,NSS,8,A-,90.52,pass
+88.01,4.02,98.99,44.21,Sports,1,B+,50.0,pass
+56.86,8.85,78.07,72.99,Volunteering,1,B+,50.0,pass
+76.77,8.96,47.05,32.66,Cultural Activity,4,B,52.94,pass
+60.76,9.09,85.9,75.05,Sports,7,A-,87.63,pass
+50.61,3.14,37.49,30.26,Art & Design,9,C,100.0,fail
+62.06,6.91,84.65,54.03,Cultural Activity,5,B+,62.46,pass
+98.79,2.72,93.71,39.78,Drama/Theatre,2,B+,50.0,pass
+90.08,1.91,56.8,79.87,Cultural Activity,7,B+,87.48,pass
+97.98,1.85,74.14,40.96,NSS,2,B,50.0,pass
+74.39,3.42,60.11,90.54,Music/Band,9,B+,100.0,pass
+55.49,4.3,60.64,91.35,Music/Band,9,B+,100.0,pass
+77.4,8.31,51.73,35.72,Technical Club,3,B,50.0,pass
+72.72,1.2,83.35,69.11,Art & Design,8,B+,96.4,pass
+92.22,7.35,95.53,27.02,NSS,4,B+,51.73,pass
+54.9,5.31,95.85,51.32,Drama/Theatre,3,B+,50.0,pass
+74.41,2.88,42.23,77.07,Club Activity,1,B,50.0,pass
+57.5,4.93,91.23,72.75,Music/Band,5,B+,65.92,pass
+66.23,3.0,81.62,69.98,Drama/Theatre,4,B+,57.34,pass
+86.87,5.96,47.7,42.6,Cultural Activity,1,B,50.0,pass
+73.8,4.34,34.71,50.24,Sports,10,B,100.0,pass
+68.79,1.64,48.76,28.24,Music/Band,8,C,97.22,fail
+69.72,1.17,93.85,77.52,NSS,8,B+,96.15,pass
+72.97,5.47,74.32,60.31,Music/Band,8,B+,91.51,pass
+89.25,9.02,80.47,76.7,Volunteering,3,A-,50.0,pass
+94.6,3.44,48.0,39.92,Volunteering,6,B,79.36,pass
+97.77,7.33,80.36,45.96,Volunteering,7,A-,81.37,pass
+89.35,6.59,31.97,46.74,Art & Design,9,B,100.0,pass
+65.77,9.32,56.27,22.06,Photography Club,5,B,62.59,pass
+84.41,8.21,73.87,47.28,Music/Band,9,A-,100.0,pass
+71.88,5.67,40.23,84.26,Technical Club,6,B+,77.22,pass
+62.73,6.57,87.61,91.78,Entrepreneurship Cell,10,A,100.0,pass
+92.04,8.98,46.45,61.46,Drama/Theatre,10,A-,100.0,pass
+51.92,4.0,75.66,56.44,Photography Club,10,B+,100.0,pass
+95.09,3.27,58.36,22.47,Volunteering,4,C,57.97,fail
+73.07,0.11,71.72,90.34,Cultural Activity,1,B,50.0,pass
+81.86,8.27,37.52,21.04,NSS,1,C,50.0,fail
+82.97,8.01,31.18,95.58,Art & Design,10,A-,100.0,pass
+94.76,1.04,93.67,59.14,Student Council,5,B+,61.68,pass
+81.83,5.77,48.87,47.35,Volunteering,3,B,50.0,pass
+80.7,4.64,87.38,93.94,Drama/Theatre,5,A-,65.5,pass
+53.33,1.19,99.95,21.95,Cultural Activity,5,C,61.22,fail
+75.92,9.81,44.8,66.51,NSS,1,B+,50.0,pass
+57.51,2.15,48.56,63.91,Sports,8,B,90.72,pass
+86.87,0.67,76.4,37.55,Club Activity,5,B,67.44,pass
+75.61,5.95,97.58,54.31,Cultural Activity,5,B+,67.12,pass
+84.01,7.39,94.11,72.18,Technical Club,9,A,100.0,pass
+52.08,0.32,65.2,78.17,Cultural Activity,8,B,95.6,pass
+54.24,6.59,85.66,20.06,Cultural Activity,1,B,50.0,pass
+85.82,5.32,39.5,94.95,Photography Club,3,B+,50.0,pass
+53.6,1.03,98.42,33.16,Technical Club,7,B,89.07,pass
+53.56,1.73,97.5,38.69,Sports,1,C,50.0,fail
+50.61,5.68,41.46,41.08,Art & Design,1,C,50.0,fail
+97.83,2.96,50.96,23.03,Music/Band,5,C,68.11,fail
+86.88,9.38,37.01,29.84,NSS,9,B+,100.0,pass
+67.66,8.19,49.02,98.91,Cultural Activity,6,A-,75.7,pass
+64.83,9.84,87.12,45.22,Cultural Activity,10,A-,100.0,pass
+67.49,2.6,56.48,29.22,Entrepreneurship Cell,2,C,50.0,fail
+88.73,9.7,36.19,28.56,Technical Club,9,B+,100.0,pass
+83.07,4.31,53.96,77.56,Drama/Theatre,6,B+,76.28,pass
+59.26,3.48,98.7,88.37,Cultural Activity,5,A-,61.73,pass
+58.71,0.5,74.08,40.56,Cultural Activity,5,C,62.59,fail
+54.92,0.53,59.13,21.67,Technical Club,3,C,50.0,fail
+83.02,6.92,41.66,37.85,Drama/Theatre,6,B,72.33,pass
+88.22,4.58,99.03,24.52,Technical Club,4,B+,55.89,pass
+63.25,2.27,87.46,28.27,Photography Club,10,B,100.0,pass
+51.05,6.14,49.7,54.52,Art & Design,2,B,50.0,pass
+54.11,2.53,34.9,38.39,Cultural Activity,3,C,50.0,fail
+98.39,5.78,33.96,61.28,Volunteering,9,B+,100.0,pass
+64.77,3.59,38.43,40.28,NSS,9,C,100.0,fail
+88.46,8.24,70.65,95.24,Drama/Theatre,6,A,71.87,pass
+81.23,8.21,95.01,92.48,Volunteering,10,A,100.0,pass
+69.1,4.77,64.77,65.34,Technical Club,10,B+,100.0,pass
+60.28,3.51,89.01,48.35,Entrepreneurship Cell,9,B+,100.0,pass
+56.07,3.63,61.21,50.49,Cultural Activity,4,B,57.5,pass
+80.75,8.06,79.6,52.95,Entrepreneurship Cell,5,A-,61.76,pass
+88.73,3.28,81.23,78.21,Photography Club,10,A-,100.0,pass
+82.2,2.09,42.18,56.13,Entrepreneurship Cell,6,B,70.28,pass
+76.52,0.85,55.29,88.54,Technical Club,9,B+,100.0,pass
+52.1,4.67,74.61,95.53,Photography Club,5,B+,61.73,pass
+98.42,4.82,34.95,46.88,Entrepreneurship Cell,8,B,90.54,pass
+89.94,8.41,55.31,64.86,Music/Band,1,B+,50.0,pass
+64.64,2.21,67.44,27.6,Music/Band,5,C,68.37,fail
+99.0,3.81,99.74,36.04,Art & Design,10,A-,100.0,pass
+80.09,8.08,63.22,53.08,Cultural Activity,1,B+,50.0,pass
+79.12,8.24,87.12,36.5,Cultural Activity,10,A-,100.0,pass
+87.4,3.85,60.24,90.12,Volunteering,6,B+,73.25,pass
+90.59,4.59,85.75,32.66,Photography Club,7,B+,81.51,pass
+82.82,3.03,71.68,56.45,Student Council,5,B,66.21,pass
+56.4,9.33,92.06,68.46,Cultural Activity,1,A-,50.0,pass
+66.91,1.19,58.77,75.35,Art & Design,6,B,76.13,pass
+96.4,9.34,72.3,50.65,Drama/Theatre,10,A-,100.0,pass
+61.23,6.84,74.1,89.53,Entrepreneurship Cell,5,A-,65.46,pass
+68.61,5.32,59.22,65.47,Drama/Theatre,6,B+,76.28,pass
+71.6,0.33,40.1,55.16,Technical Club,10,C,100.0,fail
+71.97,4.76,36.55,25.38,Volunteering,7,C,82.99,fail
+80.65,4.08,31.17,57.18,Entrepreneurship Cell,7,B,83.59,pass
+97.15,1.61,91.15,85.66,Photography Club,2,B+,50.0,pass
+62.03,6.56,46.55,69.16,Entrepreneurship Cell,3,B,50.0,pass
+56.08,9.71,44.81,86.57,Sports,6,B+,71.79,pass
+59.87,5.62,81.52,59.52,Photography Club,3,B+,50.0,pass
+94.35,7.15,52.4,29.48,Club Activity,2,B,50.0,pass
+82.29,0.68,65.42,21.09,Technical Club,4,C,54.19,fail
+64.3,4.18,41.38,44.26,Cultural Activity,5,C,61.78,fail
+90.8,1.16,97.18,75.84,Technical Club,10,A-,100.0,pass
+93.07,6.13,89.61,83.22,Photography Club,9,A,100.0,pass
+92.33,9.38,90.47,43.66,Sports,3,A-,50.0,pass
+95.95,6.62,58.47,59.65,Club Activity,3,B+,50.0,pass
+62.61,0.77,83.37,53.69,Photography Club,6,B,78.97,pass
+87.75,3.55,40.07,52.84,Sports,5,B,61.36,pass
+73.03,5.51,30.6,38.51,Sports,6,C,72.5,fail
+92.1,4.03,31.4,30.91,Music/Band,7,C,85.43,fail
+86.42,8.34,71.06,35.74,Entrepreneurship Cell,3,B+,50.0,pass
+88.82,8.15,61.88,24.43,Drama/Theatre,5,B+,60.36,pass
+82.81,6.12,66.26,35.85,Photography Club,8,B+,99.84,pass
+58.87,3.73,30.52,20.74,Photography Club,4,C,54.55,fail
+77.25,2.55,59.59,70.18,Student Council,10,B+,100.0,pass
+99.23,1.06,80.26,45.31,Photography Club,2,B,50.0,pass
+96.87,3.55,60.99,97.85,Cultural Activity,4,A-,51.74,pass
+52.16,4.13,81.26,35.5,Art & Design,2,C,50.0,fail
+58.24,6.76,46.31,47.67,Volunteering,3,B,50.0,pass
+56.59,6.58,86.92,48.63,Technical Club,4,B+,54.14,pass
+86.3,0.7,71.19,20.68,Cultural Activity,4,C,59.52,fail
+90.89,3.95,44.75,87.14,Entrepreneurship Cell,10,B+,100.0,pass
+60.68,1.82,46.57,22.56,Music/Band,9,C,100.0,fail
+75.29,1.57,73.96,95.21,Drama/Theatre,10,A-,100.0,pass
+92.04,8.27,88.1,91.37,Technical Club,6,A,74.35,pass
+86.64,0.42,59.09,62.84,Volunteering,9,B,100.0,pass
+77.11,4.19,48.08,63.49,Student Council,4,B,50.58,pass
+79.52,1.68,90.69,72.3,Entrepreneurship Cell,9,B+,100.0,pass
+75.42,8.79,76.85,50.96,Cultural Activity,9,A-,100.0,pass
+64.88,5.57,61.37,71.78,Art & Design,6,B+,78.17,pass
+78.25,2.31,64.15,23.58,Drama/Theatre,5,C,68.25,fail
+84.44,5.02,44.3,24.32,NSS,3,C,50.0,fail
+93.67,7.31,73.88,56.58,Cultural Activity,5,A-,63.24,pass
+81.81,9.58,55.11,63.97,Entrepreneurship Cell,3,B+,50.0,pass
+88.06,2.2,99.7,91.03,Sports,5,A-,65.97,pass
+58.0,8.86,63.61,28.37,Sports,5,B,62.87,pass
+73.08,9.34,64.01,85.81,Art & Design,2,A-,50.0,pass
+50.47,9.16,69.61,36.8,Club Activity,9,B+,100.0,pass
+62.33,6.35,94.17,51.53,Art & Design,7,B+,80.55,pass
+86.32,6.3,86.06,45.33,Drama/Theatre,6,B+,70.03,pass
+99.59,4.03,61.58,52.01,Sports,5,B+,61.01,pass
+54.96,7.52,80.31,32.04,Student Council,4,B,57.92,pass
+70.07,5.31,71.04,60.29,Student Council,8,B+,99.61,pass
+90.0,6.77,64.47,84.13,Sports,2,A-,50.0,pass
+60.2,4.28,43.46,55.32,Drama/Theatre,8,B,95.13,pass
+77.75,7.31,62.48,59.25,Music/Band,1,B+,50.0,pass
+86.65,8.24,47.21,87.9,Volunteering,10,A-,100.0,pass
+80.8,1.46,94.04,76.48,Volunteering,1,B+,50.0,pass
+59.4,8.33,53.48,59.24,Drama/Theatre,3,B,50.0,pass
+67.77,5.4,96.66,40.62,NSS,5,B+,69.33,pass
+89.19,8.45,67.31,90.79,Volunteering,6,A,71.96,pass
+77.71,4.31,74.21,66.16,Technical Club,4,B+,57.65,pass
+50.26,3.79,68.01,37.69,Volunteering,7,B,80.24,pass
+88.05,9.15,39.06,41.53,Technical Club,7,B+,83.75,pass
+51.77,2.51,56.31,84.25,Sports,2,B,50.0,pass
+87.29,8.44,36.94,23.53,Music/Band,2,B,50.0,pass
+60.12,4.84,73.61,99.37,Art & Design,2,B+,50.0,pass
+97.9,5.14,61.28,30.43,Music/Band,2,B,50.0,pass
+68.4,3.08,84.46,83.69,Volunteering,9,A-,100.0,pass
+66.35,5.73,45.43,51.58,Volunteering,5,B,63.01,pass
+57.44,3.25,41.52,59.38,Photography Club,8,B,96.57,pass
+65.28,0.39,58.44,90.45,Drama/Theatre,5,B,69.19,pass
+93.83,2.72,94.86,53.03,Art & Design,5,B+,64.01,pass
+99.82,0.06,79.73,63.0,Volunteering,1,B,50.0,pass
+68.42,9.78,59.32,23.94,Club Activity,6,B+,72.71,pass
+72.43,9.66,66.21,20.19,Club Activity,4,B,58.54,pass
+86.1,3.95,35.89,39.58,NSS,3,C,50.0,fail
+94.31,7.28,98.92,74.45,Sports,6,A,74.55,pass
+79.65,3.46,76.65,29.7,Technical Club,2,B,50.0,pass
+69.58,6.71,49.98,29.1,Music/Band,8,B,94.5,pass
+70.63,8.05,71.01,52.88,Sports,1,B+,50.0,pass
+84.78,9.47,37.66,71.83,Technical Club,9,A-,100.0,pass
+50.16,4.0,97.61,76.97,Technical Club,8,B+,98.84,pass
+80.98,7.83,42.23,34.28,Cultural Activity,1,B,50.0,pass
+67.77,2.66,75.36,26.37,Photography Club,10,B,100.0,pass
+89.71,9.9,47.18,95.23,Volunteering,9,A,100.0,pass
+54.65,0.26,80.23,40.85,NSS,2,C,50.0,fail
+79.41,6.04,84.38,88.27,Volunteering,3,A-,50.0,pass
+74.05,6.6,77.14,89.08,NSS,2,A-,50.0,pass
+82.12,6.88,73.01,81.8,Sports,8,A-,93.34,pass
+53.24,1.2,92.47,33.51,Entrepreneurship Cell,2,C,50.0,fail
+79.0,9.39,35.5,85.74,Entrepreneurship Cell,10,A-,100.0,pass
+78.07,1.81,53.16,81.54,Drama/Theatre,2,B,50.0,pass
+78.03,6.23,47.38,67.74,Drama/Theatre,1,B,50.0,pass
+80.17,2.23,99.16,46.98,Sports,7,B+,82.17,pass
+83.82,3.07,57.26,41.0,Art & Design,2,C,50.0,fail
+90.25,5.46,81.28,29.75,Club Activity,10,B+,100.0,pass
+63.49,4.17,77.93,60.78,Photography Club,5,B+,65.2,pass
+91.25,1.6,44.85,66.82,Technical Club,5,B,64.01,pass
+74.91,1.71,46.73,48.75,NSS,3,C,50.0,fail
+53.85,4.18,49.69,58.03,Student Council,3,C,50.0,fail
+52.93,7.57,58.78,49.08,Entrepreneurship Cell,3,B,50.0,pass
+66.71,8.98,46.4,71.28,Volunteering,6,B+,71.79,pass
+89.24,0.84,31.38,92.1,Sports,4,B,55.85,pass
+85.38,3.93,91.56,33.11,Technical Club,3,B,50.0,pass
+89.43,1.0,97.59,50.51,Entrepreneurship Cell,2,B,50.0,pass
+75.86,0.17,53.91,31.27,NSS,3,C,50.0,fail
+72.01,6.62,53.7,70.0,Music/Band,4,B+,53.71,pass
+57.37,6.02,30.5,78.31,Art & Design,6,B,70.75,pass
+66.41,1.63,77.62,94.55,Volunteering,4,B+,59.58,pass
+71.7,2.34,87.78,42.31,Drama/Theatre,8,B,94.35,pass
+54.43,0.24,40.26,96.02,Sports,3,C,50.0,fail
+61.03,8.35,41.18,25.06,Entrepreneurship Cell,3,C,50.0,fail
+79.91,9.75,85.31,68.24,Drama/Theatre,3,A-,50.0,pass
+86.78,1.35,73.14,24.57,NSS,8,B,92.05,pass
+99.92,2.31,33.14,91.5,Drama/Theatre,4,B,57.55,pass
+96.66,8.68,73.58,62.38,Entrepreneurship Cell,1,A-,50.0,pass
+82.13,9.26,51.62,73.55,Entrepreneurship Cell,2,B+,50.0,pass
+71.06,4.2,55.81,86.53,Volunteering,10,B+,100.0,pass
+81.81,0.51,83.88,32.02,Club Activity,2,C,50.0,fail
+89.28,0.39,86.77,23.09,Entrepreneurship Cell,3,C,50.0,fail
+55.92,5.74,58.02,90.31,Technical Club,6,B+,73.4,pass
+70.5,3.93,96.3,45.19,Club Activity,8,B+,93.11,pass
+91.99,0.29,58.45,30.32,Sports,1,C,50.0,fail
+69.19,5.83,84.03,57.48,Club Activity,9,B+,100.0,pass
+78.59,0.11,63.87,67.86,Cultural Activity,1,C,50.0,fail
+79.39,7.87,92.83,22.48,Entrepreneurship Cell,10,A-,100.0,pass
+59.22,3.06,93.54,41.99,Technical Club,2,B,50.0,pass
+68.11,0.4,36.12,22.62,NSS,3,C,50.0,fail
+66.73,5.88,95.55,53.63,Technical Club,7,B+,83.75,pass
+51.31,3.98,87.79,91.61,Cultural Activity,9,A-,100.0,pass
+51.21,9.74,85.39,98.61,Student Council,3,A-,50.0,pass
+91.58,5.44,44.06,70.96,Club Activity,8,B+,98.74,pass
+63.65,2.75,86.36,32.93,Technical Club,9,B,100.0,pass
+75.9,7.09,89.51,92.47,Drama/Theatre,10,A,100.0,pass
+64.94,2.71,50.24,61.3,NSS,7,B,88.86,pass
+97.03,9.04,96.66,32.3,Entrepreneurship Cell,4,A-,52.71,pass
+62.96,3.75,33.49,93.74,Entrepreneurship Cell,4,B,50.39,pass
+71.48,5.5,40.49,80.6,Music/Band,4,B,58.48,pass
+93.64,0.51,67.63,78.54,Sports,6,B+,78.64,pass
+92.1,4.26,70.31,76.73,Sports,4,B+,55.96,pass
+59.31,8.32,75.16,36.03,Photography Club,5,B+,65.74,pass
+90.13,8.06,31.19,36.88,Sports,9,B+,100.0,pass
+72.91,2.24,97.23,75.06,Technical Club,7,B+,87.86,pass
+74.15,2.26,33.12,37.58,Club Activity,8,C,98.9,fail
+56.67,8.17,40.01,55.09,Technical Club,5,B,65.53,pass
+54.03,9.3,30.98,82.56,Entrepreneurship Cell,5,B+,69.68,pass
+86.4,0.95,69.68,82.72,Volunteering,7,B+,89.96,pass
+74.82,4.5,95.26,56.26,Drama/Theatre,8,B+,91.17,pass
+71.84,3.37,76.62,83.38,Entrepreneurship Cell,9,A-,100.0,pass
+86.48,8.71,87.59,87.09,Music/Band,2,A,50.0,pass
+88.28,0.84,30.93,72.38,Music/Band,3,C,50.0,fail
+57.95,2.11,67.94,38.27,Drama/Theatre,2,C,50.0,fail
+80.51,7.52,62.17,41.92,Cultural Activity,10,B+,100.0,pass
+56.77,0.51,64.93,45.19,Art & Design,7,C,85.06,fail
+87.57,4.93,35.05,29.34,Entrepreneurship Cell,2,C,50.0,fail
+82.85,4.42,77.91,41.85,Entrepreneurship Cell,2,B,50.0,pass
+97.83,3.34,65.23,36.76,Volunteering,2,B,50.0,pass
+53.45,3.95,83.56,56.43,NSS,4,B,59.39,pass
+52.85,5.3,63.97,92.68,Music/Band,1,B+,50.0,pass
+64.11,1.61,40.46,28.36,Sports,2,C,50.0,fail

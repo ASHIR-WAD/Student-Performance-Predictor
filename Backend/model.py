@@ -95,5 +95,6 @@ class Prediction(db.Model):
     confidence_level = db.Column(db.String(512), nullable=True)
 
 
+
 if __name__ == '__main__':
     db.create_all()

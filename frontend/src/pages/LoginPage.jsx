@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Mail, Lock, Eye, EyeOff, GraduationCap, ChevronLeft } from "lucide-react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
+import axios from "axios";
 
 export default function LoginPage() {
   const location = useLocation();
@@ -13,6 +14,9 @@ export default function LoginPage() {
   const [form, setForm] = useState({ email: "", password: "" });
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
+
+  const BACKEND_URL = import.meta.env.VITE_BACKEND_URL ;
+
 
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
@@ -27,12 +31,12 @@ export default function LoginPage() {
           password: form.password,
           role: userType,
         };
-
+    const url = `${payload.role}/dashboard`;
 
     try {
       console.log(payload);
       // NOTE: backend expects "username", we are sending email as username
-      const res = await axios.post(`${BACKEND_URL}`/login,   // if needed: "https://your-backend-url/login"
+      const res = await axios.post(`${BACKEND_URL}/login`,   // if needed: "https://your-backend-url/login"
         payload,
         {
           headers: {
@@ -42,9 +46,9 @@ export default function LoginPage() {
       );
 
       const data = res.data;
-
+      localStorage.setItem("userdata",data);
       // Navigate to the redirect path returned by backend
-      navigate(data.redirect || "/login", {
+      navigate(`/${url}` , {
         state: { user: data }, // you can read this in your dashboard pages
       });
     } catch (err) {

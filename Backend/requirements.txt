@@ -5,3 +5,5 @@ numpy
 scikit-learn
 PyJWT==2.8.0
 python-dotenv==1.0.1
+scikit-learn==1.7.2
+joblib
