@@ -1,9 +1,8 @@
-# 🎓 Student Performance Predictor  
-[![made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)  
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# 🎓 Student Performance Predictor    
 
 A lightweight machine-learning-powered system designed to predict student academic performance using key indicators like attendance, internal marks, study hours, and consistency. Built during a hackathon by the team at CMR Institute of Technology, Bengaluru.
 
+### Project Board Link : https://github.com/ASHIR-WAD/Student-Performance-Predictor
 ---
 
 ## ✨ Features
