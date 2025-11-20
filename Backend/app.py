@@ -3,7 +3,6 @@ from flask_cors import CORS
 from model import db, Student, User, Faculty,Prediction
 from routes.student_routes import student
 from routes.download_routes import download
-from routes.auth_routes import auth
 from werkzeug.security import generate_password_hash, check_password_hash
 from sqlalchemy.exc import IntegrityError
 import pandas as pd
@@ -38,7 +37,7 @@ CORS(app)
 db.init_app(app)
 
 # Register route blueprints
-app.register_blueprint(auth)
+
 app.register_blueprint(student)
 app.register_blueprint(download)
 

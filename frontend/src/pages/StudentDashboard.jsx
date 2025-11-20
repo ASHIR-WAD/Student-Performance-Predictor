@@ -4,6 +4,11 @@ import { useNavigate } from "react-router-dom";
 export default function StudentDashboard() {
   const navigate = useNavigate();
 
+  const handleLogout = () => {
+    localStorage.removeItem("token");
+    navigate("/");
+  };
+
   const previousActivity = [
     { action: "Completed Physics Assignment", time: "2 hours ago", icon: "✅" },
     { action: "Attended Math Lecture", time: "5 hours ago", icon: "📚" },
@@ -21,22 +26,58 @@ export default function StudentDashboard() {
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 py-8">
-        
+
         {/* Header Section */}
-        <div className="mb-8 text-center">
-          <div className="inline-block mb-4 px-6 py-2 bg-gradient-to-r from-purple-500/20 to-blue-500/20 backdrop-blur-xl rounded-full border border-purple-500/30">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-600 font-semibold">
-              ✨ Welcome Back, Student!
-            </span>
+        <div className="mb-8">
+
+          <div className="flex items-center justify-between">
+            
+            {/* Left Side: Title */}
+            <div className="text-center md:text-left w-full">
+              <div className="inline-block mb-4 px-6 py-2 bg-gradient-to-r from-purple-500/20 to-blue-500/20 backdrop-blur-xl rounded-full border border-purple-500/30">
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-600 font-semibold">
+                  ✨ Welcome Back, Student!
+                </span>
+              </div>
+
+              <h1 className="text-5xl md:text-6xl font-black mb-4">
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600 drop-shadow-2xl">
+                  Your Academic Hub
+                </span>
+              </h1>
+
+              <p className="text-gray-600 text-lg max-w-2xl mx-auto md:mx-0">
+                Track your progress, manage assignments, and unlock your full potential with AI-powered insights
+              </p>
+            </div>
+
+            {/* Right: Logout Button (Desktop) */}
+            <button
+              onClick={handleLogout}
+              className="hidden md:flex items-center gap-2 px-5 py-2.5 
+                        bg-red-500 text-white font-bold 
+                        rounded-xl shadow-lg border border-red-600
+                        hover:bg-red-600 hover:shadow-xl 
+                        transition-all duration-200 ml-6 h-fit"
+            >
+              🚪 Logout
+            </button>
           </div>
-          <h1 className="text-5xl md:text-6xl font-black mb-4">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600 drop-shadow-2xl">
-              Your Academic Hub
-            </span>
-          </h1>
-          <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-            Track your progress, manage assignments, and unlock your full potential with AI-powered insights
-          </p>
+
+          {/* Logout Button (Mobile) */}
+          <div className="md:hidden flex justify-center mt-4">
+            <button
+              onClick={handleLogout}
+              className="flex items-center gap-2 px-5 py-2.5 
+                        bg-red-500 text-white font-bold 
+                        rounded-xl shadow-lg border border-red-600
+                        hover:bg-red-600 hover:shadow-xl 
+                        transition-all duration-200"
+            >
+              🚪 Logout
+            </button>
+          </div>
+
         </div>
 
         {/* Main CTA Card */}
@@ -71,7 +112,6 @@ export default function StudentDashboard() {
                 </div>
               </div>
 
-              {/* Submit Button with Navigation */}
               <button
                 onClick={() => navigate("/submit-data")}
                 className="w-full group relative overflow-hidden bg-gradient-to-r from-purple-600 to-blue-600 text-white font-bold py-4 px-8 rounded-xl hover:shadow-2xl hover:shadow-purple-500/50 transition-all duration-300 hover:scale-[1.02] active:scale-95"
@@ -115,6 +155,7 @@ export default function StudentDashboard() {
             🚀 More features coming soon: Study Groups, AI Tutor, Performance Analytics
           </p>
         </div>
+
       </div>
     </div>
   );

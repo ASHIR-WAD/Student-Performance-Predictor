@@ -5,202 +5,109 @@ import json
 import io
 from datetime import datetime
 
-download = Blueprint("download", __name__)
+download = Blueprint("download", __name__,url_prefix="/download")
 
-# ---------------------------
-# DOWNLOAD STUDENT DATA AS CSV
-# ---------------------------
-@download.get("/download/student/<int:student_id>/csv")
-def download_student_csv(student_id):
-    """Download student data and prediction history as CSV"""
-    try:
-        student = Student.query.get(student_id)
-        
-        if not student:
-            return jsonify({'message': 'Student not found'}), 404
-        
-        # Get prediction history
-        predictions = Prediction.query.filter_by(student_id=student_id).all()
-        
-        # Create CSV in memory
-        output = io.StringIO()
-        writer = csv.writer(output)
-        
-        # Write student info header
-        writer.writerow(['STUDENT INFORMATION'])
-        writer.writerow(['Field', 'Value'])
-        writer.writerow(['ID', student.id])
-        writer.writerow(['Name', student.name])
-        writer.writerow(['USN', student.usn])
-        writer.writerow(['Semester', student.semester])
-        writer.writerow(['Attendance (%)', student.attendance])
-        writer.writerow(['Study Hours', student.study_hours])
-        writer.writerow(['IAT Marks', student.iat_marks])
-        writer.writerow(['Assignments', student.assignments])
-        writer.writerow(['Extra Curricular', student.extra_curricular])
-        writer.writerow(['Current Prediction', student.prediction or 'N/A'])
-        writer.writerow(['Consistency Rating', student.consistency_rating or 'N/A'])
-        writer.writerow(['Predicted Grade', student.predicted_grade or 'N/A'])
-        writer.writerow([])
-        
-        # Write prediction history
-        writer.writerow(['PREDICTION HISTORY'])
-        writer.writerow(['ID', 'Attendance', 'Study Hours', 'IAT Marks', 'Assignments', 'Activities', 'Prediction', 'Date'])
-        
-        for pred in predictions:
-            writer.writerow([
-                pred.id,
-                pred.attendance,
-                pred.study_hours,
-                pred.internal_marks,
-                pred.assignments,
-                pred.activities,
-                pred.prediction,
-                pred.created_at.strftime('%Y-%m-%d %H:%M:%S') if pred.created_at else 'N/A'
-            ])
-        
-        # Prepare file for download
-        output.seek(0)
-        
-        return send_file(
-            io.BytesIO(output.getvalue().encode('utf-8')),
-            mimetype='text/csv',
-            as_attachment=True,
-            download_name=f'student_{student.usn}_{datetime.now().strftime("%Y%m%d")}.csv'
-        )
-    
-    except Exception as e:
-        return jsonify({'message': f'Error: {str(e)}'}), 500
+from io import BytesIO
+from reportlab.lib.pagesizes import A4
+from reportlab.pdfgen import canvas
+from reportlab.lib.units import cm
+from collections import OrderedDict
 
 
-# ---------------------------
-# DOWNLOAD STUDENT DATA AS JSON
-# ---------------------------
-@download.get("/download/student/<int:student_id>/json")
-def download_student_json(student_id):
-    """Download student data and prediction history as JSON"""
-    try:
-        student = Student.query.get(student_id)
-        
-        if not student:
-            return jsonify({'message': 'Student not found'}), 404
-        
-        # Get prediction history
-        predictions = Prediction.query.filter_by(student_id=student_id).all()
-        
-        # Prepare data
-        data = {
-            'student_info': {
-                'id': student.id,
-                'user_id': student.user_id,
-                'name': student.name,
-                'usn': student.usn,
-                'semester': student.semester,
-                'attendance': student.attendance,
-                'study_hours': student.study_hours,
-                'iat_marks': student.iat_marks,
-                'assignments': student.assignments,
-                'extra_curricular': student.extra_curricular,
-                'prediction': student.prediction,
-                'consistency_rating': student.consistency_rating,
-                'predicted_grade': student.predicted_grade
-            },
-            'prediction_history': [
-                {
-                    'id': pred.id,
-                    'attendance': pred.attendance,
-                    'study_hours': pred.study_hours,
-                    'internal_marks': pred.internal_marks,
-                    'assignments': pred.assignments,
-                    'activities': pred.activities,
-                    'prediction': pred.prediction,
-                    'created_at': pred.created_at.strftime('%Y-%m-%d %H:%M:%S') if pred.created_at else None
-                }
-                for pred in predictions
-            ],
-            'download_date': datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
-            'total_predictions': len(predictions)
-        }
-        
-        # Create JSON file
-        json_str = json.dumps(data, indent=2)
-        
-        return send_file(
-            io.BytesIO(json_str.encode('utf-8')),
-            mimetype='application/json',
-            as_attachment=True,
-            download_name=f'student_{student.usn}_{datetime.now().strftime("%Y%m%d")}.json'
-        )
-    
-    except Exception as e:
-        return jsonify({'message': f'Error: {str(e)}'}), 500
+@download.route("/pdf", methods=["GET"])
+def download_all_predictions_pdf():
+    # 1) Query BOTH Student and Prediction explicitly
+    results = (
+        db.session.query(Student, Prediction)
+        .join(Prediction, Prediction.student_id == Student.id)  # adjust if your FK is different
+        .order_by(Student.name.asc(), Prediction.created_at.asc())
+        .all()
+    )
 
+    if not results:
+        return jsonify({"error": "No predictions found"}), 404
 
-# ---------------------------
-# DOWNLOAD STUDENT REPORT (Formatted)
-# ---------------------------
-@download.get("/download/student/<int:student_id>/report")
-def download_student_report(student_id):
-    """Download formatted student report as text file"""
-    try:
-        student = Student.query.get(student_id)
-        
-        if not student:
-            return jsonify({'message': 'Student not found'}), 404
-        
-        # Get prediction history
-        predictions = Prediction.query.filter_by(student_id=student_id).all()
-        
-        # Create report
-        report = []
-        report.append("=" * 60)
-        report.append("STUDENT PERFORMANCE REPORT")
-        report.append("=" * 60)
-        report.append("")
-        report.append(f"Generated on: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-        report.append("")
-        report.append("-" * 60)
-        report.append("STUDENT INFORMATION")
-        report.append("-" * 60)
-        report.append(f"Name:                 {student.name}")
-        report.append(f"USN:                  {student.usn}")
-        report.append(f"Semester:             {student.semester}")
-        report.append(f"Attendance:           {student.attendance}%")
-        report.append(f"Study Hours:          {student.study_hours} hrs/day")
-        report.append(f"IAT Marks:            {student.iat_marks}")
-        report.append(f"Assignments:          {student.assignments}")
-        report.append(f"Extra Curricular:     {student.extra_curricular}")
-        report.append("")
-        report.append(f"Current Prediction:   {student.prediction or 'N/A'}")
-        report.append(f"Consistency Rating:   {student.consistency_rating or 'N/A'}")
-        report.append(f"Predicted Grade:      {student.predicted_grade or 'N/A'}")
-        report.append("")
-        report.append("-" * 60)
-        report.append(f"PREDICTION HISTORY ({len(predictions)} records)")
-        report.append("-" * 60)
-        
-        if predictions:
-            for i, pred in enumerate(predictions, 1):
-                report.append(f"\n{i}. Prediction on {pred.created_at.strftime('%Y-%m-%d %H:%M') if pred.created_at else 'N/A'}")
-                report.append(f"   Attendance: {pred.attendance}% | Study Hours: {pred.study_hours}")
-                report.append(f"   IAT Marks: {pred.internal_marks} | Assignments: {pred.assignments}")
-                report.append(f"   Activities: {pred.activities} | Result: {pred.prediction}")
-        else:
-            report.append("\nNo prediction history available.")
-        
-        report.append("\n" + "=" * 60)
-        report.append("END OF REPORT")
-        report.append("=" * 60)
-        
-        # Join report lines
-        report_text = "\n".join(report)
-        
-        return send_file(
-            io.BytesIO(report_text.encode('utf-8')),
-            mimetype='text/plain',
-            as_attachment=True,
-            download_name=f'student_report_{student.usn}_{datetime.now().strftime("%Y%m%d")}.txt'
-        )
-    
-    except Exception as e:
-        return jsonify({'message': f'Error: {str(e)}'}), 500
+    # 2) Group predictions by student
+    students_map = OrderedDict()
+    for stu, pred in results:
+        if stu.id not in students_map:
+            students_map[stu.id] = {
+                "student": stu,
+                "predictions": []
+            }
+        students_map[stu.id]["predictions"].append(pred)
+
+    # 3) Prepare PDF
+    buffer = BytesIO()
+    p = canvas.Canvas(buffer, pagesize=A4)
+    width, height = A4
+
+    headers = ["Predicted Grade", "Prediction", "Confidence", "Created At"]
+    col_x = [2 * cm, 6 * cm, 10 * cm, 13 * cm]
+
+    for idx, (stu_id, entry) in enumerate(students_map.items()):
+        student = entry["student"]
+        preds = entry["predictions"]
+
+        # New page per student (except first)
+        if idx > 0:
+            p.showPage()
+
+        y = height - 2 * cm
+
+        # Student header
+        p.setFont("Helvetica-Bold", 16)
+        p.drawString(2 * cm, y, f"Prediction Report - {student.name}")
+        y -= 1 * cm
+
+        p.setFont("Helvetica", 12)
+        p.drawString(2 * cm, y, f"USN: {student.usn}")
+        y -= 1 * cm
+
+        # Table header
+        p.setFont("Helvetica-Bold", 11)
+        for i, h in enumerate(headers):
+            p.drawString(col_x[i], y, h)
+        y -= 0.7 * cm
+
+        # Table rows
+        p.setFont("Helvetica", 10)
+        for pred in preds:
+            if y < 2 * cm:
+                p.showPage()
+                y = height - 2 * cm
+
+                p.setFont("Helvetica-Bold", 14)
+                p.drawString(2 * cm, y, f"{student.name} ({student.usn}) - continued")
+                y -= 1 * cm
+
+                p.setFont("Helvetica-Bold", 11)
+                for i, h in enumerate(headers):
+                    p.drawString(col_x[i], y, h)
+                y -= 0.7 * cm
+                p.setFont("Helvetica", 10)
+
+            created_at_str = pred.created_at.strftime("%Y-%m-%d %H:%M") if pred.created_at else ""
+
+            p.drawString(col_x[0], y, str(pred.predicted_grade))
+            p.drawString(col_x[1], y, str(pred.prediction))
+            # if confidence_level is already like "92%", remove extra '%'
+            conf_val = str(pred.confidence_level)
+            if not conf_val.endswith("%"):
+                conf_val = f"{conf_val}%"
+            p.drawString(col_x[2], y, conf_val)
+            p.drawString(col_x[3], y, created_at_str)
+
+            y -= 0.6 * cm
+
+    # 4) Finalize PDF
+    p.showPage()
+    p.save()
+    buffer.seek(0)
+
+    return send_file(
+        buffer,
+        as_attachment=True,
+        download_name="all_students_predictions.pdf",
+        mimetype="application/pdf",
+    )

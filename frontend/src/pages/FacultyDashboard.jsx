@@ -7,6 +7,12 @@ export default function FacultyDashboard() {
 
   const BACKEND_URL = import.meta.env.VITE_BACKEND_URL;
 
+  const handleLogout = () => {
+  localStorage.removeItem("token");   // remove auth token
+  window.location.href = "/";    // redirect to login page
+};
+
+
   const fetchStudents = async () => {
     try {
       const res = await axios.get(`${BACKEND_URL}/faculty/students`);
@@ -18,12 +24,35 @@ export default function FacultyDashboard() {
     }
   };
 
+  const handleDownload = async () => {
+    try {
+      const response = await axios.get(`${BACKEND_URL}/download/pdf`, {
+        responseType: "blob", // IMPORTANT
+      });
+
+      // Create a download link
+      const url = window.URL.createObjectURL(new Blob([response.data]));
+      const link = document.createElement("a");
+      link.href = url;
+      link.setAttribute("download", "all_students_predictions.pdf");
+
+      document.body.appendChild(link);
+      link.click();
+      link.remove();
+
+    } catch (error) {
+      console.error("PDF download failed:", error);
+      alert("Failed to download PDF");
+    }
+  };
+
   useEffect(() => {
     fetchStudents();
   }, []);
 
   return (
     <div className="min-h-screen bg-white relative overflow-hidden">
+     
       
       {/* Animated Background Elements */}
       <div className="fixed inset-0 overflow-hidden pointer-events-none">
@@ -35,19 +64,42 @@ export default function FacultyDashboard() {
       <div className="relative z-10 p-8 max-w-7xl mx-auto">
         
         {/* Header Section */}
-        <div className="mb-10">
-          <div className="inline-block mb-4 px-6 py-2 bg-gradient-to-r from-purple-500/10 to-blue-500/10 backdrop-blur-xl rounded-full border border-purple-300/30">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-600 font-semibold text-sm">
-              ✨ AI-Powered Analytics
-            </span>
-          </div>
-          <h1 className="text-5xl font-black mb-3">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600">
-              Faculty Dashboard
-            </span>
-          </h1>
-          <p className="text-gray-600 text-lg">Monitor and analyze student performance with AI predictions</p>
-        </div>
+<div className="mb-10">
+
+  <div className="flex items-center justify-between">
+    <div>
+      <div className="inline-block mb-4 px-6 py-2 bg-gradient-to-r from-purple-500/10 to-blue-500/10 backdrop-blur-xl rounded-full border border-purple-300/30">
+        <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-600 font-semibold text-sm">
+          ✨ AI-Powered Analytics
+        </span>
+      </div>
+
+      <h1 className="text-5xl font-black mb-3">
+        <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600">
+          Faculty Dashboard
+        </span>
+      </h1>
+
+      <p className="text-gray-600 text-lg">
+        Monitor and analyze student performance with AI predictions
+      </p>
+    </div>
+
+    {/* Logout Button (Right Aligned) */}
+    <button
+      onClick={handleLogout}
+      className="h-fit flex items-center gap-2 px-5 py-2.5 
+                 bg-red-500 text-white font-bold 
+                 rounded-xl shadow-md border border-red-600
+                 hover:bg-red-600 hover:shadow-lg 
+                 transition-all duration-200 ml-auto"
+    >
+      🚪 Logout
+    </button>
+  </div>
+
+</div>
+
 
         {/* Stats Cards */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
@@ -103,6 +155,18 @@ export default function FacultyDashboard() {
                 <div className="text-2xl font-black">{students.length}</div>
                 <div className="text-xs text-purple-100">Students</div>
               </div>
+              <button
+  onClick={handleDownload}
+  className="flex items-center gap-2 px-5 py-2.5 
+             bg-white text-purple-600 font-bold 
+             rounded-xl shadow-md border border-white/30
+             hover:bg-purple-50 hover:shadow-lg 
+             transition-all duration-200"
+>
+  📥 <span>Download PDF</span>
+</button>
+
+
             </div>
           </div>
 
