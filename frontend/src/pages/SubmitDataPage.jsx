@@ -122,10 +122,10 @@ export default function SubmitDataPage() {
                 <div className="p-3 bg-white/20 rounded-xl backdrop-blur-sm">
                   <Sparkles className="w-6 h-6" />
                 </div>
-                <h2 className="text-2xl font-bold">AI Insights</h2>
+                <h2 className="text-2xl font-bold">ML Insights</h2>
               </div>
               <p className="text-purple-100 text-sm leading-relaxed">
-                Submit your academic data and get personalized recommendations powered by AI
+                Submit your academic data and get personalized recommendations powered by ML
               </p>
             </div>
 
@@ -176,7 +176,7 @@ export default function SubmitDataPage() {
                 Submit Your Data 📊
               </h1>
               <p className="text-gray-600 mb-8">
-                Fill in your details to get AI-powered insights
+                Fill in your details to get ML-powered insights
               </p>
 
               <form onSubmit={handleSubmit} className="space-y-6">
@@ -322,7 +322,7 @@ export default function SubmitDataPage() {
                   disabled={loading}
                   className="w-full py-4 bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600 text-white font-bold rounded-xl hover:shadow-xl"
                 >
-                  {loading ? "Generating..." : "Generate AI Insights"}
+                  {loading ? "Generating..." : "Generate ML Insights"}
                 </button>
               </form>
 
@@ -331,7 +331,7 @@ export default function SubmitDataPage() {
                 <div className="mt-10 p-8 bg-white border-2 border-purple-300 rounded-3xl shadow-xl animate-fadeIn">
 
                   <h2 className="text-3xl font-black text-center mb-6 bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
-                    🎉 AI Insights Ready!
+                    🎉 ML Insights Ready!
                   </h2>
 
                   <div className="grid md:grid-cols-3 gap-6">

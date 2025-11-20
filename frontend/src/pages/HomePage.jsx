@@ -97,7 +97,7 @@ export default function HomePage() {
         <div className="text-center space-y-8">
           <div className="inline-flex items-center space-x-2 px-4 py-2 bg-blue-100 rounded-full">
             <Sparkles className="w-4 h-4 text-blue-600" />
-            <span className="text-sm font-semibold text-blue-700">AI-Powered Student Performance Prediction</span>
+            <span className="text-sm font-semibold text-blue-700">ML-Powered Student Performance Prediction</span>
           </div>
 
           <h1 className="text-5xl md:text-7xl font-bold text-gray-900 leading-tight">
@@ -154,7 +154,7 @@ export default function HomePage() {
         <div className="grid md:grid-cols-3 gap-8">
           <FeatureCard icon={<Brain className="w-8 h-8 text-white" />} title="Predictive Analytics" text="ML algorithms analyze historical patterns to forecast student performance with high accuracy" />
           <FeatureCard icon={<Zap className="w-8 h-8 text-white" />} title="Real-Time Insights" text="Instant performance predictions and risk assessments updated continuously as new data arrives" />
-          <FeatureCard icon={<Target className="w-8 h-8 text-white" />} title="Personalized Interventions" text="AI-driven recommendations tailored to each student's unique learning profile" />
+          <FeatureCard icon={<Target className="w-8 h-8 text-white" />} title="Personalized Interventions" text="ML-driven recommendations tailored to each student's unique learning profile" />
           <FeatureCard icon={<Shield className="w-8 h-8 text-white" />} title="Early Risk Detection" text="Identify struggling students weeks in advance with multi-factor risk assessment models" />
           <FeatureCard icon={<LineChart className="w-8 h-8 text-white" />} title="Performance Tracking" text="Comprehensive dashboards visualize trends, patterns, and progress over time" />
           <FeatureCard icon={<Users className="w-8 h-8 text-white" />} title="Class Analytics" text="Aggregate insights help faculty understand class-wide patterns and optimize teaching strategies" />
@@ -190,7 +190,7 @@ export default function HomePage() {
               Our platform uses advanced neural networks trained on thousands of student records to identify patterns invisible to traditional analysis.
             </p>
             <p className="text-lg text-blue-100 mb-8 leading-relaxed">
-              By combining multiple data points—attendance, study habits, assessment scores, and engagement metrics—our AI models 
+              By combining multiple data points—attendance, study habits, assessment scores, and engagement metrics—our ML models 
               provide unprecedented accuracy in forecasting academic outcomes and identifying students who need support before they fall behind.
             </p>
             <div className="flex flex-wrap gap-4">
@@ -218,7 +218,7 @@ export default function HomePage() {
             Ready to Transform Education?
           </h2>
           <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-            Join hundreds of institutions using AI to improve student outcomes and maximize academic success
+            Join hundreds of institutions using ML to improve student outcomes and maximize academic success
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <button

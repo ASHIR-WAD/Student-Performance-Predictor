@@ -47,7 +47,7 @@ export default function StudentDashboard() {
               </h1>
 
               <p className="text-gray-600 text-lg max-w-2xl mx-auto md:mx-0">
-                Track your progress, manage assignments, and unlock your full potential with AI-powered insights
+                Track your progress, manage assignments, and unlock your full potential with ML-powered insights
               </p>
             </div>
 
@@ -90,7 +90,7 @@ export default function StudentDashboard() {
                     📊 Submit Your Academic Data
                   </h2>
                   <p className="text-gray-600">
-                    Upload your information to get personalized AI insights
+                    Upload your information to get personalized ML insights
                   </p>
                 </div>
                 <div className="bg-yellow-500/20 px-4 py-2 rounded-full border border-yellow-500/40">
@@ -152,7 +152,7 @@ export default function StudentDashboard() {
         {/* Footer Note */}
         <div className="mt-8 text-center">
           <p className="text-gray-500 text-sm">
-            🚀 More features coming soon: Study Groups, AI Tutor, Performance Analytics
+            🚀 More features coming soon: Study Groups, ML Tutor, Performance Analytics
           </p>
         </div>
 

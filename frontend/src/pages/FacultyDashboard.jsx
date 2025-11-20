@@ -70,7 +70,7 @@ export default function FacultyDashboard() {
     <div>
       <div className="inline-block mb-4 px-6 py-2 bg-gradient-to-r from-purple-500/10 to-blue-500/10 backdrop-blur-xl rounded-full border border-purple-300/30">
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-600 font-semibold text-sm">
-          ✨ AI-Powered Analytics
+          ✨ ML-Powered Analytics
         </span>
       </div>
 
@@ -81,7 +81,7 @@ export default function FacultyDashboard() {
       </h1>
 
       <p className="text-gray-600 text-lg">
-        Monitor and analyze student performance with AI predictions
+        Monitor and analyze student performance with ML predictions
       </p>
     </div>
 
@@ -149,7 +149,7 @@ export default function FacultyDashboard() {
                   <span className="p-2 bg-white/20 rounded-xl backdrop-blur-sm">📊</span>
                   Student Roster
                 </h2>
-                <p className="text-purple-100">Comprehensive AI-based performance predictions</p>
+                <p className="text-purple-100">Comprehensive ML-based performance predictions</p>
               </div>
               <div className="hidden md:block p-4 bg-white/10 rounded-2xl backdrop-blur-sm border border-white/20">
                 <div className="text-2xl font-black">{students.length}</div>
