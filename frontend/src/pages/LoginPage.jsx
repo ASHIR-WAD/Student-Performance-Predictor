@@ -46,7 +46,7 @@ export default function LoginPage() {
       );
 
       const data = res.data;
-      localStorage.setItem("userdata",data);
+      localStorage.setItem("user_id",data.user_id);
       // Navigate to the redirect path returned by backend
       navigate(`/${url}` , {
         state: { user: data }, // you can read this in your dashboard pages

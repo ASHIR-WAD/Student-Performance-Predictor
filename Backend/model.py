@@ -87,7 +87,7 @@ class Prediction(db.Model):
     study_hours = db.Column(db.Float, nullable=True)
     iat_marks = db.Column(db.Float, nullable=True)
     assignments = db.Column(db.Integer, nullable=True)
-    extra_curricular = db.Column(db.Integer, nullable=True)
+    extra_curricular = db.Column(db.String, nullable=True)
     consistency_rating = db.Column(db.Float, nullable=True)
 
     predicted_grade = db.Column(db.String(10), nullable=True)

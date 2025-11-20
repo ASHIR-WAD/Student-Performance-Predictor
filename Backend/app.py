@@ -1,6 +1,6 @@
 from flask import Flask, jsonify, request
 from flask_cors import CORS
-from model import db, Student, User, Faculty
+from model import db, Student, User, Faculty,Prediction
 from routes.student_routes import student
 from routes.download_routes import download
 from routes.auth_routes import auth
@@ -334,48 +334,190 @@ def load_models():
 
 @app.route("/predict", methods=["POST"])
 def predict():
+    """
+    Expected JSON body:
+    {
+        "attendance": 85,
+        "studyHours": 3.5,
+        "iatMarks": 72,
+        "assignmentMarks": 80,
+        "consistency": 7,
+        "extracurricular": "Club Activity",
+        "student_id": 1
+    }
+    """
     try:
-        data = request.json
+        data = request.get_json() or {}
 
+        # 1) Validate required fields are present and not empty/null
         required = [
             "attendance",
             "studyHours",
             "iatMarks",
             "assignmentMarks",
             "consistency",
-            "extracurricular"
+            "extracurricular",
+            "student_id",
         ]
-        for r in required:
-            if r not in data:
-                return jsonify({"error": f"Missing field: {r}"}), 400
+        missing = [r for r in required if r not in data or data[r] in (None, "")]
+        if missing:
+            return (
+                jsonify({"error": f"Missing or null fields: {', '.join(missing)}"}),
+                400,
+            )
 
-        # Create a DataFrame so ColumnTransformer sees the exact columns
-        features = pd.DataFrame([{
-            "attendance": float(data["attendance"]),
-            "study_hours": float(data["studyHours"]),
-            "IAT_marks": float(data["iatMarks"]),
-            "assignment": float(data["assignmentMarks"]),
-            "extracurricular_activity": data["extracurricular"],
-            "consistency_rating": float(data["consistency"])
-        }])
+        # 2) Parse and validate student_id
+        try:
+            student_id = int(data["student_id"])
+        except (TypeError, ValueError):
+            return jsonify({"error": "student_id must be an integer"}), 400
 
+        # 3) Build a DataFrame with the EXACT column names used in training
+        # CSV columns: attendance,study_hours,IAT_marks,assignment,extracurricular_activity,consistency_rating
+        try:
+            features = pd.DataFrame(
+                [
+                    {
+                        "attendance": float(data["attendance"]),
+                        "study_hours": float(data["studyHours"]),
+                        "IAT_marks": float(data["iatMarks"]),
+                        "assignment": float(data["assignmentMarks"]),
+                        "extracurricular_activity": str(data["extracurricular"]),
+                        "consistency_rating": float(data["consistency"]),
+                    }
+                ]
+            )
+        except (TypeError, ValueError) as e:
+            # This catches things like float(None) or float("abc")
+            return jsonify({"error": f"Invalid input types: {e}"}), 400
+
+        # 4) Ensure models are loaded
         if model_grade is None or model_confidence is None or model_passfail is None:
-            return jsonify({"error": "Model not loaded"}), 500
+            return jsonify({"error": "Models not loaded"}), 500
 
-        predicted_grade = model_grade.predict(features)[0]
-        confidence = float(model_confidence.predict(features)[0])
+        # 5) Predict grade
+        grade_pred = model_grade.predict(features)[0]
 
+        # 6) Predict confidence (regression-like)
+        try:
+            conf_pred = model_confidence.predict(features)[0]
+            confidence = float(conf_pred)
+        except Exception:
+            confidence = None
+
+        # 7) Predict pass/fail and map to nice string without unsafe int()
         pf_raw = model_passfail.predict(features)[0]
-        pass_fail = "Pass" if str(pf_raw).lower() == "pass" or pf_raw == 1 else "Fail"
 
-        return jsonify({
-            "predicted_grade": predicted_grade,
-            "confidence_level": confidence,
-            "prediction": pass_fail
-        })
+        if isinstance(pf_raw, str):
+            # e.g. "pass" / "fail"
+            if pf_raw.lower() in ["pass", "passed", "1"]:
+                pass_fail = "Pass"
+            elif pf_raw.lower() in ["fail", "failed", "0"]:
+                pass_fail = "Fail"
+            else:
+                pass_fail = pf_raw
+        elif pf_raw is None or (isinstance(pf_raw, float) and np.isnan(pf_raw)):
+            pass_fail = "Unknown"
+        else:
+            # Numeric style: 1 = pass, 0 = fail
+            try:
+                num = float(pf_raw)
+                pass_fail = "Pass" if round(num) == 1 else "Fail"
+            except (TypeError, ValueError):
+                pass_fail = str(pf_raw)
+
+        # 8) Create Prediction record (NOTE: using student_id from above)
+        record = Prediction(
+            student_id=student_id,
+            attendance=float(data["attendance"]),
+            study_hours=float(data["studyHours"]),
+            iat_marks=float(data["iatMarks"]),
+            assignments=float(data["assignmentMarks"]),
+            extra_curricular=data["extracurricular"],  # okay if column is String; else map to int
+            consistency_rating=float(data["consistency"]),
+            predicted_grade=str(grade_pred),
+            confidence_level=str(confidence) if confidence is not None else None,
+            prediction=pass_fail,
+        )
+
+        db.session.add(record)
+        db.session.commit()
+        print("committed")
+
+        return (
+            jsonify(
+                {
+                    "status": "success",
+                    "predicted_grade": str(grade_pred),
+                    "confidence_level": confidence,
+                    "prediction": pass_fail,
+                }
+            ),
+            200,
+        )
 
     except Exception as e:
+        db.session.rollback()
         return jsonify({"error": str(e)}), 500
+
+
+
+
+@app.route("/faculty/students", methods=["GET"])
+def get_all_predictions_for_all_students():
+
+    rows = (
+        db.session.query(Prediction, Student)
+        .join(Student, Prediction.student_id == Student.id)
+        .order_by(Student.usn.asc(), Prediction.created_at.desc())
+        .all()
+    )
+
+    results = []
+
+    for prediction, student in rows:
+        conf = prediction.confidence_level
+        if conf is None:
+            confidence_str = None
+        else:
+            try:
+                num = float(conf)
+                confidence_str = f"{num:.0f}%"
+            except (ValueError, TypeError):
+                s = str(conf)
+                confidence_str = s if s.endswith("%") else s + "%"
+
+        results.append({
+            "name": student.name,
+            "usn": student.usn,
+            "predicted_grade": prediction.predicted_grade,
+            "prediction": prediction.prediction,
+            "confidence_level": confidence_str
+        })
+
+    return jsonify(results), 200
+
+@app.route("/test-join", methods=["GET"])
+def test_join():
+    rows = (
+        db.session.query(Student, Prediction)
+        .join(Prediction, Prediction.student_id == Student.id)
+        .all()
+    )
+
+    result = []
+    for student, prediction in rows:
+        result.append({
+            "student_id": student.id,
+            "name": student.name,
+            "usn": student.usn,
+            "predicted_grade": prediction.predicted_grade,
+            "prediction": prediction.prediction,
+            "confidence_level": prediction.confidence_level,
+            "created_at": prediction.created_at.isoformat(),
+        })
+
+    return jsonify(result), 200
 
 
 # -------------------------------------------------------------------

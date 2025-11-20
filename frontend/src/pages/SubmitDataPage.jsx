@@ -18,6 +18,7 @@ export default function SubmitDataPage() {
     assignmentMarks: "",
     extracurricular: "",
     consistency: 5,
+    student_id:localStorage.getItem("user_id"),
   });
 
   const [errors, setErrors] = useState({});
